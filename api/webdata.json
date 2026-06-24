@@ -7,11 +7,11 @@
     "dedupe_policy": "前台只保留一套观察池、事件流、数据源健康和人工判断；不展示实仓明细，老雷达作为后台数据源。"
   },
   "market": {
-    "easternTime": "-",
-    "beijingTime": "-",
-    "sessionLabel": "状态待确认",
+    "easternTime": "2026-06-19 10:20:33",
+    "beijingTime": "2026-06-19 22:20:33",
+    "sessionLabel": "盘中",
     "marketRegime": "pending / no signal",
-    "generatedAtUtc": "",
+    "generatedAtUtc": "2026-06-19T14:20:33.644473+00:00",
     "instruments": [
       {
         "label": "SPY",
@@ -78,7 +78,7 @@
       "mode": "美股开盘",
       "intervalSeconds": 45,
       "reason": "开盘时段行情和新闻变化快，前台45秒刷新一次。",
-      "easternTime": "2026-06-24T10:14:48.768751-04:00"
+      "easternTime": "2026-06-24T10:42:33.955283-04:00"
     }
   },
   "holdings": [],
@@ -88,39 +88,39 @@
       "company": "AMKR",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "台积电亚利桑那州交易后，Amkor Technology (AMKR) 股价可能比公允价值低 26%",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "合同/合作 / 盘中放量 / 已卖出观察"
     },
     {
       "ticker": "ASX",
       "company": "ASX",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "AI 产业链相关消息：Can Strong Smartphone Demand Sustain AMKR's Growth Momentum?",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "财报/指引 / 盘中量价确认 / 已卖出观察"
     },
     {
       "ticker": "OUST",
       "company": "OUST",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "市场新闻：Ouster (OUST) Soars 14.4%: Is Further Upside Left in the Stock?",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "low_buy_status": "fundamental_check_needed",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "财报/指引 / 盘中量价确认 / 已卖出观察"
     },
     {
       "ticker": "PEP",
@@ -132,7 +132,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -145,7 +145,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -158,7 +158,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -171,7 +171,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -184,7 +184,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -192,65 +192,65 @@
       "company": "SQQQ",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "市场新闻：SQQQ Profits When Tech Drops, But the Math Gets Ugly After a Few Days",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
-      "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "chart_structure": "wait_for_support",
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "财报/指引 / 盘中量价确认 / 观察池线索"
     },
     {
       "ticker": "SOXS",
       "company": "SOXS",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "半导体 ETF 现在在交易量最大的名单中占据主导地位——这是一个你不能忽视的信号",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
-      "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "chart_structure": "wait_for_support",
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "AI芯片链 / 分析师动作 / 盘中量价确认 / 观察池线索"
     },
     {
       "ticker": "INTC",
       "company": "INTC",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "预测：该股将在2026年下半年暴跌",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "世界级人物/企业催化 / 盘中量价确认 / 观察池线索"
     },
     {
       "ticker": "MRVL",
       "company": "MRVL",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "Marvell Technology, Inc. (MRVL) 任命 Adob​​e 的 Dan Durn 为财务主管",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "AI芯片链 / 新闻催化 / 盘中量价确认 / 观察池线索"
     },
     {
       "ticker": "RGTI",
       "company": "RGTI",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "Rigetti Computer, Inc. (RGTI) 正在吸引投资者的关注：以下是您应该了解的内容",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "量子计算 / 新闻催化 / 盘中放量 / 观察池线索"
     },
     {
       "ticker": "GOLD_BASKET",
@@ -262,7 +262,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -275,7 +275,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -288,7 +288,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -301,7 +301,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -309,26 +309,26 @@
       "company": "NVDA",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "以下是您需要多少 Nvidia 股票才能获得 10,000 美元的年度股息",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "AI芯片链 / 世界级人物/企业催化 / 盘中放量 / 观察池线索"
     },
     {
       "ticker": "WDC",
       "company": "WDC",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "第一季度半导体股票回顾：西部数据（纳斯达克股票代码：WDC）与同行对比",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "low_buy_status": "fundamental_check_needed",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "AI芯片链 / 存储/HBM链 / 财报/指引 / 盘中放量 / 观察池线索"
     },
     {
       "ticker": "CRWD",
@@ -340,7 +340,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -348,13 +348,13 @@
       "company": "SMR",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "市场新闻：Is NuScale Power’s (SMR) New UVA Wise E2 Center Quietly Shaping Its Commercialization Path?",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "核电/SMR / 新闻催化 / 盘中量价确认 / 观察池线索"
     },
     {
       "ticker": "CEG",
@@ -366,7 +366,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -374,13 +374,13 @@
       "company": "VST",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "市场新闻：VST SEC filing: 4 filed 2026-06-18",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "SEC披露 / 盘中放量 / 观察池线索"
     },
     {
       "ticker": "NRG",
@@ -392,7 +392,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -405,7 +405,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -413,16 +413,957 @@
       "company": "QCOM",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "趋势股票高通公司（QCOM）是否值得立即买入？",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "-",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "last_checked_time": "2026-06-19T14:20:33.644473+00:00",
+      "latest_research_event": "新闻催化 / 盘中量价确认 / 观察池线索"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "OUST-0",
+      "ticker": "OUST",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "earnings",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ouster-oust-soars-14-4-111000832.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T11:10:00+00:00",
+        "form_type": "财报/指引"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T11:10:00+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "市场新闻：Ouster (OUST) Soars 14.4%: Is Further Upside Left in the Stock?",
+      "summary": "财报/指引 / 盘中量价确认 / 已卖出观察",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 46.57,
+        "change_pct": 14.366404715127706,
+        "vol_vs_20d": null
+      },
+      "signal_score": 71.0,
+      "suppression_reason": null,
+      "event_signature": "OUST|ouster|earnings|yahoo-finance-rss|市场新闻-ouster-oust-soars-14-4-is-further-upside-left-in-the-stock|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "WDC-1",
+      "ticker": "WDC",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "earnings",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductors-stocks-q1-review-western-220528261.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-18T22:05:28+00:00",
+        "form_type": "财报/指引"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-18T22:05:28+00:00",
+      "detected_time": "2026-06-19T13:06:12.648127+00:00",
+      "title": "第一季度半导体股票回顾：西部数据（纳斯达克股票代码：WDC）与同行对比",
+      "summary": "AI芯片链 / 存储/HBM链 / 财报/指引 / 盘中放量 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 746.23,
+        "change_pct": 4.788451546768149,
+        "vol_vs_20d": null
+      },
+      "signal_score": 70.0,
+      "suppression_reason": null,
+      "event_signature": "WDC|western-digital|earnings|yahoo-finance-rss|第一季度半导体股票回顾-西部数据-纳斯达克股票代码-wdc-与同行对比|2026-06-18",
+      "severity": 3
+    },
+    {
+      "id": "INTC-2",
+      "ticker": "INTC",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.9,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/06/19/prediction-this-stock-is-going-to-plummet-in-the-second-half-of-2026/?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-19T13:49:50+00:00",
+        "form_type": "世界级企业/人物事件"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T13:49:50+00:00",
+      "detected_time": "2026-06-19T14:07:05.275141+00:00",
+      "title": "预测：该股将在2026年下半年暴跌",
+      "summary": "世界级人物/企业催化 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 133.99,
+        "change_pct": 10.64409578860447,
+        "vol_vs_20d": null
+      },
+      "signal_score": 69.0,
+      "suppression_reason": null,
+      "event_signature": "INTC|intel|unusual-price-volume-options|yahoo-finance-rss|预测-该股将在2026年下半年暴跌|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "INTC-3",
+      "ticker": "INTC",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-leads-big-chip-stock-123941155.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T12:39:41+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T12:39:41+00:00",
+      "detected_time": "2026-06-19T13:06:12.648127+00:00",
+      "title": "英特尔引领芯片股大涨",
+      "summary": "新闻催化 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 133.99,
+        "change_pct": 10.64409578860447,
+        "vol_vs_20d": null
+      },
+      "signal_score": 69.0,
+      "suppression_reason": null,
+      "event_signature": "INTC|intel|unusual-price-volume-options|yahoo-finance-rss|英特尔引领芯片股大涨|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "AMKR-4",
+      "ticker": "AMKR",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-stock-could-111208716.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T11:12:08+00:00",
+        "form_type": "合同/合作"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T11:12:08+00:00",
+      "detected_time": "2026-06-19T13:06:12.648127+00:00",
+      "title": "台积电亚利桑那州交易后，Amkor Technology (AMKR) 股价可能比公允价值低 26%",
+      "summary": "合同/合作 / 盘中放量 / 已卖出观察",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 90.46,
+        "change_pct": 4.662732847390936,
+        "vol_vs_20d": null
+      },
+      "signal_score": 68.0,
+      "suppression_reason": null,
+      "event_signature": "AMKR|amkor-technology|unusual-price-volume-options|yahoo-finance-rss|台积电亚利桑那州交易后-amkor-technology-amkr-股价可能比公允价值低-26|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "MRVL-5",
+      "ticker": "MRVL",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.9,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-names-071719592.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-19T07:17:19+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T07:17:19+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "Marvell Technology, Inc. (MRVL) 任命 Adob​​e 的 Dan Durn 为财务主管",
+      "summary": "AI芯片链 / 新闻催化 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 310.58,
+        "change_pct": 7.266698901706141,
+        "vol_vs_20d": null
+      },
+      "signal_score": 67.0,
+      "suppression_reason": null,
+      "event_signature": "MRVL|marvell-technology|unusual-price-volume-options|yahoo-finance-rss|marvell-technology-inc-mrvl-任命-adob-e-的-dan-durn-为财务主管|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "QCOM-6",
+      "ticker": "QCOM",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-qualcomm-incorporated-qcom-130007344.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T13:00:07+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T13:00:07+00:00",
+      "detected_time": "2026-06-19T14:16:01.930367+00:00",
+      "title": "趋势股票高通公司（QCOM）是否值得立即买入？",
+      "summary": "新闻催化 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 226.11,
+        "change_pct": 6.16988308212425,
+        "vol_vs_20d": null
+      },
+      "signal_score": 67.0,
+      "suppression_reason": null,
+      "event_signature": "QCOM|qualcomm|unusual-price-volume-options|yahoo-finance-rss|趋势股票高通公司-qcom-是否值得立即买入|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "QCOM-7",
+      "ticker": "QCOM",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-qualcomm-qcom-one-best-121857062.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T12:18:57+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T12:18:57+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "这就是为什么高通（QCOM）是最值得购买的电动和自动驾驶股票之一",
+      "summary": "新闻催化 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 226.11,
+        "change_pct": 6.16988308212425,
+        "vol_vs_20d": null
+      },
+      "signal_score": 67.0,
+      "suppression_reason": null,
+      "event_signature": "QCOM|qualcomm|unusual-price-volume-options|yahoo-finance-rss|这就是为什么高通-qcom-是最值得购买的电动和自动驾驶股票之一|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "NVDA-8",
+      "ticker": "NVDA",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "fool.com",
+        "url": "https://www.fool.com/investing/2026/06/19/how-much-nvidia-stock-need-10000-yearly-dividends/?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T13:20:00+00:00",
+        "form_type": "世界级企业/人物事件"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T13:20:00+00:00",
+      "detected_time": "2026-06-19T13:39:20.203154+00:00",
+      "title": "以下是您需要多少 Nvidia 股票才能获得 10,000 美元的年度股息",
+      "summary": "AI芯片链 / 世界级人物/企业催化 / 盘中放量 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 210.69,
+        "change_pct": 2.9513804055704824,
+        "vol_vs_20d": null
+      },
+      "signal_score": 67.0,
+      "suppression_reason": null,
+      "event_signature": "NVDA|nvidia|unusual-price-volume-options|yahoo-finance-rss|以下是您需要多少-nvidia-股票才能获得-10-000-美元的年度股息|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "NVDA-9",
+      "ticker": "NVDA",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-announces-artificial-intelligence-121904675.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T12:19:04+00:00",
+        "form_type": "世界级企业/人物事件"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T12:19:04+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "Nvidia (NVDA) 宣布与 6 家韩国主要公司建立人工智能合作伙伴关系",
+      "summary": "AI芯片链 / 世界级人物/企业催化 / 盘中放量 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 210.69,
+        "change_pct": 2.9513804055704824,
+        "vol_vs_20d": null
+      },
+      "signal_score": 67.0,
+      "suppression_reason": null,
+      "event_signature": "NVDA|nvidia|unusual-price-volume-options|yahoo-finance-rss|nvidia-nvda-宣布与-6-家韩国主要公司建立人工智能合作伙伴关系|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "VST-10",
+      "ticker": "VST",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "SEC filing",
+      "source": "SEC EDGAR",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方事实源",
+      "primary_source": {
+        "name": "SEC EDGAR",
+        "domain": "sec.gov",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000171193626000004/xslF345X06/wk-form4_1781815087.xml",
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-18T00:00:00+00:00",
+        "form_type": "SEC"
+      },
+      "official_form": "SEC",
+      "official_doc_id": "https://www.sec.gov/Archives/edgar/data/1692819/000171193626000004/xslF345X06/wk-form4_1781815087.xml",
+      "published_time": "2026-06-18T00:00:00+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "市场新闻：VST SEC filing: 4 filed 2026-06-18",
+      "summary": "SEC披露 / 盘中放量 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 163.75,
+        "change_pct": 3.0976515771579596,
+        "vol_vs_20d": null
+      },
+      "signal_score": 65.0,
+      "suppression_reason": null,
+      "event_signature": "VST|vistra|sec-filing|sec-edgar|https-www-sec-gov-archives-edgar-data-1692819-000171193626000004-xslf345x06-wk-f|2026-06-18",
+      "severity": 3
+    },
+    {
+      "id": "RGTI-11",
+      "ticker": "RGTI",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rigetti-computing-inc-rgti-attracting-130004051.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T13:00:04+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T13:00:04+00:00",
+      "detected_time": "2026-06-19T14:16:01.930367+00:00",
+      "title": "Rigetti Computer, Inc. (RGTI) 正在吸引投资者的关注：以下是您应该了解的内容",
+      "summary": "量子计算 / 新闻催化 / 盘中放量 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 21.36,
+        "change_pct": 5.5075327241294065,
+        "vol_vs_20d": null
+      },
+      "signal_score": 65.0,
+      "suppression_reason": null,
+      "event_signature": "RGTI|rigetti-computing|unusual-price-volume-options|yahoo-finance-rss|rigetti-computer-inc-rgti-正在吸引投资者的关注-以下是您应该了解的内容|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "RGTI-12",
+      "ticker": "RGTI",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "fool.com",
+        "url": "https://www.fool.com/investing/2026/06/18/is-rigetti-computing-stock-a-buy-right-now/?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-18T23:33:00+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-18T23:33:00+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "市场新闻：Is Rigetti Computing Stock a Buy Right Now?",
+      "summary": "量子计算 / 新闻催化 / 盘中放量 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 21.36,
+        "change_pct": 5.5075327241294065,
+        "vol_vs_20d": null
+      },
+      "signal_score": 65.0,
+      "suppression_reason": null,
+      "event_signature": "RGTI|rigetti-computing|unusual-price-volume-options|yahoo-finance-rss|市场新闻-is-rigetti-computing-stock-a-buy-right-now|2026-06-18",
+      "severity": 3
+    },
+    {
+      "id": "INTC-13",
+      "ticker": "INTC",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "beincrypto.com",
+        "url": "https://beincrypto.com/intel-stock-apple-news-intc-price-analysis/?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T12:57:42+00:00",
+        "form_type": "世界级企业/人物事件"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T12:57:42+00:00",
+      "detected_time": "2026-06-19T13:51:20.423911+00:00",
+      "title": "特朗普让英特尔股价上涨 10%，但市场正在对冲",
+      "summary": "世界级人物/企业催化 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "medium",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "只看不动",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 133.99,
+        "change_pct": 10.64409578860447,
+        "vol_vs_20d": null
+      },
+      "signal_score": 65.0,
+      "suppression_reason": null,
+      "event_signature": "INTC|intel|unusual-price-volume-options|yahoo-finance-rss|特朗普让英特尔股价上涨-10-但市场正在对冲|2026-06-19",
+      "severity": 3
+    },
+    {
+      "id": "SOXS-14",
+      "ticker": "SOXS",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/06/15/semiconductor-etfs-now-dominate-the-most%e2%80%91traded-list-a-signal-you-cant-ignore/?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-15T16:00:30+00:00",
+        "form_type": "分析师"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-15T16:00:30+00:00",
+      "detected_time": "2026-06-19T13:06:12.648127+00:00",
+      "title": "半导体 ETF 现在在交易量最大的名单中占据主导地位——这是一个你不能忽视的信号",
+      "summary": "AI芯片链 / 分析师动作 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bearish",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": true,
+      "is_old_event": true,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "分批研究",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 3.59,
+        "change_pct": -19.506726457399107,
+        "vol_vs_20d": null
+      },
+      "signal_score": 64.0,
+      "suppression_reason": "old_event",
+      "event_signature": "SOXS|direxion-daily-semiconductor-bear-3x-shares|unusual-price-volume-options|yahoo-finance-rss|半导体-etf-现在在交易量最大的名单中占据主导地位-这是一个你不能忽视的信号|2026-06-15",
+      "severity": 2
+    },
+    {
+      "id": "ASX-15",
+      "ticker": "ASX",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "earnings",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/technology/articles/strong-smartphone-demand-sustain-amkrs-140700454.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-17T14:07:00+00:00",
+        "form_type": "财报/指引"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-17T14:07:00+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "AI 产业链相关消息：Can Strong Smartphone Demand Sustain AMKR's Growth Momentum?",
+      "summary": "财报/指引 / 盘中量价确认 / 已卖出观察",
+      "impact_direction": "bullish",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": true,
+      "is_old_event": true,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "分批研究",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 40.56,
+        "change_pct": 8.333333333333345,
+        "vol_vs_20d": null
+      },
+      "signal_score": 62.0,
+      "suppression_reason": "old_event",
+      "event_signature": "ASX|ase-technology|earnings|yahoo-finance-rss|ai-产业链相关消息-can-strong-smartphone-demand-sustain-amkr-s-growth-momentum|2026-06-17",
+      "severity": 2
+    },
+    {
+      "id": "NVDA-16",
+      "ticker": "NVDA",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/m/aa0411a1-2ba1-3057-bff9-1381bd5225f7/dow-jones-futures-fall-with.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T14:06:10+00:00",
+        "form_type": "世界级企业/人物事件"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T14:06:10+00:00",
+      "detected_time": "2026-06-19T14:20:33.644473+00:00",
+      "title": "AI 产业链相关消息：Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
+      "summary": "AI芯片链 / 世界级人物/企业催化 / 盘中放量 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "分批研究",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 210.69,
+        "change_pct": 2.9513804055704824,
+        "vol_vs_20d": null
+      },
+      "signal_score": 62.0,
+      "suppression_reason": null,
+      "event_signature": "NVDA|nvidia|unusual-price-volume-options|yahoo-finance-rss|ai-产业链相关消息-dow-jones-futures-fall-with-u-s-markets-shut-nvidia-leads-5-stocks-ne|2026-06-19",
+      "severity": 2
+    },
+    {
+      "id": "SQQQ-17",
+      "ticker": "SQQQ",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "earnings",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "247wallst.com",
+        "url": "https://247wallst.com/investing/2026/02/17/sqqq-profits-when-tech-drops-but-the-math-gets-ugly-after-a-few-days/?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-02-17T11:27:46+00:00",
+        "form_type": "财报/指引"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-02-17T11:27:46+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "市场新闻：SQQQ Profits When Tech Drops, But the Math Gets Ugly After a Few Days",
+      "summary": "财报/指引 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bearish",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": true,
+      "is_old_event": true,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "分批研究",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 36.75,
+        "change_pct": -7.009109311740898,
+        "vol_vs_20d": null
+      },
+      "signal_score": 61.0,
+      "suppression_reason": "old_event",
+      "event_signature": "SQQQ|proshares-ultrapro-short-qqq|earnings|yahoo-finance-rss|市场新闻-sqqq-profits-when-tech-drops-but-the-math-gets-ugly-after-a-few-days|2026-02-17",
+      "severity": 2
+    },
+    {
+      "id": "GLD-18",
+      "ticker": "GLD",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "macro data",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.9,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gold-extends-losses-fed-rate-133355061.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-19T13:33:55+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T13:33:55+00:00",
+      "detected_time": "2026-06-19T14:20:33.644473+00:00",
+      "title": "市场新闻：Gold Extends Losses as Fed Rate-Hike Outlook Supports Dollar",
+      "summary": "黄金/宏观 / 新闻催化 / 盘中放量 / 观察池线索",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "分批研究",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 387.12,
+        "change_pct": -0.3808543489449352,
+        "vol_vs_20d": null
+      },
+      "signal_score": 60.0,
+      "suppression_reason": null,
+      "event_signature": "GLD|黄金-积存金映射-gld|macro-data|yahoo-finance-rss|市场新闻-gold-extends-losses-as-fed-rate-hike-outlook-supports-dollar|2026-06-19",
+      "severity": 2
+    },
+    {
+      "id": "SMR-19",
+      "ticker": "SMR",
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "免费新闻辅助源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "finance.yahoo.com",
+        "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-uva-wise-043255461.html?.tsrc=rss",
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-19T04:32:55+00:00",
+        "form_type": "新闻"
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-19T04:32:55+00:00",
+      "detected_time": "2026-06-19T13:33:12.099555+00:00",
+      "title": "市场新闻：Is NuScale Power’s (SMR) New UVA Wise E2 Center Quietly Shaping Its Commercialization Path?",
+      "summary": "核电/SMR / 新闻催化 / 盘中量价确认 / 观察池线索",
+      "impact_direction": "bullish",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "suggested_action": "分批研究",
+      "beidou_reason": "仅作投研线索。",
+      "price_context": {
+        "last": 11.74,
+        "change_pct": 13.53965183752418,
+        "vol_vs_20d": null
+      },
+      "signal_score": 58.0,
+      "suppression_reason": null,
+      "event_signature": "SMR|nuscale-power|unusual-price-volume-options|yahoo-finance-rss|市场新闻-is-nuscale-power-s-smr-new-uva-wise-e2-center-quietly-shaping-its-commercia|2026-06-19",
+      "severity": 2
+    }
+  ],
   "marketStructure": {
     "moduleName": "市场结构雷达",
     "subtitle": "QQQ/SPY 盘中结构：Gamma、期权墙、暗池关键价位、Expected Move。",
@@ -607,60 +1548,6 @@
     ],
     "alerts": [
       {
-        "ticker": "ASX",
-        "name": "ASE Technology",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "advanced packaging / OSAT",
-        "beidouRole": "advanced_packaging_diffusion_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "advanced packaging revenue",
-          "AI chip packaging demand",
-          "margin trend"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "AMKR",
-        "name": "Amkor",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "advanced packaging / OSAT",
-        "beidouRole": "advanced_packaging_diffusion_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "US advanced packaging expansion",
-          "AMD/TSMC cooperation",
-          "AI packaging demand"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
         "ticker": "INTC",
         "name": "Intel",
         "pool": "observation_pool_p0",
@@ -674,44 +1561,16 @@
           "server CPU demand",
           "cash flow and capex"
         ],
-        "score": 108,
+        "score": 138,
         "reasons": [
           "P0 研究优先级",
           "已在观察池",
+          "本地事件流 3 条",
           "需要深扫"
         ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "EV / robotaxi / Optimus / energy storage",
-        "beidouRole": "physical_ai_and_consumer_giant",
-        "action": "deep_scan",
-        "watchPoints": [
-          "auto gross margin",
-          "Robotaxi progress",
-          "Optimus production plan",
-          "energy storage growth",
-          "AI chip and compute spending"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
+        "alertType": "新闻/事件触发",
+        "eventCount": 3,
+        "latestEvent": "预测：该股将在2026年下半年暴跌",
         "changePct": null,
         "volume": null,
         "price": null,
@@ -732,157 +1591,16 @@
           "mobile AI recovery",
           "automotive and IoT growth"
         ],
-        "score": 108,
+        "score": 134,
         "reasons": [
           "P0 研究优先级",
           "已在观察池",
+          "本地事件流 2 条",
           "需要深扫"
         ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      }
-    ],
-    "items": [
-      {
-        "ticker": "ASX",
-        "name": "ASE Technology",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "advanced packaging / OSAT",
-        "beidouRole": "advanced_packaging_diffusion_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "advanced packaging revenue",
-          "AI chip packaging demand",
-          "margin trend"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "AMKR",
-        "name": "Amkor",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "advanced packaging / OSAT",
-        "beidouRole": "advanced_packaging_diffusion_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "US advanced packaging expansion",
-          "AMD/TSMC cooperation",
-          "AI packaging demand"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "INTC",
-        "name": "Intel",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "CPU / foundry / advanced packaging",
-        "beidouRole": "watchlist_risk_and_turnaround_watch",
-        "action": "deep_scan",
-        "watchPoints": [
-          "foundry losses",
-          "18A execution",
-          "server CPU demand",
-          "cash flow and capex"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "EV / robotaxi / Optimus / energy storage",
-        "beidouRole": "physical_ai_and_consumer_giant",
-        "action": "deep_scan",
-        "watchPoints": [
-          "auto gross margin",
-          "Robotaxi progress",
-          "Optimus production plan",
-          "energy storage growth",
-          "AI chip and compute spending"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "QCOM",
-        "name": "Qualcomm",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "edge AI / mobile AI / robotics / AI data center",
-        "beidouRole": "new_ai_expansion_candidate",
-        "action": "deep_scan_before_upgrade",
-        "watchPoints": [
-          "AI data center roadmap",
-          "hyperscaler customer",
-          "robotics platform",
-          "mobile AI recovery",
-          "automotive and IoT growth"
-        ],
-        "score": 108,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "需要深扫"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
+        "alertType": "新闻/事件触发",
+        "eventCount": 2,
+        "latestEvent": "趋势股票高通公司（QCOM）是否值得立即买入？",
         "changePct": null,
         "volume": null,
         "price": null,
@@ -901,14 +1619,71 @@
           "AI PC and edge AI expansion",
           "data center GPU supply chain"
         ],
-        "score": 100,
+        "score": 130,
         "reasons": [
           "P0 研究优先级",
-          "已在观察池"
+          "已在观察池",
+          "本地事件流 3 条"
         ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
+        "alertType": "新闻/事件触发",
+        "eventCount": 3,
+        "latestEvent": "以下是您需要多少 Nvidia 股票才能获得 10,000 美元的年度股息",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "ASX",
+        "name": "ASE Technology",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "advanced packaging revenue",
+          "AI chip packaging demand",
+          "margin trend"
+        ],
+        "score": 130,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "AI 产业链相关消息：Can Strong Smartphone Demand Sustain AMKR's Growth Momentum?",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "AMKR",
+        "name": "Amkor",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "US advanced packaging expansion",
+          "AMD/TSMC cooperation",
+          "AI packaging demand"
+        ],
+        "score": 130,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "台积电亚利桑那州交易后，Amkor Technology (AMKR) 股价可能比公允价值低 26%",
         "changePct": null,
         "volume": null,
         "price": null,
@@ -928,10 +1703,258 @@
           "optical/CPO progress",
           "data center growth"
         ],
-        "score": 100,
+        "score": 122,
         "reasons": [
           "P0 研究优先级",
-          "已在观察池"
+          "已在观察池",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "Marvell Technology, Inc. (MRVL) 任命 Adob​​e 的 Dan Durn 为财务主管",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "RGTI",
+        "name": "Rigetti",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "quantum computing",
+        "beidouRole": "watchlist_tech_option",
+        "action": "small_watchlist_risk_scan_only",
+        "watchPoints": [],
+        "score": 86,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池",
+          "本地事件流 2 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 2,
+        "latestEvent": "Rigetti Computer, Inc. (RGTI) 正在吸引投资者的关注：以下是您应该了解的内容",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "WDC",
+        "name": "Western Digital",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "AI storage / HDD / NAND cycle",
+        "beidouRole": "ai_storage_cycle_candidate",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 82,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "第一季度半导体股票回顾：西部数据（纳斯达克股票代码：WDC）与同行对比",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      }
+    ],
+    "items": [
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "CPU / foundry / advanced packaging",
+        "beidouRole": "watchlist_risk_and_turnaround_watch",
+        "action": "deep_scan",
+        "watchPoints": [
+          "foundry losses",
+          "18A execution",
+          "server CPU demand",
+          "cash flow and capex"
+        ],
+        "score": 138,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 3 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 3,
+        "latestEvent": "预测：该股将在2026年下半年暴跌",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "QCOM",
+        "name": "Qualcomm",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "edge AI / mobile AI / robotics / AI data center",
+        "beidouRole": "new_ai_expansion_candidate",
+        "action": "deep_scan_before_upgrade",
+        "watchPoints": [
+          "AI data center roadmap",
+          "hyperscaler customer",
+          "robotics platform",
+          "mobile AI recovery",
+          "automotive and IoT growth"
+        ],
+        "score": 134,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 2 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 2,
+        "latestEvent": "趋势股票高通公司（QCOM）是否值得立即买入？",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "GPU / AI compute / AI ecosystem",
+        "beidouRole": "ai_chain_master_signal",
+        "action": "scan_only_unless_valuation_and_chart_confirm",
+        "watchPoints": [
+          "Blackwell/Rubin supply and demand",
+          "AI PC and edge AI expansion",
+          "data center GPU supply chain"
+        ],
+        "score": 130,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 3 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 3,
+        "latestEvent": "以下是您需要多少 Nvidia 股票才能获得 10,000 美元的年度股息",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "ASX",
+        "name": "ASE Technology",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "advanced packaging revenue",
+          "AI chip packaging demand",
+          "margin trend"
+        ],
+        "score": 130,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "AI 产业链相关消息：Can Strong Smartphone Demand Sustain AMKR's Growth Momentum?",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "AMKR",
+        "name": "Amkor",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "US advanced packaging expansion",
+          "AMD/TSMC cooperation",
+          "AI packaging demand"
+        ],
+        "score": 130,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "台积电亚利桑那州交易后，Amkor Technology (AMKR) 股价可能比公允价值低 26%",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "MRVL",
+        "name": "Marvell",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "AI networking / custom silicon / CPO",
+        "beidouRole": "ai_networking_core",
+        "action": "scan_and_research",
+        "watchPoints": [
+          "custom silicon orders",
+          "AI networking revenue",
+          "optical/CPO progress",
+          "data center growth"
+        ],
+        "score": 122,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "Marvell Technology, Inc. (MRVL) 任命 Adob​​e 的 Dan Durn 为财务主管",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "EV / robotaxi / Optimus / energy storage",
+        "beidouRole": "physical_ai_and_consumer_giant",
+        "action": "deep_scan",
+        "watchPoints": [
+          "auto gross margin",
+          "Robotaxi progress",
+          "Optimus production plan",
+          "energy storage growth",
+          "AI chip and compute spending"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
         ],
         "alertType": "预判关注",
         "eventCount": 0,
@@ -963,6 +1986,52 @@
         "alertType": "预判关注",
         "eventCount": 0,
         "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "RGTI",
+        "name": "Rigetti",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "quantum computing",
+        "beidouRole": "watchlist_tech_option",
+        "action": "small_watchlist_risk_scan_only",
+        "watchPoints": [],
+        "score": 86,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池",
+          "本地事件流 2 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 2,
+        "latestEvent": "Rigetti Computer, Inc. (RGTI) 正在吸引投资者的关注：以下是您应该了解的内容",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "WDC",
+        "name": "Western Digital",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "AI storage / HDD / NAND cycle",
+        "beidouRole": "ai_storage_cycle_candidate",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 82,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "第一季度半导体股票回顾：西部数据（纳斯达克股票代码：WDC）与同行对比",
         "changePct": null,
         "volume": null,
         "price": null,
@@ -1120,50 +2189,6 @@
         "source": "candidate_pool + local_events + live_quote"
       },
       {
-        "ticker": "RGTI",
-        "name": "Rigetti",
-        "pool": "research_pool_p3_high_volatility",
-        "bucket": "P3",
-        "segment": "quantum computing",
-        "beidouRole": "watchlist_tech_option",
-        "action": "small_watchlist_risk_scan_only",
-        "watchPoints": [],
-        "score": 60,
-        "reasons": [
-          "P3 研究优先级",
-          "已在观察池"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "WDC",
-        "name": "Western Digital",
-        "pool": "research_pool_p3_high_volatility",
-        "bucket": "P3",
-        "segment": "AI storage / HDD / NAND cycle",
-        "beidouRole": "ai_storage_cycle_candidate",
-        "action": "research_only",
-        "watchPoints": [],
-        "score": 60,
-        "reasons": [
-          "P3 研究优先级",
-          "已在观察池"
-        ],
-        "alertType": "预判关注",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": null,
-        "volume": null,
-        "price": null,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
         "ticker": "KO",
         "name": "Coca-Cola",
         "pool": "research_pool_p2_consumer",
@@ -1216,7 +2241,7 @@
   },
   "researchLibrary": {
     "storage": {
-      "root": "C:\\Users\\Dell\\Documents\\Codex\\2026-06-09\\beidou-codex-project\\outputs\\beidou-investment-site-repo\\data\\research_pool",
+      "root": "C:\\premarket_mover_radar\\data\\research_pool",
       "retentionDays": 183,
       "notesCount": 0,
       "candidateCount": 46,
@@ -1376,209 +2401,311 @@
       "marketTemperature": "中性 / 等待确认",
       "aiSemiCycle": "偏强但需验证",
       "riskAppetite": "谨慎",
-      "topEvent": "暂无可进入首页的高可信事件",
+      "topEvent": "预测：该股将在2026年下半年暴跌",
       "keySymbols": [
         "AMKR",
         "ASX",
         "OUST",
-        "PEP",
-        "KO",
-        "AEP",
-        "CSIQ",
-        "CRCL"
+        "INTC",
+        "MRVL",
+        "RGTI",
+        "NVDA",
+        "WDC"
       ],
       "beidouConclusion": "先分层研究和风险核验，不把关注权重当作交易指令。",
-      "updatedAt": "2026-06-24 22:14"
+      "updatedAt": "2026-06-24 22:42"
     },
-    "topEvents": [],
+    "topEvents": [
+      {
+        "eventTitle": "预测：该股将在2026年下半年暴跌",
+        "eventTime": "2026-06-19T13:49:50+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "INTC"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "以下是您需要多少 Nvidia 股票才能获得 10,000 美元的年度股息",
+        "eventTime": "2026-06-19T13:20:00+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "NVDA"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "趋势股票高通公司（QCOM）是否值得立即买入？",
+        "eventTime": "2026-06-19T13:00:07+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "QCOM"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "Rigetti Computer, Inc. (RGTI) 正在吸引投资者的关注：以下是您应该了解的内容",
+        "eventTime": "2026-06-19T13:00:04+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "RGTI"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "特朗普让英特尔股价上涨 10%，但市场正在对冲",
+        "eventTime": "2026-06-19T12:57:42+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "INTC"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      }
+    ],
     "focusSymbols": [
       {
         "symbol": "AMKR",
         "name": "AMKR",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 90,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
+        "focusWeight": 96,
+        "latestEvent": "台积电亚利桑那州交易后，Amkor Technology (AMKR) 股价可能比公允价值低 26%",
+        "eventTime": "2026-06-19T11:12:08+00:00",
         "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "ASX",
         "name": "ASX",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 87,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
+        "focusWeight": 91,
+        "latestEvent": "AI 产业链相关消息：Can Strong Smartphone Demand Sustain AMKR's Growth Momentum?",
+        "eventTime": "2026-06-17T14:07:00+00:00",
         "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "OUST",
         "name": "OUST",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 84,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
+        "focusWeight": 90,
+        "latestEvent": "市场新闻：Ouster (OUST) Soars 14.4%: Is Further Upside Left in the Stock?",
+        "eventTime": "2026-06-19T11:10:00+00:00",
         "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "PEP",
-        "name": "PEP",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 81,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
-        "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "KO",
-        "name": "KO",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 78,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
-        "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "AEP",
-        "name": "AEP",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 75,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
-        "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "CSIQ",
-        "name": "CSIQ",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 72,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
-        "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "CRCL",
-        "name": "CRCL",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 69,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
-        "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "INTC",
         "name": "INTC",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 66,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
+        "focusWeight": 87,
+        "latestEvent": "预测：该股将在2026年下半年暴跌",
+        "eventTime": "2026-06-19T13:49:50+00:00",
         "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "MRVL",
         "name": "MRVL",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 66,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
+        "focusWeight": 84,
+        "latestEvent": "Marvell Technology, Inc. (MRVL) 任命 Adob​​e 的 Dan Durn 为财务主管",
+        "eventTime": "2026-06-19T07:17:19+00:00",
         "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "RGTI",
         "name": "RGTI",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 66,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
+        "focusWeight": 81,
+        "latestEvent": "Rigetti Computer, Inc. (RGTI) 正在吸引投资者的关注：以下是您应该了解的内容",
+        "eventTime": "2026-06-19T13:00:04+00:00",
         "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
-        "symbol": "AWK",
-        "name": "AWK",
+        "symbol": "NVDA",
+        "name": "NVDA",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 66,
-        "latestEvent": "等待下一条高可信事件确认",
-        "eventTime": "暂无新事件",
+        "focusWeight": 78,
+        "latestEvent": "以下是您需要多少 Nvidia 股票才能获得 10,000 美元的年度股息",
+        "eventTime": "2026-06-19T13:20:00+00:00",
         "sourceStatus": "待核验",
-        "impactDirection": "待确认",
-        "actionBias": "等待新事件，不扩大研究动作",
-        "riskNote": "短期没有新事件，避免占用过高注意力。",
-        "updatedAt": "2026-06-24 22:14"
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "WDC",
+        "name": "WDC",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 75,
+        "latestEvent": "第一季度半导体股票回顾：西部数据（纳斯达克股票代码：WDC）与同行对比",
+        "eventTime": "2026-06-18T22:05:28+00:00",
+        "sourceStatus": "待核验",
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "VST",
+        "name": "VST",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 72,
+        "latestEvent": "市场新闻：VST SEC filing: 4 filed 2026-06-18",
+        "eventTime": "2026-06-18T00:00:00+00:00",
+        "sourceStatus": "官方",
+        "impactDirection": "利好",
+        "actionBias": "确认景气，不追高；等待回调、财报或订单验证",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "QCOM",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 72,
+        "latestEvent": "趋势股票高通公司（QCOM）是否值得立即买入？",
+        "eventTime": "2026-06-19T13:00:07+00:00",
+        "sourceStatus": "待核验",
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "SMR",
+        "name": "SMR",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 70,
+        "latestEvent": "市场新闻：Is NuScale Power’s (SMR) New UVA Wise E2 Center Quietly Shaping Its Commercialization Path?",
+        "eventTime": "2026-06-19T04:32:55+00:00",
+        "sourceStatus": "待核验",
+        "impactDirection": "利好",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-24 22:42"
       }
     ],
     "watchPool": [
       {
-        "symbol": "SQQQ",
-        "name": "SQQQ",
+        "symbol": "PEP",
+        "name": "PEP",
         "theme": "research",
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "KO",
+        "name": "KO",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "AEP",
+        "name": "AEP",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "CSIQ",
+        "name": "CSIQ",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "CRCL",
+        "name": "CRCL",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "SQQQ",
+        "name": "SQQQ",
+        "theme": "research",
+        "watchReason": "市场新闻：SQQQ Profits When Tech Drops, But the Math Gets Ugly After a Few Days",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "SOXS",
         "name": "SOXS",
         "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "watchReason": "半导体 ETF 现在在交易量最大的名单中占据主导地位——这是一个你不能忽视的信号",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "GOLD_BASKET",
@@ -1587,7 +2714,16 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "symbol": "AWK",
+        "name": "AWK",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "NOK",
@@ -1596,7 +2732,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "ORCL",
@@ -1605,25 +2741,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "NVDA",
-        "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
-        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
-        "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "WDC",
-        "name": "WDC",
-        "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
-        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
-        "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "CRWD",
@@ -1632,16 +2750,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "SMR",
-        "name": "SMR",
-        "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
-        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
-        "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "CEG",
@@ -1650,16 +2759,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "VST",
-        "name": "VST",
-        "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
-        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
-        "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "NRG",
@@ -1668,7 +2768,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "symbol": "TSLA",
@@ -1677,16 +2777,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
-      },
-      {
-        "symbol": "QCOM",
-        "name": "QCOM",
-        "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
-        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
-        "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       }
     ],
     "researchPool": [
@@ -1701,7 +2792,7 @@
         "sourceType": "财报 / 行业价格 / 产能数据",
         "beidouConclusion": "方向有效，但需要估值、财报和涨幅共同验证。",
         "nextAction": "等待 MU 财报和 HBM 订单验证。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "topic": "AI电力",
@@ -1716,7 +2807,7 @@
         "sourceType": "政策 / 电力合同 / 公司指引",
         "beidouConclusion": "长期逻辑清楚，短期要防止叙事拥挤。",
         "nextAction": "跟踪正式合同、监管批准和资本开支。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "topic": "先进封装",
@@ -1730,7 +2821,7 @@
         "sourceType": "公司公告 / 产能 / 财报",
         "beidouConclusion": "属于 AI 主线扩散方向，需要订单和毛利验证。",
         "nextAction": "跟踪先进封装产能和客户结构。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "topic": "CPO / 硅光",
@@ -1745,7 +2836,7 @@
         "sourceType": "行业资料 / 财报 / 技术路线",
         "beidouConclusion": "可作为 AI 后排扩散研究，不直接等同短线动作。",
         "nextAction": "跟踪商业化时间和客户验证。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "topic": "Physical AI",
@@ -1758,7 +2849,7 @@
         "sourceType": "产品发布 / 客户 / 收入质量",
         "beidouConclusion": "需要把叙事和实际收入分开。",
         "nextAction": "等待订单、收入和现金流确认。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "topic": "成熟现金流公司估值",
@@ -1771,7 +2862,7 @@
         "sourceType": "财报 / 估值模型 / 股息数据",
         "beidouConclusion": "重点在防守属性和估值安全边际。",
         "nextAction": "更新估值区间和财报质量。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "topic": "世界杯消费链",
@@ -1783,7 +2874,7 @@
         "sourceType": "赛事日历 / 销售数据 / 财报",
         "beidouConclusion": "只作为阶段性主题资料沉淀。",
         "nextAction": "等待公司层面验证。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "topic": "AI数据中心产业链",
@@ -1798,10 +2889,179 @@
         "sourceType": "产业链资料 / 财报 / capex",
         "beidouConclusion": "主线有效，但需要分层看估值和兑现节奏。",
         "nextAction": "维护产业链地图和风险清单。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       }
     ],
-    "eventRadar": [],
+    "eventRadar": [
+      {
+        "eventTitle": "预测：该股将在2026年下半年暴跌",
+        "eventTime": "2026-06-19T13:49:50+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "INTC"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "以下是您需要多少 Nvidia 股票才能获得 10,000 美元的年度股息",
+        "eventTime": "2026-06-19T13:20:00+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "NVDA"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "趋势股票高通公司（QCOM）是否值得立即买入？",
+        "eventTime": "2026-06-19T13:00:07+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "QCOM"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "Rigetti Computer, Inc. (RGTI) 正在吸引投资者的关注：以下是您应该了解的内容",
+        "eventTime": "2026-06-19T13:00:04+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "RGTI"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "特朗普让英特尔股价上涨 10%，但市场正在对冲",
+        "eventTime": "2026-06-19T12:57:42+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "INTC"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "英特尔引领芯片股大涨",
+        "eventTime": "2026-06-19T12:39:41+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "INTC"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "Nvidia (NVDA) 宣布与 6 家韩国主要公司建立人工智能合作伙伴关系",
+        "eventTime": "2026-06-19T12:19:04+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "NVDA"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "这就是为什么高通（QCOM）是最值得购买的电动和自动驾驶股票之一",
+        "eventTime": "2026-06-19T12:18:57+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "QCOM"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "台积电亚利桑那州交易后，Amkor Technology (AMKR) 股价可能比公允价值低 26%",
+        "eventTime": "2026-06-19T11:12:08+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "AMKR"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "市场新闻：Ouster (OUST) Soars 14.4%: Is Further Upside Left in the Stock?",
+        "eventTime": "2026-06-19T11:10:00+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "OUST"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "Marvell Technology, Inc. (MRVL) 任命 Adob​​e 的 Dan Durn 为财务主管",
+        "eventTime": "2026-06-19T07:17:19+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "MRVL"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      },
+      {
+        "eventTitle": "市场新闻：Is Rigetti Computing Stock a Buy Right Now?",
+        "eventTime": "2026-06-18T23:33:00+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "RGTI"
+        ],
+        "impactDirection": "利好",
+        "beidouJudgement": "仅作投研线索。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "历史样本",
+        "updatedAt": "2026-06-24 22:42"
+      }
+    ],
     "library": [
       {
         "title": "北斗任务状态",
@@ -1970,13 +3230,14 @@
       {
         "riskTitle": "AI半导体利好兑现风险",
         "affectedSymbols": [
+          "NVDA",
           "MRVL",
           "AMKR"
         ],
         "riskLevel": "中高",
         "riskReason": "如果市场已经提前交易景气改善，短线可能出现利好兑现。",
         "beidouAction": "确认景气，但等待财报、订单、回调或价格结构验证。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "riskTitle": "来源时效和外部接口风险",
@@ -1984,16 +3245,16 @@
           "AMKR",
           "ASX",
           "OUST",
-          "PEP",
-          "KO",
-          "AEP",
-          "CSIQ",
-          "CRCL"
+          "INTC",
+          "MRVL",
+          "RGTI",
+          "NVDA",
+          "WDC"
         ],
         "riskLevel": "中",
         "riskReason": "后台会定时刷新事件快照，但部分外部来源可能延迟或超时。",
         "beidouAction": "事件卡必须查看来源状态和时效状态，旧内容只作为背景样本。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "riskTitle": "社媒线索待核验风险",
@@ -2001,7 +3262,7 @@
         "riskLevel": "中",
         "riskReason": "社媒内容不能直接当作事实，需要官方公告或高可信媒体交叉验证。",
         "beidouAction": "只进入研究雷达，不直接形成行动结论。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       },
       {
         "riskTitle": "高波动标的叙事拥挤风险",
@@ -2014,7 +3275,7 @@
         "riskLevel": "中高",
         "riskReason": "高波动主题容易由情绪驱动，基本面兑现节奏可能滞后。",
         "beidouAction": "降低冲动判断，优先补充财报、订单、监管和现金流证据。",
-        "updatedAt": "2026-06-24 22:14"
+        "updatedAt": "2026-06-24 22:42"
       }
     ],
     "disclaimer": "北斗系统用于投资研究、事件整理和风险提示，不构成买卖建议。北斗关注权重仅代表研究优先级，不代表仓位比例或交易指令。"
@@ -2263,7 +3524,7 @@
       {
         "name": "历史重要事件",
         "status": "已保留",
-        "detail": "本地仍保留 0 份重要事件归档，可继续给事件流和复盘使用。",
+        "detail": "本地仍保留 15 份重要事件归档，可继续给事件流和复盘使用。",
         "source": "reports/premarket/important"
       },
       {
@@ -2281,7 +3542,12 @@
     "note": "自动更新模式：读取北斗事件快照、实时接口和本地资料库；不展示实仓明细，只保留观察池和研究资料。",
     "staticExport": {
       "enabled": true,
-      "note": "GitHub Pages static snapshot. Update source data and rerun scripts/export_static_site.py to refresh."
+      "sourceRoot": "C:\\premarket_mover_radar",
+      "eventCount": 20,
+      "topEventCount": 5,
+      "snapshotAgeHours": 120.37,
+      "isStale": true,
+      "note": "Static snapshot for Pages deployment. Refresh the source radar data, then rerun scripts/export_static_site.py."
     }
   }
 }
