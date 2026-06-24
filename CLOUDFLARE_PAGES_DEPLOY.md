@@ -1,0 +1,26 @@
+# Cloudflare Pages deployment
+
+Use this when Render asks for a payment card.
+
+## Recommended setup
+
+- Platform: Cloudflare Pages
+- Repository: `jordanwilliams5674-sys/-`
+- Production branch: `main`
+- Framework preset: `None`
+- Build command: leave blank
+- Build output directory: `docs`
+- Root directory: leave blank
+- Environment variables: leave blank
+
+## Notes
+
+- The published site is a static snapshot generated from `docs/index.html` and `docs/api/webdata.json`.
+- The online refresh button is disabled in static mode because GitHub Pages and Cloudflare Pages do not run the Python backend.
+- To refresh the static snapshot after source data changes, run:
+
+```powershell
+python scripts\export_static_site.py
+```
+
+Then commit and push the changed files.

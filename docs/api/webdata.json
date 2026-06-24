@@ -1,0 +1,2287 @@
+{
+  "schemaVersion": "beidou_monitor_site_v1",
+  "site": {
+    "name": "北斗投研雷达",
+    "subtitle": "合并北斗雷达、北美监视网页和北斗/七星资料包",
+    "canonical": true,
+    "dedupe_policy": "前台只保留一套观察池、事件流、数据源健康和人工判断；不展示实仓明细，老雷达作为后台数据源。"
+  },
+  "market": {
+    "easternTime": "-",
+    "beijingTime": "-",
+    "sessionLabel": "状态待确认",
+    "marketRegime": "pending / no signal",
+    "generatedAtUtc": "",
+    "instruments": [
+      {
+        "label": "SPY",
+        "symbol": "SPY",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "QQQ",
+        "symbol": "QQQ",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "DIA",
+        "symbol": "DIA",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "IWM",
+        "symbol": "IWM",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "SOXX",
+        "symbol": "SOXX",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "VIX",
+        "symbol": "VIX",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "DXY",
+        "symbol": "DXY",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "10Y Yield",
+        "symbol": "10Y",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "Gold",
+        "symbol": "Gold",
+        "price": null,
+        "change": null
+      },
+      {
+        "label": "BTC",
+        "symbol": "BTC",
+        "price": null,
+        "change": null
+      }
+    ],
+    "refreshPolicy": {
+      "mode": "美股开盘",
+      "intervalSeconds": 45,
+      "reason": "开盘时段行情和新闻变化快，前台45秒刷新一次。",
+      "easternTime": "2026-06-24T10:14:48.768751-04:00"
+    }
+  },
+  "holdings": [],
+  "watchlist": [
+    {
+      "ticker": "AMKR",
+      "company": "AMKR",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASX",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "OUST",
+      "company": "OUST",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "PEP",
+      "company": "PEP",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "KO",
+      "company": "KO",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "AEP",
+      "company": "AEP",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "CSIQ",
+      "company": "CSIQ",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "CRCL",
+      "company": "CRCL",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "SQQQ",
+      "company": "SQQQ",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "SOXS",
+      "company": "SOXS",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "INTC",
+      "company": "INTC",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "MRVL",
+      "company": "MRVL",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "RGTI",
+      "company": "RGTI",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "GOLD_BASKET",
+      "company": "GOLD_BASKET",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "AWK",
+      "company": "AWK",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "NOK",
+      "company": "NOK",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "ORCL",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVDA",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "WDC",
+      "company": "WDC",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "CRWD",
+      "company": "CRWD",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "SMR",
+      "company": "SMR",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "CEG",
+      "company": "CEG",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "VST",
+      "company": "VST",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "NRG",
+      "company": "NRG",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "TSLA",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    },
+    {
+      "ticker": "QCOM",
+      "company": "QCOM",
+      "theme": "research",
+      "company_type": "research",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
+      "financial_quality": "fundamental_check_needed",
+      "chart_structure": "pending",
+      "low_buy_status": "not_ready",
+      "last_checked_time": "-",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+    }
+  ],
+  "events": [],
+  "marketStructure": {
+    "moduleName": "市场结构雷达",
+    "subtitle": "QQQ/SPY 盘中结构：Gamma、期权墙、暗池关键价位、Expected Move。",
+    "description": "该模块只做盘中执行辅助，不判断公司长期价值，不输出独立买卖建议。",
+    "symbols": [
+      "QQQ",
+      "SPY"
+    ],
+    "stage": "已接入本地行情；结构字段等待供应商 CSV/手动录入",
+    "sourceMode": "local_live_quote_plus_manual_structure_fields",
+    "autoUpdate": {
+      "quote": true,
+      "structureFields": false,
+      "note": "QQQ/SPY公开行情可由本地北斗API刷新；Gamma、Put Wall、Call Wall、Dark Pool、Expected Move 需要供应商CSV、截图或手动录入。"
+    },
+    "dataSources": [
+      {
+        "name": "本地北斗行情API",
+        "type": "quote",
+        "url": "http://127.0.0.1:8766/api/live",
+        "auto": true
+      },
+      {
+        "name": "Cheddar Flow截图或CSV",
+        "type": "gamma/options/dark_pool",
+        "url": "manual_csv_or_screenshot",
+        "auto": false
+      },
+      {
+        "name": "OCC每日OI",
+        "type": "open_interest",
+        "url": "https://www.theocc.com/market-data/market-data-reports/series-and-trading-data/series-search",
+        "auto": false
+      },
+      {
+        "name": "FINRA ATS/OTC延迟数据",
+        "type": "dark_pool_reference",
+        "url": "https://www.finra.org/finra-data/browse-catalog/weekly-summary",
+        "auto": false
+      }
+    ],
+    "snapshots": [
+      {
+        "symbol": "QQQ",
+        "label": "纳斯达克100风险偏好",
+        "spotPrice": 705.06,
+        "changePct": -1.4285521394526188,
+        "volume": 2276118.0,
+        "timestamp": "2026-06-07T12:38:25.858970+08:00",
+        "source": "TradingView scanner",
+        "session": "非交易时段",
+        "freshnessSeconds": 0,
+        "gammaRegime": "待接入供应商/CSV",
+        "netGex": null,
+        "putWall": null,
+        "callWall": null,
+        "gammaFlip": null,
+        "darkPoolMainLevel": null,
+        "expectedMovePct": null,
+        "intradayMoveUsedPct": null,
+        "zeroDteSensitivity": "待接入供应商/CSV",
+        "open15mStatus": "待开盘后回填",
+        "open30mStatus": "待开盘后回填",
+        "open60mStatus": "待开盘后回填",
+        "confirmationStatus": "公开行情已录入；结构字段等待 Cheddar/OCC/FINRA/CSV",
+        "structureReading": "当前只确认公开行情和涨跌幅，不推断 Gamma、期权墙或暗池方向。",
+        "beidouConclusion": "观察，不输出独立买卖指令。",
+        "riskLevel": "pending",
+        "shouldArchiveToQixing": true
+      },
+      {
+        "symbol": "SPY",
+        "label": "标普500市场宽度",
+        "spotPrice": 737.55,
+        "changePct": -0.6300439842026684,
+        "volume": 1386090.0,
+        "timestamp": "2026-06-07T12:38:25.858970+08:00",
+        "source": "TradingView scanner",
+        "session": "非交易时段",
+        "freshnessSeconds": 0,
+        "gammaRegime": "待接入供应商/CSV",
+        "netGex": null,
+        "putWall": null,
+        "callWall": null,
+        "gammaFlip": null,
+        "darkPoolMainLevel": null,
+        "expectedMovePct": null,
+        "intradayMoveUsedPct": null,
+        "zeroDteSensitivity": "待接入供应商/CSV",
+        "open15mStatus": "待开盘后回填",
+        "open30mStatus": "待开盘后回填",
+        "open60mStatus": "待开盘后回填",
+        "confirmationStatus": "公开行情已录入；结构字段等待 Cheddar/OCC/FINRA/CSV",
+        "structureReading": "当前只确认公开行情和涨跌幅，不推断 Gamma、期权墙或暗池方向。",
+        "beidouConclusion": "观察，不输出独立买卖指令。",
+        "riskLevel": "pending",
+        "shouldArchiveToQixing": true
+      }
+    ],
+    "rules": [
+      {
+        "name": "负Gamma加速风险",
+        "message": "负Gamma + 接近/跌破Put Wall + 成交量或VIX确认时，提示波动放大风险。"
+      },
+      {
+        "name": "Put Wall假跌破",
+        "message": "跌破后15分钟K线收回且VIX不继续上升时，提示禁止追空，等待二次确认。"
+      },
+      {
+        "name": "Call Wall反弹受阻",
+        "message": "反弹到Call Wall附近两次失败且量能衰减时，提示反弹受阻。"
+      },
+      {
+        "name": "Call Wall有效突破",
+        "message": "突破Call Wall并站稳、指数和板块同步转强时，提示空头回补风险上升。"
+      },
+      {
+        "name": "暗池关键位确认",
+        "message": "价格站上主要Dark Pool Level且Put Wall未失守时，降低追空优先级。"
+      },
+      {
+        "name": "Expected Move耗尽",
+        "message": "开盘后短时间走完80%以上Expected Move时，提示不追单，等待回抽或二次确认。"
+      }
+    ],
+    "allowedOutputs": [
+      "观察",
+      "等待确认",
+      "假突破风险",
+      "假跌破风险",
+      "波动放大风险",
+      "追单风险",
+      "趋势延续风险",
+      "空头回补风险",
+      "结构支撑确认",
+      "结构压力确认"
+    ],
+    "forbiddenOutputs": [
+      "立即买入",
+      "立即卖出",
+      "满仓",
+      "梭哈",
+      "确定见底",
+      "确定见顶",
+      "机构一定买入",
+      "机构一定卖出"
+    ],
+    "sourceDoc": "/builtin/qixing_project/market_structure_radar.md",
+    "asOf": "2026-06-07T12:38:25.858970+08:00"
+  },
+  "researchRadar": {
+    "title": "观察池 / 研究池智能雷达",
+    "note": "本地研究库可以保存全部资料；首页只按比例显示重要项，并优先提示新闻、事件和价格异常。",
+    "displayLimit": 18,
+    "countsByPool": {
+      "P0": 19,
+      "P1": 17,
+      "P2": 6,
+      "P3": 4
+    },
+    "displayPolicy": [
+      {
+        "bucket": "P0",
+        "ratio": "约44%",
+        "meaning": "主动扫描，可能影响AI链定价"
+      },
+      {
+        "bucket": "P1",
+        "ratio": "约32%",
+        "meaning": "研究优先，等财务或订单验证"
+      },
+      {
+        "bucket": "P2",
+        "ratio": "约10%",
+        "meaning": "消费/防御验证"
+      },
+      {
+        "bucket": "P3",
+        "ratio": "约14%",
+        "meaning": "高波动叙事，只做风险和事件雷达"
+      }
+    ],
+    "alerts": [
+      {
+        "ticker": "ASX",
+        "name": "ASE Technology",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "advanced packaging revenue",
+          "AI chip packaging demand",
+          "margin trend"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "AMKR",
+        "name": "Amkor",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "US advanced packaging expansion",
+          "AMD/TSMC cooperation",
+          "AI packaging demand"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "CPU / foundry / advanced packaging",
+        "beidouRole": "watchlist_risk_and_turnaround_watch",
+        "action": "deep_scan",
+        "watchPoints": [
+          "foundry losses",
+          "18A execution",
+          "server CPU demand",
+          "cash flow and capex"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "EV / robotaxi / Optimus / energy storage",
+        "beidouRole": "physical_ai_and_consumer_giant",
+        "action": "deep_scan",
+        "watchPoints": [
+          "auto gross margin",
+          "Robotaxi progress",
+          "Optimus production plan",
+          "energy storage growth",
+          "AI chip and compute spending"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "QCOM",
+        "name": "Qualcomm",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "edge AI / mobile AI / robotics / AI data center",
+        "beidouRole": "new_ai_expansion_candidate",
+        "action": "deep_scan_before_upgrade",
+        "watchPoints": [
+          "AI data center roadmap",
+          "hyperscaler customer",
+          "robotics platform",
+          "mobile AI recovery",
+          "automotive and IoT growth"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      }
+    ],
+    "items": [
+      {
+        "ticker": "ASX",
+        "name": "ASE Technology",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "advanced packaging revenue",
+          "AI chip packaging demand",
+          "margin trend"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "AMKR",
+        "name": "Amkor",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "US advanced packaging expansion",
+          "AMD/TSMC cooperation",
+          "AI packaging demand"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "CPU / foundry / advanced packaging",
+        "beidouRole": "watchlist_risk_and_turnaround_watch",
+        "action": "deep_scan",
+        "watchPoints": [
+          "foundry losses",
+          "18A execution",
+          "server CPU demand",
+          "cash flow and capex"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "EV / robotaxi / Optimus / energy storage",
+        "beidouRole": "physical_ai_and_consumer_giant",
+        "action": "deep_scan",
+        "watchPoints": [
+          "auto gross margin",
+          "Robotaxi progress",
+          "Optimus production plan",
+          "energy storage growth",
+          "AI chip and compute spending"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "QCOM",
+        "name": "Qualcomm",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "edge AI / mobile AI / robotics / AI data center",
+        "beidouRole": "new_ai_expansion_candidate",
+        "action": "deep_scan_before_upgrade",
+        "watchPoints": [
+          "AI data center roadmap",
+          "hyperscaler customer",
+          "robotics platform",
+          "mobile AI recovery",
+          "automotive and IoT growth"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "GPU / AI compute / AI ecosystem",
+        "beidouRole": "ai_chain_master_signal",
+        "action": "scan_only_unless_valuation_and_chart_confirm",
+        "watchPoints": [
+          "Blackwell/Rubin supply and demand",
+          "AI PC and edge AI expansion",
+          "data center GPU supply chain"
+        ],
+        "score": 100,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "MRVL",
+        "name": "Marvell",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "AI networking / custom silicon / CPO",
+        "beidouRole": "ai_networking_core",
+        "action": "scan_and_research",
+        "watchPoints": [
+          "custom silicon orders",
+          "AI networking revenue",
+          "optical/CPO progress",
+          "data center growth"
+        ],
+        "score": 100,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "foundry / advanced process / CoWoS",
+        "beidouRole": "core_ai_supply_chain_anchor",
+        "action": "deep_scan",
+        "watchPoints": [
+          "AI revenue growth",
+          "CoWoS capacity",
+          "pricing power",
+          "capex guidance"
+        ],
+        "score": 98,
+        "reasons": [
+          "P0 研究优先级",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "NOK",
+        "name": "Nokia",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "AI optical network / AI-RAN / 6G",
+        "beidouRole": "ai_network_infrastructure_candidate",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 72,
+        "reasons": [
+          "P1 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "SMCI",
+        "name": "Super Micro Computer",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "AI server / high volatility",
+        "beidouRole": "high_volatility_ai_server_candidate",
+        "action": "research_only_high_risk",
+        "watchPoints": [],
+        "score": 68,
+        "reasons": [
+          "P1 研究优先级",
+          "高波动"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "CRCL",
+        "name": "Circle",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "stablecoin / crypto regulation",
+        "beidouRole": "watchlist_crypto_policy_growth",
+        "action": "high_volatility_event_scan",
+        "watchPoints": [],
+        "score": 66,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池",
+          "高波动"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "KLAC",
+        "name": "KLA",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "semiconductor inspection / metrology",
+        "beidouRole": "semicap_validation",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 62,
+        "reasons": [
+          "P1 研究优先级"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "TXN",
+        "name": "Texas Instruments",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "analog / power management",
+        "beidouRole": "industrial_and_power_cycle_validation",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 62,
+        "reasons": [
+          "P1 研究优先级"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "CLS",
+        "name": "Celestica",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "AI server / networking hardware manufacturing",
+        "beidouRole": "ai_server_supply_chain_diffusion",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 62,
+        "reasons": [
+          "P1 研究优先级"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "CIEN",
+        "name": "Ciena",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "optical networking",
+        "beidouRole": "optical_interconnect_candidate",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 62,
+        "reasons": [
+          "P1 研究优先级"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "RGTI",
+        "name": "Rigetti",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "quantum computing",
+        "beidouRole": "watchlist_tech_option",
+        "action": "small_watchlist_risk_scan_only",
+        "watchPoints": [],
+        "score": 60,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "WDC",
+        "name": "Western Digital",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "AI storage / HDD / NAND cycle",
+        "beidouRole": "ai_storage_cycle_candidate",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 60,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "KO",
+        "name": "Coca-Cola",
+        "pool": "research_pool_p2_consumer",
+        "bucket": "P2",
+        "segment": "consumer staples / beverage",
+        "beidouRole": "watchlist_defensive_consumer_watch",
+        "action": "watchlist_risk_scan",
+        "watchPoints": [
+          "volume",
+          "pricing",
+          "gross margin",
+          "emerging markets"
+        ],
+        "score": 48,
+        "reasons": [
+          "P2 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "PEP",
+        "name": "PepsiCo",
+        "pool": "research_pool_p2_consumer",
+        "bucket": "P2",
+        "segment": "consumer staples / snacks and beverage",
+        "beidouRole": "defensive_consumer_validation",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 48,
+        "reasons": [
+          "P2 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": null,
+        "volume": null,
+        "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      }
+    ]
+  },
+  "researchLibrary": {
+    "storage": {
+      "root": "C:\\Users\\Dell\\Documents\\Codex\\2026-06-09\\beidou-codex-project\\outputs\\beidou-investment-site-repo\\data\\research_pool",
+      "retentionDays": 183,
+      "notesCount": 0,
+      "candidateCount": 46,
+      "totalBytes": 21128,
+      "overflowEnabled": false
+    },
+    "recent": [
+      {
+        "id": "candidate-NVDA-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "pool": "observation_pool_p0",
+        "segment": "GPU / AI compute / AI ecosystem",
+        "title": "NVDA · ai_chain_master_signal",
+        "body": "Blackwell/Rubin supply and demand；AI PC and edge AI expansion；data center GPU supply chain",
+        "tags": [
+          "observation_pool_p0",
+          "GPU / AI compute / AI ecosystem",
+          "scan_only_unless_valuation_and_chart_confirm"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.431Z",
+        "text_index": "NVDA NVIDIA observation_pool_p0 GPU / AI compute / AI ecosystem ai_chain_master_signal scan_only_unless_valuation_and_chart_confirm Blackwell/Rubin supply and demand AI PC and edge AI expansion data center GPU supply chain"
+      },
+      {
+        "id": "candidate-TSM-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "TSM",
+        "name": "TSMC",
+        "pool": "observation_pool_p0",
+        "segment": "foundry / advanced process / CoWoS",
+        "title": "TSM · core_ai_supply_chain_anchor",
+        "body": "AI revenue growth；CoWoS capacity；pricing power；capex guidance",
+        "tags": [
+          "observation_pool_p0",
+          "foundry / advanced process / CoWoS",
+          "deep_scan"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.455Z",
+        "text_index": "TSM TSMC observation_pool_p0 foundry / advanced process / CoWoS core_ai_supply_chain_anchor deep_scan AI revenue growth CoWoS capacity pricing power capex guidance"
+      },
+      {
+        "id": "candidate-ASML-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "ASML",
+        "name": "ASML",
+        "pool": "observation_pool_p0",
+        "segment": "semiconductor equipment / lithography",
+        "title": "ASML · semicap_cycle_anchor",
+        "body": "EUV orders；High-NA EUV demand；advanced-node capex；China restriction impact",
+        "tags": [
+          "observation_pool_p0",
+          "semiconductor equipment / lithography",
+          "deep_scan"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.455Z",
+        "text_index": "ASML ASML observation_pool_p0 semiconductor equipment / lithography semicap_cycle_anchor deep_scan EUV orders High-NA EUV demand advanced-node capex China restriction impact"
+      },
+      {
+        "id": "candidate-005930.KS-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "005930.KS",
+        "name": "Samsung Electronics",
+        "pool": "observation_pool_p0",
+        "segment": "HBM / DRAM / NAND / consumer electronics",
+        "title": "005930.KS · hbm_and_consumer_ai_cross_signal",
+        "body": "HBM progress；memory pricing；AI phone demand；semiconductor margin recovery",
+        "tags": [
+          "observation_pool_p0",
+          "HBM / DRAM / NAND / consumer electronics",
+          "deep_scan"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.455Z",
+        "text_index": "005930.KS Samsung Electronics observation_pool_p0 HBM / DRAM / NAND / consumer electronics hbm_and_consumer_ai_cross_signal deep_scan HBM progress memory pricing AI phone demand semiconductor margin recovery"
+      },
+      {
+        "id": "candidate-000660.KS-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "000660.KS",
+        "name": "SK hynix",
+        "pool": "observation_pool_p0",
+        "segment": "HBM / DRAM",
+        "title": "000660.KS · hbm_pure_signal",
+        "body": "HBM ASP；NVIDIA/AI customer demand；capacity expansion；supply tightness",
+        "tags": [
+          "observation_pool_p0",
+          "HBM / DRAM",
+          "deep_scan"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.455Z",
+        "text_index": "000660.KS SK hynix observation_pool_p0 HBM / DRAM hbm_pure_signal deep_scan HBM ASP NVIDIA/AI customer demand capacity expansion supply tightness"
+      },
+      {
+        "id": "candidate-ASX-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "ASX",
+        "name": "ASE Technology",
+        "pool": "observation_pool_p0",
+        "segment": "advanced packaging / OSAT",
+        "title": "ASX · advanced_packaging_diffusion_signal",
+        "body": "advanced packaging revenue；AI chip packaging demand；margin trend",
+        "tags": [
+          "observation_pool_p0",
+          "advanced packaging / OSAT",
+          "deep_scan"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.455Z",
+        "text_index": "ASX ASE Technology observation_pool_p0 advanced packaging / OSAT advanced_packaging_diffusion_signal deep_scan advanced packaging revenue AI chip packaging demand margin trend"
+      },
+      {
+        "id": "candidate-AMKR-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "AMKR",
+        "name": "Amkor",
+        "pool": "observation_pool_p0",
+        "segment": "advanced packaging / OSAT",
+        "title": "AMKR · advanced_packaging_diffusion_signal",
+        "body": "US advanced packaging expansion；AMD/TSMC cooperation；AI packaging demand",
+        "tags": [
+          "observation_pool_p0",
+          "advanced packaging / OSAT",
+          "deep_scan"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.455Z",
+        "text_index": "AMKR Amkor observation_pool_p0 advanced packaging / OSAT advanced_packaging_diffusion_signal deep_scan US advanced packaging expansion AMD/TSMC cooperation AI packaging demand"
+      },
+      {
+        "id": "candidate-MRVL-observation_pool_p0",
+        "record_type": "candidate_pool",
+        "ticker": "MRVL",
+        "name": "Marvell",
+        "pool": "observation_pool_p0",
+        "segment": "AI networking / custom silicon / CPO",
+        "title": "MRVL · ai_networking_core",
+        "body": "custom silicon orders；AI networking revenue；optical/CPO progress；data center growth",
+        "tags": [
+          "observation_pool_p0",
+          "AI networking / custom silicon / CPO",
+          "scan_and_research"
+        ],
+        "source": "candidate_pool_2026-06-07",
+        "created_at": "2026-06-07T04:33:52.455Z",
+        "text_index": "MRVL Marvell observation_pool_p0 AI networking / custom silicon / CPO ai_networking_core scan_and_research custom silicon orders AI networking revenue optical/CPO progress data center growth"
+      }
+    ],
+    "savePolicy": "网站可录入观察池/研究池笔记并保存到本地 JSONL；默认保留半年，空间不足或文件过大时切到 D 盘。"
+  },
+  "homeV1": {
+    "overview": {
+      "marketTemperature": "中性 / 等待确认",
+      "aiSemiCycle": "偏强但需验证",
+      "riskAppetite": "谨慎",
+      "topEvent": "暂无可进入首页的高可信事件",
+      "keySymbols": [
+        "AMKR",
+        "ASX",
+        "OUST",
+        "PEP",
+        "KO",
+        "AEP",
+        "CSIQ",
+        "CRCL"
+      ],
+      "beidouConclusion": "先分层研究和风险核验，不把关注权重当作交易指令。",
+      "updatedAt": "2026-06-24 22:14"
+    },
+    "topEvents": [],
+    "focusSymbols": [
+      {
+        "symbol": "AMKR",
+        "name": "AMKR",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 90,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "ASX",
+        "name": "ASX",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 87,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "OUST",
+        "name": "OUST",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 84,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "PEP",
+        "name": "PEP",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 81,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "KO",
+        "name": "KO",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 78,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "AEP",
+        "name": "AEP",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 75,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "CSIQ",
+        "name": "CSIQ",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 72,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "CRCL",
+        "name": "CRCL",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 69,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "INTC",
+        "name": "INTC",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 66,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 66,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "RGTI",
+        "name": "RGTI",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 66,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "AWK",
+        "name": "AWK",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 66,
+        "latestEvent": "等待下一条高可信事件确认",
+        "eventTime": "暂无新事件",
+        "sourceStatus": "待核验",
+        "impactDirection": "待确认",
+        "actionBias": "等待新事件，不扩大研究动作",
+        "riskNote": "短期没有新事件，避免占用过高注意力。",
+        "updatedAt": "2026-06-24 22:14"
+      }
+    ],
+    "watchPool": [
+      {
+        "symbol": "SQQQ",
+        "name": "SQQQ",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "SOXS",
+        "name": "SOXS",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "GOLD_BASKET",
+        "name": "GOLD_BASKET",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "NOK",
+        "name": "NOK",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "ORCL",
+        "name": "ORCL",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVDA",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "WDC",
+        "name": "WDC",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CRWD",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "SMR",
+        "name": "SMR",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "CEG",
+        "name": "CEG",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "VST",
+        "name": "VST",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "NRG",
+        "name": "NRG",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "TSLA",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "symbol": "QCOM",
+        "name": "QCOM",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-24 22:14"
+      }
+    ],
+    "researchPool": [
+      {
+        "topic": "HBM / DRAM",
+        "relatedSymbols": [
+          "MU",
+          "NVDA",
+          "WDC"
+        ],
+        "researchReason": "AI训练和推理需求牵引高端内存周期。",
+        "sourceType": "财报 / 行业价格 / 产能数据",
+        "beidouConclusion": "方向有效，但需要估值、财报和涨幅共同验证。",
+        "nextAction": "等待 MU 财报和 HBM 订单验证。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "topic": "AI电力",
+        "relatedSymbols": [
+          "CEG",
+          "VST",
+          "NRG",
+          "SMR",
+          "AEP"
+        ],
+        "researchReason": "数据中心电力需求是 AI 基础设施的长期约束。",
+        "sourceType": "政策 / 电力合同 / 公司指引",
+        "beidouConclusion": "长期逻辑清楚，短期要防止叙事拥挤。",
+        "nextAction": "跟踪正式合同、监管批准和资本开支。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "topic": "先进封装",
+        "relatedSymbols": [
+          "AMKR",
+          "ASX",
+          "TSM",
+          "INTC"
+        ],
+        "researchReason": "AI 芯片扩产会向封装和测试链条传导。",
+        "sourceType": "公司公告 / 产能 / 财报",
+        "beidouConclusion": "属于 AI 主线扩散方向，需要订单和毛利验证。",
+        "nextAction": "跟踪先进封装产能和客户结构。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "topic": "CPO / 硅光",
+        "relatedSymbols": [
+          "AVGO",
+          "MRVL",
+          "CRDO",
+          "CIEN",
+          "NOK"
+        ],
+        "researchReason": "数据中心互连瓶颈提升光互连研究价值。",
+        "sourceType": "行业资料 / 财报 / 技术路线",
+        "beidouConclusion": "可作为 AI 后排扩散研究，不直接等同短线动作。",
+        "nextAction": "跟踪商业化时间和客户验证。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "topic": "Physical AI",
+        "relatedSymbols": [
+          "OUST",
+          "NVDA",
+          "AMD"
+        ],
+        "researchReason": "机器人和空间智能可能成为 AI 应用扩散方向。",
+        "sourceType": "产品发布 / 客户 / 收入质量",
+        "beidouConclusion": "需要把叙事和实际收入分开。",
+        "nextAction": "等待订单、收入和现金流确认。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "topic": "成熟现金流公司估值",
+        "relatedSymbols": [
+          "KO",
+          "PEP",
+          "AWK"
+        ],
+        "researchReason": "用于平衡高波动 AI 主题的估值和现金流研究。",
+        "sourceType": "财报 / 估值模型 / 股息数据",
+        "beidouConclusion": "重点在防守属性和估值安全边际。",
+        "nextAction": "更新估值区间和财报质量。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "topic": "世界杯消费链",
+        "relatedSymbols": [
+          "KO",
+          "PEP"
+        ],
+        "researchReason": "大型赛事可能影响广告、饮料和消费链景气。",
+        "sourceType": "赛事日历 / 销售数据 / 财报",
+        "beidouConclusion": "只作为阶段性主题资料沉淀。",
+        "nextAction": "等待公司层面验证。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "topic": "AI数据中心产业链",
+        "relatedSymbols": [
+          "NVDA",
+          "AVGO",
+          "MRVL",
+          "ORCL",
+          "CEG"
+        ],
+        "researchReason": "算力、网络、云、电力共同构成 AI 投资主线。",
+        "sourceType": "产业链资料 / 财报 / capex",
+        "beidouConclusion": "主线有效，但需要分层看估值和兑现节奏。",
+        "nextAction": "维护产业链地图和风险清单。",
+        "updatedAt": "2026-06-24 22:14"
+      }
+    ],
+    "eventRadar": [],
+    "library": [
+      {
+        "title": "北斗任务状态",
+        "category": "北斗/七星项目资料包",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-07 03:31:35",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "# 北斗任务状态 / 截至2026-06-04： / 当前只保留一个启用中的【监控北斗综合任务】。",
+        "fileName": "beidou_task_status.md",
+        "url": "/builtin/qixing_project/beidou_task_status.md"
+      },
+      {
+        "title": "公司研究模板",
+        "category": "北斗/七星项目资料包",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-04 03:43:24",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "# 北斗公司研究模板 / ## 【一句话结论】 / ## 【公司类型】",
+        "fileName": "company_research.md",
+        "url": "/builtin/qixing_project/company_research.md"
+      },
+      {
+        "title": "内置北斗资料",
+        "category": "北斗/七星项目资料包",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-07 03:40:08",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "# 北斗投研雷达｜市场结构雷达模块 V1 / ## 一、项目定位 / 当前项目名称统一为：北斗投研雷达。",
+        "fileName": "market_structure_radar.md",
+        "url": "/builtin/qixing_project/market_structure_radar.md"
+      },
+      {
+        "title": "旧北斗/七星操作规则，已去除实仓内容",
+        "category": "北斗/七星项目资料包",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-07 04:20:43",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "# 北斗/七星投资系统 Project 规则 / 本文件从旧北斗/七星项目恢复，只保留规则、边界和工作分工，不恢复任何实仓、账户、成本、数量或盈亏内容。 / ## Project-only memory",
+        "fileName": "project_operating_rules.md",
+        "url": "/builtin/qixing_project/project_operating_rules.md"
+      },
+      {
+        "title": "项目观察池结构",
+        "category": "北斗/七星项目资料包",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-07 03:43:24",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "CSV 表格，约 37 行数据。",
+        "fileName": "watchlist.csv",
+        "url": "/builtin/qixing_project/watchlist.csv"
+      },
+      {
+        "title": "雷达数据源分层配置",
+        "category": "雷达配置",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-06 02:51:05",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "YAML 配置，约 73 行有效内容。",
+        "fileName": "sources.yaml",
+        "url": "/builtin/radar_config/sources.yaml"
+      },
+      {
+        "title": "雷达观察池配置；当前站点读取此配置",
+        "category": "雷达配置",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-07 03:42:14",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "YAML 配置，约 84 行有效内容。",
+        "fileName": "watchlist.yaml",
+        "url": "/builtin/radar_config/watchlist.yaml"
+      },
+      {
+        "title": "数据源说明",
+        "category": "雷达说明文档",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-03 06:53:36",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "# 北斗盘前异动雷达数据源表 / Last updated: 2026-06-03 / 所有数据源只用于信息收集、交叉验证和人工判断前的线索整理。系统不自动下单，不承诺盈利，不把单一来源升级为买卖建议。",
+        "fileName": "data_sources.md",
+        "url": "/builtin/radar_docs/data_sources.md"
+      },
+      {
+        "title": "老北斗雷达说明",
+        "category": "雷达说明文档",
+        "relatedSymbols": [],
+        "lastUpdated": "2026-06-09 06:36:20",
+        "beidouAbsorbStatus": "已吸收",
+        "oneLineConclusion": "# 北斗全时段异动雷达 / premarket_mover_radar / 本模块用于每天美股盘前、盘中、盘后自动筛选“今天可能短线发酵、有异动、可能值得手动判断是否小仓参与”的股票。 / 当前覆盖的美股时段：",
+        "fileName": "README_premarket_radar.md",
+        "url": "/builtin/radar_docs/README_premarket_radar.md"
+      },
+      {
+        "title": "NVDA · ai_chain_master_signal",
+        "category": "observation_pool_p0",
+        "relatedSymbols": [
+          "NVDA"
+        ],
+        "lastUpdated": "2026-06-07T04:33:52.431Z",
+        "beidouAbsorbStatus": "仅七星资料",
+        "oneLineConclusion": "Blackwell/Rubin supply and demand；AI PC and edge AI expansion；data center GPU supply chain",
+        "fileName": "candidate_pool_2026-06-07",
+        "url": ""
+      },
+      {
+        "title": "TSM · core_ai_supply_chain_anchor",
+        "category": "observation_pool_p0",
+        "relatedSymbols": [
+          "TSM"
+        ],
+        "lastUpdated": "2026-06-07T04:33:52.455Z",
+        "beidouAbsorbStatus": "仅七星资料",
+        "oneLineConclusion": "AI revenue growth；CoWoS capacity；pricing power；capex guidance",
+        "fileName": "candidate_pool_2026-06-07",
+        "url": ""
+      },
+      {
+        "title": "ASML · semicap_cycle_anchor",
+        "category": "observation_pool_p0",
+        "relatedSymbols": [
+          "ASML"
+        ],
+        "lastUpdated": "2026-06-07T04:33:52.455Z",
+        "beidouAbsorbStatus": "仅七星资料",
+        "oneLineConclusion": "EUV orders；High-NA EUV demand；advanced-node capex；China restriction impact",
+        "fileName": "candidate_pool_2026-06-07",
+        "url": ""
+      },
+      {
+        "title": "005930.KS · hbm_and_consumer_ai_cross_signal",
+        "category": "observation_pool_p0",
+        "relatedSymbols": [
+          "005930.KS"
+        ],
+        "lastUpdated": "2026-06-07T04:33:52.455Z",
+        "beidouAbsorbStatus": "仅七星资料",
+        "oneLineConclusion": "HBM progress；memory pricing；AI phone demand；semiconductor margin recovery",
+        "fileName": "candidate_pool_2026-06-07",
+        "url": ""
+      },
+      {
+        "title": "000660.KS · hbm_pure_signal",
+        "category": "observation_pool_p0",
+        "relatedSymbols": [
+          "000660.KS"
+        ],
+        "lastUpdated": "2026-06-07T04:33:52.455Z",
+        "beidouAbsorbStatus": "仅七星资料",
+        "oneLineConclusion": "HBM ASP；NVIDIA/AI customer demand；capacity expansion；supply tightness",
+        "fileName": "candidate_pool_2026-06-07",
+        "url": ""
+      },
+      {
+        "title": "ASX · advanced_packaging_diffusion_signal",
+        "category": "observation_pool_p0",
+        "relatedSymbols": [
+          "ASX"
+        ],
+        "lastUpdated": "2026-06-07T04:33:52.455Z",
+        "beidouAbsorbStatus": "仅七星资料",
+        "oneLineConclusion": "advanced packaging revenue；AI chip packaging demand；margin trend",
+        "fileName": "candidate_pool_2026-06-07",
+        "url": ""
+      }
+    ],
+    "risks": [
+      {
+        "riskTitle": "AI半导体利好兑现风险",
+        "affectedSymbols": [
+          "MRVL",
+          "AMKR"
+        ],
+        "riskLevel": "中高",
+        "riskReason": "如果市场已经提前交易景气改善，短线可能出现利好兑现。",
+        "beidouAction": "确认景气，但等待财报、订单、回调或价格结构验证。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "riskTitle": "来源时效和外部接口风险",
+        "affectedSymbols": [
+          "AMKR",
+          "ASX",
+          "OUST",
+          "PEP",
+          "KO",
+          "AEP",
+          "CSIQ",
+          "CRCL"
+        ],
+        "riskLevel": "中",
+        "riskReason": "后台会定时刷新事件快照，但部分外部来源可能延迟或超时。",
+        "beidouAction": "事件卡必须查看来源状态和时效状态，旧内容只作为背景样本。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "riskTitle": "社媒线索待核验风险",
+        "affectedSymbols": [],
+        "riskLevel": "中",
+        "riskReason": "社媒内容不能直接当作事实，需要官方公告或高可信媒体交叉验证。",
+        "beidouAction": "只进入研究雷达，不直接形成行动结论。",
+        "updatedAt": "2026-06-24 22:14"
+      },
+      {
+        "riskTitle": "高波动标的叙事拥挤风险",
+        "affectedSymbols": [
+          "RGTI",
+          "CRCL",
+          "OUST",
+          "SMR"
+        ],
+        "riskLevel": "中高",
+        "riskReason": "高波动主题容易由情绪驱动，基本面兑现节奏可能滞后。",
+        "beidouAction": "降低冲动判断，优先补充财报、订单、监管和现金流证据。",
+        "updatedAt": "2026-06-24 22:14"
+      }
+    ],
+    "disclaimer": "北斗系统用于投资研究、事件整理和风险提示，不构成买卖建议。北斗关注权重仅代表研究优先级，不代表仓位比例或交易指令。"
+  },
+  "sourceHealth": [],
+  "sourceLayers": [
+    {
+      "layer_key": "market",
+      "layer_name": "行情层",
+      "priority": "P2",
+      "purpose": "盘前、盘中、盘后价格、成交量、扩展时段状态",
+      "source_count": 3,
+      "active_count": 0,
+      "stale_count": 0,
+      "status": "pending",
+      "primary_sources": [
+        "akshare_us",
+        "Tencent US Finance",
+        "Optional Commercial APIs"
+      ],
+      "notes": "行情只说明价格变化，不替代 SEC/IR 事实源。"
+    },
+    {
+      "layer_key": "research",
+      "layer_name": "研报层",
+      "priority": "P2",
+      "purpose": "评级、目标价、分析师动作、预期变化",
+      "source_count": 2,
+      "active_count": 0,
+      "stale_count": 0,
+      "status": "pending",
+      "primary_sources": [
+        "Optional Commercial APIs",
+        "Trusted News"
+      ],
+      "notes": "用于解释发酵，不直接生成交易结论。"
+    },
+    {
+      "layer_key": "signal",
+      "layer_name": "信号层",
+      "priority": "P2",
+      "purpose": "异常价量、期权、停牌、指数事件、内部人和增发线索",
+      "source_count": 3,
+      "active_count": 0,
+      "stale_count": 0,
+      "status": "pending",
+      "primary_sources": [
+        "Exchange / Index Official",
+        "Optional Commercial APIs",
+        "Social Radar"
+      ],
+      "notes": "signal_score 只代表研究优先级。"
+    },
+    {
+      "layer_key": "news",
+      "layer_name": "新闻层",
+      "priority": "P1",
+      "purpose": "主流新闻与 IR 的同日验证",
+      "source_count": 2,
+      "active_count": 0,
+      "stale_count": 0,
+      "status": "pending",
+      "primary_sources": [
+        "Trusted News",
+        "Company IR / Newsroom"
+      ],
+      "notes": "新闻是入口，重大事实仍回到官方文件。"
+    },
+    {
+      "layer_key": "fundamental",
+      "layer_name": "基础数据层",
+      "priority": "P0",
+      "purpose": "财报六问、估值、股本、现金流、负债和指引",
+      "source_count": 3,
+      "active_count": 0,
+      "stale_count": 0,
+      "status": "pending",
+      "primary_sources": [
+        "SEC EDGAR",
+        "Company IR / Newsroom",
+        "Official Macro"
+      ],
+      "notes": "基本面锚点优先 SEC/IR。"
+    },
+    {
+      "layer_key": "filing",
+      "layer_name": "公告层",
+      "priority": "P0",
+      "purpose": "10-K/10-Q/8-K/S-3/424B/Form 4/13F/ATM/停牌/指数公告",
+      "source_count": 3,
+      "active_count": 0,
+      "stale_count": 0,
+      "status": "pending",
+      "primary_sources": [
+        "SEC EDGAR",
+        "Company IR / Newsroom",
+        "Exchange / Index Official"
+      ],
+      "notes": "官方事实源最高优先级。"
+    }
+  ],
+  "builtinFiles": {
+    "root": "C:\\Users\\Dell\\Documents\\Codex\\2026-06-09\\beidou-codex-project\\outputs\\beidou-investment-site-repo\\beidou_monitor_site\\builtin_files",
+    "groups": [
+      {
+        "name": "北斗/七星项目资料包",
+        "file_count": 5,
+        "total_bytes": 22329
+      },
+      {
+        "name": "雷达配置",
+        "file_count": 2,
+        "total_bytes": 5110
+      },
+      {
+        "name": "雷达说明文档",
+        "file_count": 2,
+        "total_bytes": 11921
+      }
+    ],
+    "files": [
+      {
+        "name": "beidou_task_status.md",
+        "relative_path": "qixing_project/beidou_task_status.md",
+        "group": "北斗/七星项目资料包",
+        "note": "北斗任务状态",
+        "size_bytes": 512,
+        "modified": "2026-06-07T03:31:35.025675+00:00",
+        "line_count": 26,
+        "preview": "# 北斗任务状态 / 截至2026-06-04： / 当前只保留一个启用中的【监控北斗综合任务】。",
+        "url": "/builtin/qixing_project/beidou_task_status.md"
+      },
+      {
+        "name": "company_research.md",
+        "relative_path": "qixing_project/company_research.md",
+        "group": "北斗/七星项目资料包",
+        "note": "公司研究模板",
+        "size_bytes": 979,
+        "modified": "2026-06-04T03:43:24.893221+00:00",
+        "line_count": 41,
+        "preview": "# 北斗公司研究模板 / ## 【一句话结论】 / ## 【公司类型】",
+        "url": "/builtin/qixing_project/company_research.md"
+      },
+      {
+        "name": "market_structure_radar.md",
+        "relative_path": "qixing_project/market_structure_radar.md",
+        "group": "北斗/七星项目资料包",
+        "note": "内置北斗资料",
+        "size_bytes": 16209,
+        "modified": "2026-06-07T03:40:08.648079+00:00",
+        "line_count": 781,
+        "preview": "# 北斗投研雷达｜市场结构雷达模块 V1 / ## 一、项目定位 / 当前项目名称统一为：北斗投研雷达。",
+        "url": "/builtin/qixing_project/market_structure_radar.md"
+      },
+      {
+        "name": "project_operating_rules.md",
+        "relative_path": "qixing_project/project_operating_rules.md",
+        "group": "北斗/七星项目资料包",
+        "note": "旧北斗/七星操作规则，已去除实仓内容",
+        "size_bytes": 1554,
+        "modified": "2026-06-07T04:20:43.977455+00:00",
+        "line_count": 29,
+        "preview": "# 北斗/七星投资系统 Project 规则 / 本文件从旧北斗/七星项目恢复，只保留规则、边界和工作分工，不恢复任何实仓、账户、成本、数量或盈亏内容。 / ## Project-only memory",
+        "url": "/builtin/qixing_project/project_operating_rules.md"
+      },
+      {
+        "name": "watchlist.csv",
+        "relative_path": "qixing_project/watchlist.csv",
+        "group": "北斗/七星项目资料包",
+        "note": "项目观察池结构",
+        "size_bytes": 3075,
+        "modified": "2026-06-07T03:43:24.784552+00:00",
+        "line_count": 38,
+        "preview": "CSV 表格，约 37 行数据。",
+        "url": "/builtin/qixing_project/watchlist.csv"
+      },
+      {
+        "name": "sources.yaml",
+        "relative_path": "radar_config/sources.yaml",
+        "group": "雷达配置",
+        "note": "雷达数据源分层配置",
+        "size_bytes": 3118,
+        "modified": "2026-06-06T02:51:05.096877+00:00",
+        "line_count": 78,
+        "preview": "YAML 配置，约 73 行有效内容。",
+        "url": "/builtin/radar_config/sources.yaml"
+      },
+      {
+        "name": "watchlist.yaml",
+        "relative_path": "radar_config/watchlist.yaml",
+        "group": "雷达配置",
+        "note": "雷达观察池配置；当前站点读取此配置",
+        "size_bytes": 1992,
+        "modified": "2026-06-07T03:42:14.620891+00:00",
+        "line_count": 86,
+        "preview": "YAML 配置，约 84 行有效内容。",
+        "url": "/builtin/radar_config/watchlist.yaml"
+      },
+      {
+        "name": "data_sources.md",
+        "relative_path": "radar_docs/data_sources.md",
+        "group": "雷达说明文档",
+        "note": "数据源说明",
+        "size_bytes": 3907,
+        "modified": "2026-06-03T06:53:36.392242+00:00",
+        "line_count": 27,
+        "preview": "# 北斗盘前异动雷达数据源表 / Last updated: 2026-06-03 / 所有数据源只用于信息收集、交叉验证和人工判断前的线索整理。系统不自动下单，不承诺盈利，不把单一来源升级为买卖建议。",
+        "url": "/builtin/radar_docs/data_sources.md"
+      },
+      {
+        "name": "README_premarket_radar.md",
+        "relative_path": "radar_docs/README_premarket_radar.md",
+        "group": "雷达说明文档",
+        "note": "老北斗雷达说明",
+        "size_bytes": 8014,
+        "modified": "2026-06-09T06:36:20.612806+00:00",
+        "line_count": 258,
+        "preview": "# 北斗全时段异动雷达 / premarket_mover_radar / 本模块用于每天美股盘前、盘中、盘后自动筛选“今天可能短线发酵、有异动、可能值得手动判断是否小仓参与”的股票。 / 当前覆盖的美股时段：",
+        "url": "/builtin/radar_docs/README_premarket_radar.md"
+      }
+    ]
+  },
+  "recoveredContent": {
+    "title": "已找回可用北斗内容",
+    "note": "只恢复规则、观察池、研究资料、数据源和事件归档；不恢复持仓、账户、成本、市值或盈亏。",
+    "fileCount": 9,
+    "items": [
+      {
+        "name": "项目规则与安全边界",
+        "status": "已找回",
+        "detail": "恢复 Project-only memory、安全边界、北斗/七星分工；不恢复实仓字段。",
+        "source": "project_operating_rules.md / project_instructions.txt"
+      },
+      {
+        "name": "观察池与研究池",
+        "status": "已合并",
+        "detail": "当前前台观察池 26 个标的；旧实仓标的已按研究对象处理，MU 已隐藏。",
+        "source": "watchlist.yaml / watchlist.csv"
+      },
+      {
+        "name": "数据源分层",
+        "status": "已恢复",
+        "detail": "恢复行情、新闻、公告、基础数据、信号等 6 个层级，用于判断来源可靠性。",
+        "source": "sources.yaml / data_sources.md"
+      },
+      {
+        "name": "历史重要事件",
+        "status": "已保留",
+        "detail": "本地仍保留 0 份重要事件归档，可继续给事件流和复盘使用。",
+        "source": "reports/premarket/important"
+      },
+      {
+        "name": "市场结构规则",
+        "status": "已接入",
+        "detail": "恢复 Gamma、期权墙、暗池、Expected Move 的判读规则；行情自动刷新，结构字段等CSV/供应商文件。",
+        "source": "market_structure_radar.md / latest.json"
+      }
+    ]
+  },
+  "alertSamples": [],
+  "status": {
+    "source": "api + builtin",
+    "scan": {},
+    "note": "自动更新模式：读取北斗事件快照、实时接口和本地资料库；不展示实仓明细，只保留观察池和研究资料。",
+    "staticExport": {
+      "enabled": true,
+      "note": "GitHub Pages static snapshot. Update source data and rerun scripts/export_static_site.py to refresh."
+    }
+  }
+}
