@@ -1,0 +1,94 @@
+{
+  "moduleName": "市场结构雷达",
+  "asOf": "2026-06-07T12:38:25.858970+08:00",
+  "sourceMode": "local_live_quote_plus_manual_structure_fields",
+  "autoUpdate": {
+    "quote": true,
+    "structureFields": false,
+    "note": "QQQ/SPY公开行情可由本地北斗API刷新；Gamma、Put Wall、Call Wall、Dark Pool、Expected Move 需要供应商CSV、截图或手动录入。"
+  },
+  "snapshots": [
+    {
+      "symbol": "QQQ",
+      "label": "纳斯达克100风险偏好",
+      "spotPrice": 705.06,
+      "changePct": -1.4285521394526188,
+      "volume": 2276118.0,
+      "timestamp": "2026-06-07T12:38:25.858970+08:00",
+      "source": "TradingView scanner",
+      "session": "非交易时段",
+      "freshnessSeconds": 0,
+      "gammaRegime": "待接入供应商/CSV",
+      "netGex": null,
+      "putWall": null,
+      "callWall": null,
+      "gammaFlip": null,
+      "darkPoolMainLevel": null,
+      "expectedMovePct": null,
+      "intradayMoveUsedPct": null,
+      "zeroDteSensitivity": "待接入供应商/CSV",
+      "open15mStatus": "待开盘后回填",
+      "open30mStatus": "待开盘后回填",
+      "open60mStatus": "待开盘后回填",
+      "confirmationStatus": "公开行情已录入；结构字段等待 Cheddar/OCC/FINRA/CSV",
+      "structureReading": "当前只确认公开行情和涨跌幅，不推断 Gamma、期权墙或暗池方向。",
+      "beidouConclusion": "观察，不输出独立买卖指令。",
+      "riskLevel": "pending",
+      "shouldArchiveToQixing": true
+    },
+    {
+      "symbol": "SPY",
+      "label": "标普500市场宽度",
+      "spotPrice": 737.55,
+      "changePct": -0.6300439842026684,
+      "volume": 1386090.0,
+      "timestamp": "2026-06-07T12:38:25.858970+08:00",
+      "source": "TradingView scanner",
+      "session": "非交易时段",
+      "freshnessSeconds": 0,
+      "gammaRegime": "待接入供应商/CSV",
+      "netGex": null,
+      "putWall": null,
+      "callWall": null,
+      "gammaFlip": null,
+      "darkPoolMainLevel": null,
+      "expectedMovePct": null,
+      "intradayMoveUsedPct": null,
+      "zeroDteSensitivity": "待接入供应商/CSV",
+      "open15mStatus": "待开盘后回填",
+      "open30mStatus": "待开盘后回填",
+      "open60mStatus": "待开盘后回填",
+      "confirmationStatus": "公开行情已录入；结构字段等待 Cheddar/OCC/FINRA/CSV",
+      "structureReading": "当前只确认公开行情和涨跌幅，不推断 Gamma、期权墙或暗池方向。",
+      "beidouConclusion": "观察，不输出独立买卖指令。",
+      "riskLevel": "pending",
+      "shouldArchiveToQixing": true
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "本地北斗行情API",
+      "type": "quote",
+      "url": "http://127.0.0.1:8766/api/live",
+      "auto": true
+    },
+    {
+      "name": "Cheddar Flow截图或CSV",
+      "type": "gamma/options/dark_pool",
+      "url": "manual_csv_or_screenshot",
+      "auto": false
+    },
+    {
+      "name": "OCC每日OI",
+      "type": "open_interest",
+      "url": "https://www.theocc.com/market-data/market-data-reports/series-and-trading-data/series-search",
+      "auto": false
+    },
+    {
+      "name": "FINRA ATS/OTC延迟数据",
+      "type": "dark_pool_reference",
+      "url": "https://www.finra.org/finra-data/browse-catalog/weekly-summary",
+      "auto": false
+    }
+  ]
+}

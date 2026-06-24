@@ -1,0 +1,12 @@
+module: beidou_us_radar_holdings
+version: 2
+timezone:
+  beijing: Asia/Shanghai
+  eastern: America/New_York
+
+source_of_truth:
+  account_file: ../../data/holdings_accounts/accounts.json
+  note: "用户已要求删除实仓内容；当前只保留观察池，不展示或使用实仓明细。"
+
+actual_holdings: []
+excluded_zero_quantity: []

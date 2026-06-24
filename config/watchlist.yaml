@@ -1,0 +1,175 @@
+module: premarket_mover_radar
+timezone:
+  beijing: Asia/Shanghai
+  eastern: America/New_York
+
+scan_times_beijing:
+  - "15:30"
+  - "16:05"
+  - "20:30"
+  - "21:20"
+
+scan_universe:
+  include_nasdaq100: true
+  include_watchlists: true
+  include_market_movers: true
+  nasdaq100_cache_file: "config/nasdaq100_symbols.txt"
+  nasdaq100_cache_hours: 24
+  note: "默认扫描范围 = Nasdaq 100 + 观察池 + 全市场异动候选；不再保存或展示实仓明细。"
+
+notification:
+  email_to: "295765031@qq.com"
+  desktop_enabled: true
+  email_enabled: false
+  telegram_enabled: false
+  pushplus_enabled: false
+  serverchan_enabled: false
+
+thresholds:
+  strong_score: 80
+  watch_score: 65
+  only_watch_score: 50
+  strong_premarket_percent: 6
+  watch_premarket_percent: 3
+  min_useful_premarket_volume: 50000
+  max_reasonable_spread_percent: 3
+
+important_messages:
+  pin_minutes: 90
+  allow_more_than_three: true
+  record_history: true
+  active_record_file: "reports/premarket/important/important_records.json"
+  history_jsonl: "reports/premarket/important/important_records.jsonl"
+  daily_markdown: "reports/premarket/important/YYYY-MM-DD_important.md"
+  note: "重要消息保留约90分钟；页面合并展示，不铺满多个重复卡片；普通候选继续实时刷新，错过可看重要消息记录。"
+
+watchlists:
+  current_actual_holdings: []
+
+  sold_but_still_watching:
+    - ticker: AMKR
+      name: Amkor Technology
+      priority: medium
+    - ticker: ASX
+      name: ASE Technology
+      priority: medium
+    - ticker: OUST
+      name: Ouster
+      priority: medium
+
+  watch_pool_pending_confirmation:
+    - ticker: PEP
+      name: PepsiCo
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: KO
+      name: Coca-Cola
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: AEP
+      name: American Electric Power
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: CSIQ
+      name: Canadian Solar
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: CRCL
+      name: Circle Internet Group
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: SQQQ
+      name: ProShares UltraPro Short QQQ
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: SOXS
+      name: Direxion Daily Semiconductor Bear 3X Shares
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: INTC
+      name: Intel
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: MRVL
+      name: Marvell Technology
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: RGTI
+      name: Rigetti Computing
+      priority: medium
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: GOLD_BASKET
+      name: 黄金/积存金
+      priority: medium
+      mapping_symbols: "GLD,IAU,GC=F,DX-Y.NYB,^TNX"
+      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+    - ticker: AWK
+      name: American Water Works
+      priority: medium
+      notes: "观察池标的。"
+    - ticker: NOK
+      name: Nokia
+      priority: medium
+    - ticker: ORCL
+      name: Oracle
+      priority: medium
+    - ticker: NVDA
+      name: NVIDIA
+      priority: medium
+    - ticker: WDC
+      name: Western Digital
+      priority: medium
+    - ticker: CRWD
+      name: CrowdStrike
+      priority: medium
+    - ticker: SMR
+      name: NuScale Power
+      priority: medium
+    - ticker: CEG
+      name: Constellation Energy
+      priority: medium
+    - ticker: VST
+      name: Vistra
+      priority: medium
+    - ticker: NRG
+      name: NRG Energy
+      priority: medium
+    - ticker: TSLA
+      name: Tesla
+      priority: medium
+    - ticker: QCOM
+      name: Qualcomm
+      priority: low
+      notes: "仅观察，不主动反复提醒；只记录重大变化。"
+
+focus_themes:
+  - AI基础设施
+  - AI芯片
+  - 半导体
+  - HBM
+  - DRAM
+  - 存储
+  - AI网络
+  - CPO
+  - 光互联
+  - 数据中心电力
+  - 核电
+  - SMR
+  - 国防
+  - 无人机
+  - 机器人
+  - physical AI
+  - 量子计算
+  - 稳定币
+  - 加密监管
+  - 太阳能
+  - 储能
+  - 关税
+  - 能源政策
+  - 网络安全
+  - AI软件
+  - Fed
+  - 利率
+  - 美元
+  - 黄金
+  - 美债

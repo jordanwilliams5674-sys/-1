@@ -1,0 +1,747 @@
+{
+  "version": "2026-06-07-ai-event-radar-v1",
+  "language": "zh-CN",
+  "source": "????????????",
+  "imported_at": "2026-06-07T04:33:52.458Z",
+  "event_window": {
+    "start": "2026-06-15",
+    "end": "2026-07-30",
+    "note": "US after-market events on 2026-07-30 may fall on 2026-07-31 in Asia time."
+  },
+  "rules": {
+    "no_chasing": true,
+    "require_multi_source_confirmation": true,
+    "earnings_first": true,
+    "valuation_required_before_upgrade": true,
+    "chart_shore_required_before_low_buy": true,
+    "social_media_weight": "radar_only",
+    "high_volatility_position_limit": "small_test_only",
+    "exclude_as_buy_signal": [
+      "single_day_price_spike",
+      "single_social_media_post",
+      "unverified_earnings_calendar",
+      "old_catalyst_repeated"
+    ]
+  },
+  "alert_policy": {
+    "send_alert_when": [
+      "official_earnings_date_confirmed",
+      "earnings_results_released",
+      "guidance_changes_materially",
+      "capex_guidance_changes_materially",
+      "AI_order_backlog_or_RPO_changes_materially",
+      "product_event_officially_announced",
+      "stock_moves_more_than_5_percent_with_new_fundamental_reason",
+      "regulatory_or_geopolitical_event_affects_actual_holdings"
+    ],
+    "do_not_alert_when": [
+      "old_catalyst_repeated_without_new_information",
+      "single_unverified_social_media_claim",
+      "price_only_move_without_news",
+      "weekend_minor_noise_without_next_trading_day_gap_risk"
+    ],
+    "output_format": {
+      "title": "🚨【新消息｜北斗雷达】",
+      "fields": [
+        "提醒时间：北京时间 + 美东时间",
+        "一句话结论：利好/利空/中性 + 追/等/研究/减风险/只看",
+        "事件链：时间/地点/谁/做了什么/为什么/来源可信度",
+        "相关标的：实际持仓/观察池/研究池/七星线索",
+        "北斗判断：基本面/估值/图形/仓位四项检查",
+        "操作：只看、深扫、等30-60分钟、分批研究、减风险"
+      ]
+    }
+  },
+  "items": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "segment": "GPU / AI compute / AI ecosystem",
+      "event_types": [
+        "shareholder_meeting",
+        "management_commentary",
+        "product_signal"
+      ],
+      "watch_points": [
+        "Blackwell/Rubin supply and demand",
+        "AI PC and edge AI expansion",
+        "data center GPU supply chain"
+      ],
+      "beidou_role": "ai_chain_master_signal",
+      "action": "scan_only_unless_valuation_and_chart_confirm",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.431Z"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "segment": "foundry / advanced process / CoWoS",
+      "event_types": [
+        "monthly_revenue",
+        "earnings"
+      ],
+      "watch_points": [
+        "AI revenue growth",
+        "CoWoS capacity",
+        "pricing power",
+        "capex guidance"
+      ],
+      "beidou_role": "core_ai_supply_chain_anchor",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "segment": "semiconductor equipment / lithography",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "EUV orders",
+        "High-NA EUV demand",
+        "advanced-node capex",
+        "China restriction impact"
+      ],
+      "beidou_role": "semicap_cycle_anchor",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "Samsung Electronics",
+      "segment": "HBM / DRAM / NAND / consumer electronics",
+      "event_types": [
+        "earnings",
+        "possible_product_event"
+      ],
+      "watch_points": [
+        "HBM progress",
+        "memory pricing",
+        "AI phone demand",
+        "semiconductor margin recovery"
+      ],
+      "beidou_role": "hbm_and_consumer_ai_cross_signal",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "000660.KS",
+      "name": "SK hynix",
+      "segment": "HBM / DRAM",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "HBM ASP",
+        "NVIDIA/AI customer demand",
+        "capacity expansion",
+        "supply tightness"
+      ],
+      "beidou_role": "hbm_pure_signal",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "ASX",
+      "name": "ASE Technology",
+      "segment": "advanced packaging / OSAT",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "advanced packaging revenue",
+        "AI chip packaging demand",
+        "margin trend"
+      ],
+      "beidou_role": "advanced_packaging_diffusion_signal",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "AMKR",
+      "name": "Amkor",
+      "segment": "advanced packaging / OSAT",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "US advanced packaging expansion",
+        "AMD/TSMC cooperation",
+        "AI packaging demand"
+      ],
+      "beidou_role": "advanced_packaging_diffusion_signal",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell",
+      "segment": "AI networking / custom silicon / CPO",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "watch_points": [
+        "custom silicon orders",
+        "AI networking revenue",
+        "optical/CPO progress",
+        "data center growth"
+      ],
+      "beidou_role": "ai_networking_core",
+      "action": "scan_and_research",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "segment": "AI networking / custom ASIC",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "watch_points": [
+        "custom AI ASIC demand",
+        "networking growth",
+        "VMware cash flow",
+        "valuation pressure"
+      ],
+      "beidou_role": "ai_custom_chip_anchor",
+      "action": "scan_and_research",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "segment": "CPU / foundry / advanced packaging",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "foundry losses",
+        "18A execution",
+        "server CPU demand",
+        "cash flow and capex"
+      ],
+      "beidou_role": "actual_holding_risk_and_turnaround_watch",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "segment": "cloud / Azure / Copilot / AI cash flow",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "Azure growth",
+        "AI contribution",
+        "capex",
+        "free cash flow",
+        "Copilot monetization"
+      ],
+      "beidou_role": "ai_cash_flow_anchor",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "segment": "cloud / TPU / search AI",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "Google Cloud growth",
+        "TPU strategy",
+        "AI search monetization",
+        "capex"
+      ],
+      "beidou_role": "ai_cash_flow_anchor",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "segment": "AI capex / ads / data center",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "AI capex",
+        "ad growth",
+        "AI recommendation efficiency",
+        "Reality Labs loss"
+      ],
+      "beidou_role": "ai_capex_and_cash_flow_signal",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "segment": "AWS / retail / AI cloud",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "AWS growth",
+        "AI demand",
+        "retail margin",
+        "capex"
+      ],
+      "beidou_role": "ai_cloud_and_consumer_cross_signal",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "segment": "data center power / cooling",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "order backlog",
+        "data center cooling demand",
+        "margin",
+        "AI rack power density"
+      ],
+      "beidou_role": "ai_power_cooling_core",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "SU.PA",
+      "name": "Schneider Electric",
+      "segment": "data center electrical / power management",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "data center demand",
+        "electrical equipment orders",
+        "margin",
+        "guidance"
+      ],
+      "beidou_role": "ai_power_chain_anchor",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "segment": "EV / robotaxi / Optimus / energy storage",
+      "event_types": [
+        "earnings",
+        "product_progress"
+      ],
+      "watch_points": [
+        "auto gross margin",
+        "Robotaxi progress",
+        "Optimus production plan",
+        "energy storage growth",
+        "AI chip and compute spending"
+      ],
+      "beidou_role": "physical_ai_and_consumer_giant",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "segment": "consumer electronics / edge AI",
+      "event_types": [
+        "earnings"
+      ],
+      "watch_points": [
+        "Apple Intelligence adoption",
+        "iPhone replacement cycle",
+        "services growth",
+        "China demand"
+      ],
+      "beidou_role": "edge_ai_and_consumer_giant",
+      "action": "deep_scan",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "segment": "edge AI / mobile AI / robotics / AI data center",
+      "event_types": [
+        "investor_day",
+        "earnings"
+      ],
+      "watch_points": [
+        "AI data center roadmap",
+        "hyperscaler customer",
+        "robotics platform",
+        "mobile AI recovery",
+        "automotive and IoT growth"
+      ],
+      "beidou_role": "new_ai_expansion_candidate",
+      "action": "deep_scan_before_upgrade",
+      "pool": "observation_pool_p0",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA",
+      "segment": "semiconductor inspection / metrology",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "semicap_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "segment": "analog / power management",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "industrial_and_power_cycle_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "CLS",
+      "name": "Celestica",
+      "segment": "AI server / networking hardware manufacturing",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "ai_server_supply_chain_diffusion",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "CIEN",
+      "name": "Ciena",
+      "segment": "optical networking",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "optical_interconnect_candidate",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology",
+      "segment": "high-speed connectivity / optical interconnect",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "cpo_optical_interconnect_candidate",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "NOK",
+      "name": "Nokia",
+      "segment": "AI optical network / AI-RAN / 6G",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "ai_network_infrastructure_candidate",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "segment": "AI server / enterprise hardware",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "ai_server_diffusion_candidate",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "segment": "enterprise server / networking",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "enterprise_ai_infrastructure_candidate",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "segment": "AI server / high volatility",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "high_volatility_ai_server_candidate",
+      "action": "research_only_high_risk",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "segment": "data center REIT",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "ai_data_center_cash_flow_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "segment": "data center REIT",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "ai_data_center_cash_flow_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "IBM",
+      "name": "IBM",
+      "segment": "enterprise AI / hybrid cloud",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "enterprise_ai_software_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "segment": "enterprise AI software",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "enterprise_ai_monetization_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "SAP",
+      "name": "SAP",
+      "segment": "enterprise software / cloud",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "enterprise_cloud_budget_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "LR.PA",
+      "name": "Legrand",
+      "segment": "data center electrical equipment",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "ai_power_chain_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "TT",
+      "name": "Trane Technologies",
+      "segment": "cooling / HVAC",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "ai_cooling_chain_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "JCI",
+      "name": "Johnson Controls",
+      "segment": "building systems / cooling / thermal management",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "ai_cooling_chain_validation",
+      "action": "research_only",
+      "pool": "research_pool_p1",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "KO",
+      "name": "Coca-Cola",
+      "segment": "consumer staples / beverage",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "actual_holding_defensive_consumer_watch",
+      "watch_points": [
+        "volume",
+        "pricing",
+        "gross margin",
+        "emerging markets"
+      ],
+      "action": "holding_risk_scan",
+      "pool": "research_pool_p2_consumer",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo",
+      "segment": "consumer staples / snacks and beverage",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "defensive_consumer_validation",
+      "action": "research_only",
+      "pool": "research_pool_p2_consumer",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike",
+      "segment": "consumer brand / apparel",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "global_consumer_inventory_validation",
+      "action": "research_only",
+      "pool": "research_pool_p2_consumer",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "segment": "consumer staples / household products",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "defensive_consumer_validation",
+      "action": "research_only",
+      "pool": "research_pool_p2_consumer",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "NESN.SW",
+      "name": "Nestle",
+      "segment": "consumer staples / food and beverage",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "global_consumer_validation",
+      "action": "research_only",
+      "pool": "research_pool_p2_consumer",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "UL",
+      "name": "Unilever",
+      "segment": "consumer staples / household and food",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "global_consumer_validation",
+      "action": "research_only",
+      "pool": "research_pool_p2_consumer",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti",
+      "segment": "quantum computing",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "actual_holding_tech_option",
+      "action": "small_position_risk_scan_only",
+      "pool": "research_pool_p3_high_volatility",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle",
+      "segment": "stablecoin / crypto regulation",
+      "event_types": [
+        "regulation",
+        "earnings_followup",
+        "crypto_market"
+      ],
+      "beidou_role": "actual_holding_crypto_policy_growth",
+      "action": "high_volatility_event_scan",
+      "pool": "research_pool_p3_high_volatility",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "segment": "AI storage / HDD / NAND cycle",
+      "event_types": [
+        "news",
+        "earnings_followup"
+      ],
+      "beidou_role": "ai_storage_cycle_candidate",
+      "action": "research_only",
+      "pool": "research_pool_p3_high_volatility",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "segment": "HBM / DRAM / NAND",
+      "event_types": [
+        "earnings"
+      ],
+      "beidou_role": "hbm_memory_chain_validator_after_profit_taking",
+      "action": "chain_validation_only_not_new_buy_priority",
+      "pool": "research_pool_p3_high_volatility",
+      "created_at": "2026-06-07T04:33:52.455Z"
+    }
+  ]
+}

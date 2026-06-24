@@ -1,0 +1,444 @@
+{
+  "社媒信号": [
+    {
+      "股票代码": "USMARKET",
+      "平台": "美联储公告",
+      "作者": "Federal Reserve",
+      "文字": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "发布时间": "2026-06-19T03:00:00+08:00",
+      "原帖链接": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
+      "重要级别": "important",
+      "备注": "宏观/央行"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "美联储公告",
+      "作者": "Federal Reserve",
+      "文字": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
+      "发布时间": "2026-06-18T23:00:00+08:00",
+      "原帖链接": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618a.htm",
+      "重要级别": "important",
+      "备注": "宏观/央行"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "美联储公告",
+      "作者": "Federal Reserve",
+      "文字": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+      "发布时间": "2026-06-18T21:00:00+08:00",
+      "原帖链接": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
+      "重要级别": "important",
+      "备注": "宏观/央行"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "美联储公告",
+      "作者": "Federal Reserve",
+      "文字": "Federal Reserve issues FOMC statement",
+      "发布时间": "2026-06-18T02:00:00+08:00",
+      "原帖链接": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "重要级别": "important",
+      "备注": "宏观/央行"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "美联储公告",
+      "作者": "Federal Reserve",
+      "文字": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "发布时间": "2026-06-18T02:00:00+08:00",
+      "原帖链接": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+      "重要级别": "important",
+      "备注": "宏观/央行"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "SEC监管",
+      "作者": "SEC",
+      "文字": "SEC, CFTC Seek Public Comment to Further Clarify and Harmonize Derivatives Product Definitions",
+      "发布时间": "2026-06-19T02:42:47+08:00",
+      "原帖链接": "https://www.sec.gov/newsroom/press-releases/2026-57-sec-cftc-seek-public-comment-further-clarify-harmonize-derivatives-product-definitions",
+      "重要级别": "important",
+      "备注": "监管/政策"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "SEC监管",
+      "作者": "SEC",
+      "文字": "SEC, CFTC Seek Public Input on Data Reporting Frameworks for Security-Based Swap and Swap Markets",
+      "发布时间": "2026-06-19T02:17:55+08:00",
+      "原帖链接": "https://www.sec.gov/newsroom/press-releases/2026-56-sec-cftc-seek-public-input-data-reporting-frameworks-security-based-swap-swap-markets",
+      "重要级别": "important",
+      "备注": "监管/政策"
+    },
+    {
+      "股票代码": "AAPL",
+      "平台": "CNBC市场资讯",
+      "作者": "CNBC",
+      "文字": "Memory crisis hits such extremes that 'even Apple can't be safe'",
+      "发布时间": "2026-06-19T20:00:02+08:00",
+      "原帖链接": "https://www.cnbc.com/2026/06/19/memory-crisis-hits-such-extremes-that-even-apple-cant-be-safe-.html",
+      "重要级别": "important",
+      "备注": "全球市场资讯"
+    },
+    {
+      "股票代码": "AMZN",
+      "平台": "CNBC市场资讯",
+      "作者": "CNBC",
+      "文字": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
+      "发布时间": "2026-06-19T04:36:50+08:00",
+      "原帖链接": "https://www.cnbc.com/2026/06/18/spacex-stock-elon-musk-rally-cools.html",
+      "重要级别": "important",
+      "备注": "全球市场资讯"
+    },
+    {
+      "股票代码": "AMZN",
+      "平台": "CNBC市场资讯",
+      "作者": "CNBC",
+      "文字": "Amazon investigating engineers who criticized AI data center expansion",
+      "发布时间": "2026-06-19T03:47:59+08:00",
+      "原帖链接": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "重要级别": "important",
+      "备注": "全球市场资讯"
+    },
+    {
+      "股票代码": "NVDA",
+      "平台": "Yahoo Finance资讯",
+      "作者": "Yahoo Finance",
+      "文字": "Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
+      "发布时间": "2026-06-19T21:39:00+08:00",
+      "原帖链接": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-5-chips-buy-points-spacex-stock/?src=A00220&yptr=yahoo",
+      "重要级别": "important",
+      "备注": "全球市场资讯"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "Yahoo Finance资讯",
+      "作者": "Yahoo Finance",
+      "文字": "Is Teledyne Technologies Stock Underperforming the Nasdaq?",
+      "发布时间": "2026-06-18T10:13:14+08:00",
+      "原帖链接": "https://finance.yahoo.com/markets/stocks/articles/teledyne-technologies-stock-underperforming-nasdaq-021314897.html",
+      "重要级别": "important",
+      "备注": "全球市场资讯"
+    },
+    {
+      "股票代码": "META",
+      "平台": "Yahoo Finance资讯",
+      "作者": "Yahoo Finance",
+      "文字": "Jim Cramer Praises the New Meta Program Funding Skilled Trades",
+      "发布时间": "2026-06-19T21:35:21+08:00",
+      "原帖链接": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-praises-meta-program-133521488.html",
+      "重要级别": "important",
+      "备注": "全球市场资讯"
+    },
+    {
+      "股票代码": "AMD",
+      "平台": "Yahoo Finance资讯",
+      "作者": "Yahoo Finance",
+      "文字": "Buy, Hold, or Sell: AMD Rested Near All-Time Highs as Kevin Warsh Opened His First Fed Meeting. Is AMD Stock a Buy at $507?",
+      "发布时间": "2026-06-19T21:51:30+08:00",
+      "原帖链接": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-amd-rested-135130227.html",
+      "重要级别": "important",
+      "备注": "宏观/央行"
+    },
+    {
+      "股票代码": "INTC",
+      "平台": "Yahoo Finance资讯",
+      "作者": "Yahoo Finance",
+      "文字": "Brightening Prospects for Intel’s Foundry Drive Stock Gains",
+      "发布时间": "2026-06-18T12:01:00+08:00",
+      "原帖链接": "https://finance.yahoo.com/markets/stocks/articles/brightening-prospects-intel-foundry-drive-040100488.html",
+      "重要级别": "important",
+      "备注": "全球市场资讯"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "NBA deputy commissioner on looking into AI to assist referees",
+      "发布时间": "2026-06-19T22:00:18+08:00",
+      "原帖链接": "https://www.youtube.com/shorts/TtTekOVAeYw",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "Bond market is an inviting place to invest, says J.P. Morgan Asset Management Bob Michele",
+      "发布时间": "2026-06-19T05:01:23+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=R8FRCfazsg4",
+      "重要级别": "normal",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "Gas prices have significant implications for Fed's inflation forecast: Apollo Global's Torsten Slok",
+      "发布时间": "2026-06-19T03:19:18+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=Dyya4qgTMxo",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "Opendoor CEO: 'First-time home buyers are stuck not being able to buy in this market'",
+      "发布时间": "2026-06-19T03:18:50+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=I4n6FVqztdA",
+      "重要级别": "normal",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "AAPL",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "Apple plans for price hikes: Here's what to know",
+      "发布时间": "2026-06-19T03:00:13+08:00",
+      "原帖链接": "https://www.youtube.com/shorts/wbCYM1SmSgE",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "AI borrowing spree: Why tech investors should watch the bond market",
+      "发布时间": "2026-06-19T02:29:30+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=EdvagqTNYfY",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "How to trade the SpaceX dip",
+      "发布时间": "2026-06-19T02:27:20+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=8Ln7g7ZhKj4",
+      "重要级别": "normal",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "Oil markets are overshooting to the downside, says Abaxx Markets' Jeff Currie",
+      "发布时间": "2026-06-19T02:20:24+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=iOnxr2O7Yjc",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "CNBC Television",
+      "文字": "Squawk Pod: Betting on Cursor & Collaborating in AI - 06/18/26 | Audio Only",
+      "发布时间": "2026-06-19T00:56:57+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=ylLyA3TjTnM",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "Yahoo Finance",
+      "文字": "👓 The AI glasses and headsets competition is heating up. 🔥",
+      "发布时间": "2026-06-19T07:00:34+08:00",
+      "原帖链接": "https://www.youtube.com/shorts/kOR4rIC3iDo",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "Yahoo Finance",
+      "文字": "Yahoo Finance Live: Daily Market Coverage - June 18, 2026 3PM - 5PM (ET)",
+      "发布时间": "2026-06-19T05:05:55+08:00",
+      "原帖链接": "https://www.youtube.com/watch?v=CaM-IC-Qqy4",
+      "重要级别": "normal",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USSTOCK",
+      "平台": "YouTube",
+      "作者": "Yahoo Finance",
+      "文字": "\"The AI buzzsaw is real,\" 🪚 @andrewyang says.",
+      "发布时间": "2026-06-19T01:31:14+08:00",
+      "原帖链接": "https://www.youtube.com/shorts/4lNVgEBkDrQ",
+      "重要级别": "important",
+      "备注": "YouTube财经频道RSS；视频标题只做线索，需回看原视频确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "美无铅汽油期货主力刚刚突破2.8800美元/加仑关口，最新报2.8784美元/加仑，日内跌0.80%",
+      "发布时间": "2026-06-19T22:21:00+08:00",
+      "原帖链接": "https://kuaixun.cngold.org/c/2026-06-19/c2445378.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "美无铅汽油期货主力刚刚触及2.8900美元/加仑关口，最新报2.8900美元/加仑，日内跌0.40%",
+      "发布时间": "2026-06-19T22:21:00+08:00",
+      "原帖链接": "https://kuaixun.cngold.org/c/2026-06-19/c2445376.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "市场定价显示，美联储加息押注上升，完全消化了9月加息25个基点的预期。",
+      "发布时间": "2026-06-19T22:21:00+08:00",
+      "原帖链接": "https://kuaixun.cngold.org/c/2026-06-19/c2445374.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "美元暴涨10年期收益率却不跟 沃什能否悄悄改写通胀规则",
+      "发布时间": "2026-06-19T22:21:00+08:00",
+      "原帖链接": "https://kuaixun.cngold.org/c/2026-06-19/c2445375.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "格隆汇6月19日丨市场定价显示，美联储加息押注上升，完全消化了9月加息25个基点的预期。",
+      "发布时间": "2026-06-19T22:21:00+08:00",
+      "原帖链接": "https://kuaixun.cngold.org/c/2026-06-19/c2445377.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "欢迎来到美联储不可捉摸的新时代",
+      "发布时间": "2026-06-19T22:21:46.510772+08:00",
+      "原帖链接": "https://finance.cngold.org/redian/c10571298.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "美联储“鹰派”按兵不动，沃什首秀“大刀阔斧”！",
+      "发布时间": "2026-06-18T22:21:00+08:00",
+      "原帖链接": "https://finance.cngold.org/c/2026-06-18/c10569793.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "融资投向AI业务，回购稳定预期：联想集团20亿美元可转债背后的资本组合拳",
+      "发布时间": "2026-06-18T22:21:00+08:00",
+      "原帖链接": "https://finance.cngold.org/c/2026-06-18/c10569792.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "GOLD_BASKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "俄罗斯截至6月12日当周黄金与外汇储备",
+      "发布时间": "2026-06-19T22:21:46.510772+08:00",
+      "原帖链接": "https://calendar.cngold.org/content/725609.htm",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "下一任美联储主席会是谁？",
+      "发布时间": "2026-06-19T22:21:46.510772+08:00",
+      "原帖链接": "https://kuaixun.cngold.org/event/c21.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "GOLD_BASKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "美伊协议利多被冲淡 国际黄金二次下探",
+      "发布时间": "2026-06-19T22:21:00+08:00",
+      "原帖链接": "https://www.cngold.org/c/2026-06-19/c10571635.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "GOLD_BASKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "今日国际金价实时行情(2026年6月19日)",
+      "发布时间": "2026-06-19T22:21:00+08:00",
+      "原帖链接": "https://www.cngold.org/c/2026-06-19/c10571491.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "USMARKET",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "美股三大指数集体下跌 百特国际、奥多比跌超5%2026-06-18阅读0",
+      "发布时间": "2026-06-18T22:21:00+08:00",
+      "原帖链接": "https://usstock.cngold.org/c/2026-06-18/c10569735.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "NVDA",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "美股三大指数全线上行 通用汽车、亚马逊、博通、英伟达涨超3%",
+      "发布时间": "2026-06-16T22:21:00+08:00",
+      "原帖链接": "https://usstock.cngold.org/c/2026-06-16/c10564293.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "INTC",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "科技类美股点评：英特尔以8.45%的跌幅位居榜首",
+      "发布时间": "2026-06-17T22:21:00+08:00",
+      "原帖链接": "https://usstock.cngold.org/c/2026-06-17/c10566994.html",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "GOOGL",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "谷歌-CL C",
+      "发布时间": "2026-06-19T22:21:46.510772+08:00",
+      "原帖链接": "https://usstock.cngold.org/goog.htm",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    },
+    {
+      "股票代码": "GOOGL",
+      "平台": "金投网财经源",
+      "作者": "金投网",
+      "文字": "谷歌-CL A",
+      "发布时间": "2026-06-19T22:21:46.510772+08:00",
+      "原帖链接": "https://usstock.cngold.org/googl.htm",
+      "重要级别": "important",
+      "备注": "金投网财经源辅助信号；需结合美股量价、黄金/利率背景和原始公告确认。"
+    }
+  ]
+}

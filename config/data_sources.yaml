@@ -1,0 +1,150 @@
+module: premarket_mover_radar_data_sources
+last_updated: "2026-06-03"
+
+data_sources:
+  - source_name: TradingView
+    url: "https://www.tradingview.com"
+    category: "价格/异动/技术图表/跨资产"
+    use_case: "自动查询美股盘前涨跌幅、盘前成交量、常规涨跌幅、成交量和基础技术综合字段。"
+    beidou_role: "量价确认 / 技术状态 / 跨资产确认工具"
+    automation_level: "已自动接入：TradingView scanner public endpoint"
+    requires_login: false
+    lag_risk: "低；行情权限和交易所延迟可能影响准确性"
+    best_for: "盘前量价确认、是否放量、是否有真实价格反应"
+    not_suitable_for: "解释真正催化原因；社区观点不能当事实"
+    weight_in_scoring: "高：主要影响量价异动分和可交易性分"
+    notes: "脚本使用 scanner.tradingview.com 自动查询；若字段为空，会标记自动源无盘前字段，不改写为手动查看。"
+
+  - source_name: StockAnalysis
+    url: "https://stockanalysis.com"
+    category: "基本面/财务/估值/财报"
+    use_case: "自动探测个股页面、财务入口和公司基本资料入口。"
+    beidou_role: "基本面 / 财报 / 估值锚工具"
+    automation_level: "已自动接入：公开页面探测"
+    requires_login: false
+    lag_risk: "中；聚合数据需回到 IR/SEC 核验"
+    best_for: "快速判断公司是否有基本面、财报、财务入口"
+    not_suitable_for: "单独判断短线会不会继续拉升"
+    weight_in_scoring: "高：辅助催化质量和风险判断"
+    notes: "关键财务结论仍需公司 IR 或 SEC 二次验证。"
+
+  - source_name: WhaleWisdom
+    url: "https://whalewisdom.com"
+    category: "机构13F/基金持仓/大户持仓"
+    use_case: "自动探测股票机构持仓背景页是否存在。"
+    beidou_role: "机构资金线索工具 / 中期资金偏好参考"
+    automation_level: "已自动接入：公开页面探测"
+    requires_login: false
+    lag_risk: "高；13F 有明显滞后"
+    best_for: "确认机构是否关注过该公司、作为背景加分"
+    not_suitable_for: "当天盘前短线买入依据；不能单独触发提醒"
+    weight_in_scoring: "中低：只做背景分"
+    notes: "高级筛选、下载、API 或深度数据可能需要订阅。"
+
+  - source_name: Quiver Quant
+    url: "https://www.quiverquant.com"
+    category: "国会交易/政府合同/游说/另类数据"
+    use_case: "自动探测公开股票页；结构化国会交易、政府合同和另类数据需要 API Key。"
+    beidou_role: "政策资金流 / 政府合同 / 国会交易雷达"
+    automation_level: "部分自动接入：公开页探测；结构化数据需 QUIVER_API_KEY"
+    requires_login: true
+    lag_risk: "中高；国会议员交易披露和另类数据有滞后"
+    best_for: "政策、政府采购、国防、能源、稳定币等线索"
+    not_suitable_for: "直接跟单或单独作为事实依据"
+    weight_in_scoring: "中：有结构化数据后可提高信息价值分"
+    notes: "未配置 API Key 时，脚本只报告公开页探测状态，不编造国会/合同结果。"
+
+  - source_name: ITC Markets Hawk/Dove Cheat Sheet
+    url: "https://www.itcmarkets.com/cheat-sheet/"
+    category: "宏观/Fed/央行鹰鸽派/利率"
+    use_case: "自动探测宏观鹰鸽派页面可访问状态。"
+    beidou_role: "宏观利率过滤器 / 风险偏好辅助判断"
+    automation_level: "已自动接入：公开页面探测"
+    requires_login: false
+    lag_risk: "中；页面观点需结合 Fed 原文和市场反应"
+    best_for: "Fed、CPI、PCE、FOMC、美元、美债、黄金、纳指和半导体宏观背景"
+    not_suitable_for: "单独判断个股催化或交易方向"
+    weight_in_scoring: "中：宏观事件日提高权重"
+    notes: "需要结合 Fed 讲话原文、CME 利率预期、10Y/2Y、DXY、QQQ、SMH、SOXX。"
+
+  - source_name: Yahoo Finance chart/RSS
+    url: "https://finance.yahoo.com"
+    category: "行情/新闻"
+    use_case: "盘前行情 fallback、个股新闻 RSS。"
+    beidou_role: "备用价格源 / 新闻标题源"
+    automation_level: "已自动接入：chart fallback 和 RSS"
+    requires_login: false
+    lag_risk: "中；公开接口字段可能变化"
+    best_for: "当 TradingView 或 API 不可用时补充价格和新闻标题"
+    not_suitable_for: "单独确认重大催化事实"
+    weight_in_scoring: "中"
+    notes: "Yahoo quote API 可能返回 401，脚本会自动切换 chart fallback。"
+
+  - source_name: SEC EDGAR data API
+    url: "https://data.sec.gov"
+    category: "SEC文件"
+    use_case: "自动查询 8-K、S-3、424B、Form 4、10-Q、10-K。"
+    beidou_role: "官方披露验证源"
+    automation_level: "已自动接入"
+    requires_login: false
+    lag_risk: "低到中；以 SEC 披露时间为准"
+    best_for: "财报、8-K、增发、Form 4、重大披露核验"
+    not_suitable_for: "解释市场情绪"
+    weight_in_scoring: "高"
+    notes: "脚本缓存 company_tickers.json，减少重复请求。"
+
+  - source_name: Finnhub quote API
+    url: "https://finnhub.io/api/v1/quote"
+    category: "行情API"
+    use_case: "可选行情备用源。"
+    beidou_role: "备用价格源"
+    automation_level: "可接入：需要 FINNHUB_API_KEY"
+    requires_login: true
+    lag_risk: "取决于套餐"
+    best_for: "稳定行情 API fallback"
+    not_suitable_for: "无 API Key 环境"
+    weight_in_scoring: "中"
+    notes: "设置 FINNHUB_API_KEY 后启用。"
+
+  - source_name: Polygon / Massive top market movers API
+    url: "https://polygon.io/docs/rest/stocks/snapshots/top-market-movers"
+    category: "全市场异动API"
+    use_case: "可选全市场涨跌幅榜和异动候选发现。"
+    beidou_role: "全市场热门异动扫描"
+    automation_level: "可接入：需要 POLYGON_API_KEY 或 MASSIVE_API_KEY"
+    requires_login: true
+    lag_risk: "取决于套餐"
+    best_for: "全市场 movers 自动发现"
+    not_suitable_for: "无 API Key 环境"
+    weight_in_scoring: "高"
+    notes: "配置 API Key 后可显著增强全市场扫描。"
+
+  - source_name: Alpaca market data API
+    url: "https://alpaca.markets/data"
+    category: "行情API"
+    use_case: "可选美股行情源。"
+    beidou_role: "备用行情源"
+    automation_level: "可接入：需要 ALPACA_KEY_ID 和 ALPACA_SECRET_KEY"
+    requires_login: true
+    lag_risk: "取决于套餐"
+    best_for: "更稳定的行情数据"
+    not_suitable_for: "无 API Key 环境"
+    weight_in_scoring: "中"
+    notes: "本项目禁止调用交易下单接口，只允许 market data。"
+
+manual_or_limited_sources:
+  - Blue Ocean ATS / overnight venue feeds (夜盘专用；当前未接入)
+  - MarketWatch Premarket Movers
+  - Nasdaq Premarket Movers
+  - Reuters
+  - Bloomberg
+  - WSJ
+  - CNBC
+  - FT
+  - AP
+  - Barron's
+  - Seeking Alpha
+  - Benzinga
+  - PRNewswire
+  - BusinessWire
+  - X/Twitter

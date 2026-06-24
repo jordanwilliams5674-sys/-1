@@ -1,0 +1,86 @@
+module: beidou_us_radar_watchlist
+version: 1
+
+watchlist:
+  - ticker: PEP
+    theme: defensive_consumer
+    role: watchlist
+  - ticker: KO
+    theme: defensive_consumer
+    role: watchlist
+  - ticker: AEP
+    theme: data-center power
+    role: watchlist
+  - ticker: CSIQ
+    theme: solar/tariff
+    role: watchlist
+  - ticker: CRCL
+    theme: crypto/stablecoin regulation
+    role: watchlist
+  - ticker: SQQQ
+    theme: market_hedge
+    role: watchlist
+  - ticker: SOXS
+    theme: semiconductor_hedge
+    role: watchlist
+  - ticker: INTC
+    theme: semiconductor
+    role: watchlist
+  - ticker: MRVL
+    theme: ai_infrastructure
+    role: watchlist
+  - ticker: RGTI
+    theme: quantum
+    role: watchlist
+  - ticker: GOLD_BASKET
+    theme: gold_macro
+    role: watchlist
+  - ticker: AMKR
+    theme: semiconductor
+    role: watchlist
+  - ticker: ASX
+    theme: semiconductor
+    role: watchlist
+  - ticker: OUST
+    theme: ai_infrastructure
+    role: watchlist
+  - ticker: AWK
+    theme: defensive_consumer
+    role: watchlist
+  - ticker: NOK
+    theme: ai_infrastructure
+    role: watchlist
+  - ticker: ORCL
+    theme: ai_infrastructure
+    role: watchlist
+  - ticker: NVDA
+    theme: ai_infrastructure
+    role: watchlist
+  - ticker: WDC
+    theme: semiconductor
+    role: watchlist
+  - ticker: CRWD
+    theme: cybersecurity
+    role: watchlist
+  - ticker: SMR
+    theme: data-center power
+    role: watchlist
+  - ticker: CEG
+    theme: data-center power
+    role: watchlist
+  - ticker: VST
+    theme: data-center power
+    role: watchlist
+  - ticker: NRG
+    theme: data-center power
+    role: watchlist
+  - ticker: TSLA
+    theme: ai_infrastructure
+    role: watchlist
+  - ticker: QCOM
+    theme: semiconductor
+    role: watchlist
+
+rules:
+  watchlist_trigger: "仅在官方文件、公司IR、财报变化、估值重置、重大订单或高质量新催化时触发研究提醒。"
+  actual_holding_priority: "实仓内容已删除；原实仓标的全部按观察池处理。"

@@ -1,0 +1,1 @@
+# The registration-ready Beidou site currently uses Python standard library only.
