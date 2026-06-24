@@ -56,7 +56,10 @@ def main() -> None:
 
     html = (WEB_ROOT / "preview_dashboard.html").read_text(encoding="utf-8")
     html = html.replace("fetch('/api/webdata?ts='+Date.now())", "fetch('api/webdata.json?ts='+Date.now())")
-    html = html.replace("await fetch('/api/scan',{method:'POST'});", "throw new Error('静态网站不支持在线刷新，请更新数据后重新导出。');")
+    html = html.replace(
+        "await fetch('/api/scan',{method:'POST'});",
+        "throw new Error('静态网站不支持在线刷新，请更新数据后重新导出。');",
+    )
     html = html.replace('onclick="refreshNow()">', 'onclick="refreshNow()" title="静态网站不支持在线刷新">')
     (OUT_ROOT / "index.html").write_text(html, encoding="utf-8")
 
