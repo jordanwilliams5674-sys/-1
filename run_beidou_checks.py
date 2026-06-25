@@ -21,22 +21,54 @@ def run(command: list[str], env: dict[str, str] | None = None) -> int:
     return result.returncode
 
 
+def cleanup_pycache() -> None:
+    for path in ROOT.rglob("__pycache__"):
+        shutil.rmtree(path, ignore_errors=True)
+    for path in ROOT.rglob("*.pyc"):
+        try:
+            path.unlink()
+        except OSError:
+            pass
+
+
 def validate_static_data(out_root: Path) -> int:
     path = out_root / "api" / "webdata.json"
-    data = json.loads(path.read_text(encoding="utf-8"))
+    raw_text = path.read_text(encoding="utf-8")
+    data = json.loads(raw_text)
     instruments = data.get("market", {}).get("instruments", [])
     labels = {item.get("label") for item in instruments}
     missing_price_items = [item for item in instruments if item.get("price") is None]
-    dxy_items = [item for item in instruments if "美元" in str(item.get("label")) or item.get("sourceSymbol") in {"DXY", "DX-Y.NYB", "UUP"}]
-    gold_items = [item for item in instruments if "黄金" in str(item.get("label")) or item.get("sourceSymbol") in {"Gold", "GLD", "IAU", "GC=F"}]
+    dxy_items = [
+        item
+        for item in instruments
+        if "美元" in str(item.get("label")) or item.get("sourceSymbol") in {"DXY", "DX-Y.NYB", "UUP"}
+    ]
+    gold_items = [
+        item
+        for item in instruments
+        if "黄金" in str(item.get("label")) or item.get("sourceSymbol") in {"Gold", "GLD", "IAU", "GC=F"}
+    ]
     checks = {
         "schemaVersion": data.get("schemaVersion") == "beidou_monitor_site_v1",
         "watchlist_nonempty": len(data.get("watchlist", [])) > 0,
         "no_public_holdings": data.get("holdings", []) == [],
         "static_export_marker": bool(data.get("status", {}).get("staticExport", {}).get("enabled")),
         "dxy_not_mislabeled": "DXY" not in labels and all(item.get("sourceNote") for item in dxy_items),
-        "gold_not_mislabeled": "Gold" not in labels and all(item.get("sourceNote") for item in gold_items) and all(str(item.get("sourceSymbol", "")).upper() in str(item.get("label", "")).upper() for item in gold_items if str(item.get("sourceSymbol", "")).upper() in {"GLD", "IAU"}),
-        "missing_quotes_marked": all(item.get("quoteStatus") == "未取得" and item.get("displayPrice") == "未取得" for item in missing_price_items),
+        "gold_not_mislabeled": "Gold" not in labels
+        and all(item.get("sourceNote") for item in gold_items)
+        and all(
+            str(item.get("sourceSymbol", "")).upper() in str(item.get("label", "")).upper()
+            for item in gold_items
+            if str(item.get("sourceSymbol", "")).upper() in {"GLD", "IAU"}
+        ),
+        "missing_quotes_marked": all(
+            item.get("quoteStatus") == "未取得" and item.get("displayPrice") == "未取得"
+            for item in missing_price_items
+        ),
+        "quote_verification_status": all(item.get("verificationStatus") for item in instruments),
+        "public_static_data_sanitized": all(
+            token not in raw_text for token in ["C:\\", "C:/", "127.0.0.1", "localhost"]
+        ),
     }
     failed = [name for name, ok in checks.items() if not ok]
     if failed:
@@ -53,6 +85,9 @@ def validate_static_html(out_root: Path) -> int:
         "static_data_fetch": "fetch('api/webdata.json?ts='+Date.now())" in html,
         "no_server_data_fetch": "fetch('/api/webdata?ts='+Date.now())" not in html,
         "no_server_scan_post": "await fetch('/api/scan',{method:'POST'});" not in html,
+        "static_snapshot_no_refresh_button": "refreshBtn" not in html and "静态快照" in html,
+        "market_verification_visible": "核验状态" in html,
+        "social_signal_warning_visible": "社媒线索：仅作研究提醒" in html,
         "title": "北斗投研雷达" in html,
     }
     failed = [name for name, ok in checks.items() if not ok]
@@ -64,40 +99,43 @@ def validate_static_html(out_root: Path) -> int:
 
 
 def main() -> int:
-    commands = [
-        [
-            sys.executable,
-            "-m",
-            "py_compile",
-            "beidou_monitor_site/preview_server.py",
-            "scripts/export_static_site.py",
-            "scripts/radar_dashboard.py",
-            "scripts/premarket_mover_scan.py",
-        ],
-        [sys.executable, "-m", "unittest", "discover", "-s", "beidou_us_radar/tests", "-p", "test_*.py"],
-    ]
-    for command in commands:
-        code = run(command)
-        if code != 0:
-            return code
-
-    tmp_parent = ROOT / ".check_tmp"
-    tmp_parent.mkdir(exist_ok=True)
-    out_root = tmp_parent / f"static_{uuid.uuid4().hex}"
     try:
-        code = run([sys.executable, "scripts/export_static_site.py"], env={"BEIDOU_STATIC_OUT_ROOT": str(out_root)})
-        if code != 0:
-            return code
-        for validator in [validate_static_data, validate_static_html]:
-            code = validator(out_root)
+        commands = [
+            [
+                sys.executable,
+                "-m",
+                "py_compile",
+                "beidou_monitor_site/preview_server.py",
+                "scripts/export_static_site.py",
+                "scripts/radar_dashboard.py",
+                "scripts/premarket_mover_scan.py",
+            ],
+            [sys.executable, "-m", "unittest", "discover", "-s", "beidou_us_radar/tests", "-p", "test_*.py"],
+        ]
+        for command in commands:
+            code = run(command)
             if code != 0:
                 return code
-    finally:
-        shutil.rmtree(out_root, ignore_errors=True)
+
+        tmp_parent = ROOT / ".check_tmp"
+        tmp_parent.mkdir(exist_ok=True)
+        out_root = tmp_parent / f"static_{uuid.uuid4().hex}"
         try:
-            tmp_parent.rmdir()
-        except OSError:
-            pass
+            code = run([sys.executable, "scripts/export_static_site.py"], env={"BEIDOU_STATIC_OUT_ROOT": str(out_root)})
+            if code != 0:
+                return code
+            for validator in [validate_static_data, validate_static_html]:
+                code = validator(out_root)
+                if code != 0:
+                    return code
+        finally:
+            shutil.rmtree(out_root, ignore_errors=True)
+            try:
+                tmp_parent.rmdir()
+            except OSError:
+                pass
+    finally:
+        cleanup_pycache()
     return 0
 
 

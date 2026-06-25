@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import sys
 from datetime import datetime, timezone
@@ -63,12 +64,46 @@ def build_static_html(source_html: str) -> str:
         f"throw new Error('{STATIC_REFRESH_MESSAGE}');",
     )
     html = html.replace(
-        'onclick="refreshNow()">',
-        f'onclick="refreshNow()" title="{STATIC_REFRESH_MESSAGE}">',
+        """'<button class="tag blue" id="refreshBtn" onclick="refreshNow()">立即更新</button>'""",
+        """'<span class="tag gray" title="静态网站请重新导出数据后部署">静态快照</span>'""",
+    )
+    html = re.sub(
+        r"async function refreshNow\(\)\{.*?\}\n    function renderOverview",
+        "async function refreshNow(){throw new Error('静态网站不支持在线刷新，请更新数据后重新导出。')}\n    function renderOverview",
+        html,
+        count=1,
     )
     if GENERATED_NOTICE not in html:
         html = html.replace("<!doctype html>", f"<!doctype html>\n{GENERATED_NOTICE}", 1)
     return html
+
+
+def sanitize_public_static_data(data: object, source_root: Path) -> object:
+    replacements = {
+        str(source_root): "local-radar-source",
+        str(DEFAULT_SOURCE_ROOT): "local-radar-source",
+        str(ROOT): "beidou-site-repo",
+        str(WEB_ROOT): "beidou-site-builtin-files",
+        "http://127.0.0.1:8766/api/live": "internal-live-api",
+        "http://127.0.0.1:8766": "internal-live-api",
+        "http://localhost:8766/api/live": "internal-live-api",
+        "http://localhost:8766": "internal-live-api",
+    }
+
+    def clean_string(value: str) -> str:
+        cleaned = value
+        for old, new in replacements.items():
+            cleaned = cleaned.replace(old, new)
+        cleaned = re.sub(r"[A-Za-z]:\\[^\s\"']+", "local-path-redacted", cleaned)
+        return cleaned
+
+    if isinstance(data, dict):
+        return {key: sanitize_public_static_data(value, source_root) for key, value in data.items()}
+    if isinstance(data, list):
+        return [sanitize_public_static_data(item, source_root) for item in data]
+    if isinstance(data, str):
+        return clean_string(data)
+    return data
 
 
 def validate_static_html(html: str) -> None:
@@ -109,13 +144,14 @@ def main() -> None:
     age_hours = snapshot_age_hours(data)
     data["status"]["staticExport"] = {
         "enabled": True,
-        "sourceRoot": str(source_root),
+        "sourceRoot": "local-radar-source",
         "eventCount": len(data.get("events", [])),
         "topEventCount": len(data.get("homeV1", {}).get("topEvents", [])),
         "snapshotAgeHours": age_hours,
         "isStale": age_hours is None or age_hours > 24,
         "note": "Static snapshot for Pages deployment. Refresh the source radar data, then rerun scripts/export_static_site.py.",
     }
+    data = sanitize_public_static_data(data, source_root)
     (out_root / "api" / "webdata.json").write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",

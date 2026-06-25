@@ -1462,11 +1462,13 @@ def build_webdata() -> dict:
                 return {
                     "label": "UUP 美元ETF代理",
                     "symbol": "UUP",
+                    "verificationStatus": "代理指标，待DXY官方源核验",
                     "sourceNote": "当前免费源返回的是UUP美元ETF价格，不是真正DXY美元指数；DXY需以ICE/MarketWatch等指数源核验。",
                 }
             return {
                 "label": "DXY 美元指数",
                 "symbol": matched or "DXY",
+                "verificationStatus": "待DXY官方源核验",
                 "sourceNote": "美元指数口径；仍需以ICE/MarketWatch等指数源核验。",
             }
         if requested_symbol == "Gold":
@@ -1474,17 +1476,20 @@ def build_webdata() -> dict:
                 return {
                     "label": f"{matched} 黄金ETF代理",
                     "symbol": matched,
+                    "verificationStatus": "代理指标，待现货黄金/COMEX核验",
                     "sourceNote": f"当前免费源返回的是{matched}黄金ETF价格，不是现货黄金/COMEX黄金；现货黄金需单独核验。",
                 }
             if matched == "GC=F":
                 return {
                     "label": "COMEX黄金期货代理",
                     "symbol": "GC=F",
+                    "verificationStatus": "期货代理，待现货黄金核验",
                     "sourceNote": "当前免费源返回的是COMEX黄金期货价格，不是现货黄金；现货黄金需单独核验。",
                 }
             return {
                 "label": "黄金代理指标",
                 "symbol": matched or "Gold",
+                "verificationStatus": "代理指标，待黄金官方/高可信源核验",
                 "sourceNote": "当前免费源返回的是黄金相关代理价格，不保证是现货黄金；现货黄金需单独核验。",
             }
         return {}
@@ -1509,6 +1514,7 @@ def build_webdata() -> dict:
             "quoteStatus": "ok" if price is not None else "未取得",
             "displayPrice": price if price is not None else "未取得",
             "displayChange": change if change is not None else "未取得",
+            "verificationStatus": "本地行情快照，待外部公开源核验" if price is not None else "未取得，无法核验",
             "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。",
         }
         item.update(instrument_quote_note(symbol, matched_symbol))
