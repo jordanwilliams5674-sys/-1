@@ -24,11 +24,18 @@ def run(command: list[str], env: dict[str, str] | None = None) -> int:
 def validate_static_data(out_root: Path) -> int:
     path = out_root / "api" / "webdata.json"
     data = json.loads(path.read_text(encoding="utf-8"))
+    instruments = data.get("market", {}).get("instruments", [])
+    by_original_symbol = {item.get("symbol"): item for item in instruments}
+    labels = {item.get("label") for item in instruments}
+    missing_price_items = [item for item in instruments if item.get("price") is None]
     checks = {
         "schemaVersion": data.get("schemaVersion") == "beidou_monitor_site_v1",
         "watchlist_nonempty": len(data.get("watchlist", [])) > 0,
         "no_public_holdings": data.get("holdings", []) == [],
         "static_export_marker": bool(data.get("status", {}).get("staticExport", {}).get("enabled")),
+        "dxy_not_mislabeled": "DXY" not in labels and bool(by_original_symbol.get("UUP", {}).get("sourceNote")),
+        "gold_not_mislabeled": "Gold" not in labels and bool(by_original_symbol.get("GLD", {}).get("sourceNote")),
+        "missing_quotes_marked": all(item.get("quoteStatus") == "未取得" and item.get("displayPrice") == "未取得" for item in missing_price_items),
     }
     failed = [name for name, ok in checks.items() if not ok]
     if failed:

@@ -1455,6 +1455,18 @@ def build_webdata() -> dict:
             "latest_research_event": evs[0]["summary"] if evs else "观察池只进入研究队列，不按实仓防守提醒。",
         })
 
+    instrument_overrides = {
+        "DXY": {
+            "label": "UUP 美元ETF代理",
+            "symbol": "UUP",
+            "sourceNote": "当前免费源返回的是UUP美元ETF价格，不是真正DXY美元指数；DXY需以ICE/MarketWatch等指数源核验。",
+        },
+        "Gold": {
+            "label": "GLD 黄金ETF代理",
+            "symbol": "GLD",
+            "sourceNote": "当前免费源返回的是GLD黄金ETF价格，不是现货黄金/COMEX黄金；现货黄金需单独核验。",
+        },
+    }
     instruments = []
     rows = (live.get("美国指数") or []) + (live.get("实时快照") or [])
     aliases = {
@@ -1464,7 +1476,20 @@ def build_webdata() -> dict:
     }
     for label, symbol in [("SPY", "SPY"), ("QQQ", "QQQ"), ("DIA", "DIA"), ("IWM", "IWM"), ("SOXX", "SOXX"), ("VIX", "VIX"), ("DXY", "DXY"), ("10Y Yield", "10Y"), ("Gold", "Gold"), ("BTC", "BTC")]:
         row = next((r for r in rows if text(r.get("标的") or r.get("股票代码") or r.get("symbol")).upper() in {x.upper() for x in aliases[symbol]}), {})
-        instruments.append({"label": label, "symbol": symbol, "price": number(row.get("当前价格")), "change": number(row.get("当前涨跌幅"))})
+        price = number(row.get("当前价格"))
+        change = number(row.get("当前涨跌幅"))
+        item = {
+            "label": label,
+            "symbol": symbol,
+            "price": price,
+            "change": change,
+            "quoteStatus": "ok" if price is not None else "未取得",
+            "displayPrice": price if price is not None else "未取得",
+            "displayChange": change if change is not None else "未取得",
+            "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。",
+        }
+        item.update(instrument_overrides.get(symbol, {}))
+        instruments.append(item)
 
     health = []
     for row in layer.get("健康检查") or []:
