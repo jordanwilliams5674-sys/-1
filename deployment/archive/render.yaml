@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: beidou-investment-site
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python beidou_monitor_site/preview_server.py"
+    healthCheckPath: "/health"
