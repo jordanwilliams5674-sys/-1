@@ -1,87 +1,31 @@
-# 北斗盘前异动雷达 / premarket_mover_radar
+# Beidou investment research website
 
-Last updated: 2026-06-03
+This repository is the deployment package for the Beidou investment research dashboard.
 
-本项目用于每天美股开盘前生成“人工判断前的短线异动线索”。它不是自动交易系统，不自动下单，不承诺盈利，不把任何单一数据源直接升级为买入或卖出建议。
+## Safety boundary
 
-## 安全边界
+- Research and risk-warning dashboard only.
+- No automatic trading.
+- No broker, bank, payment, password, verification-code, or 2FA handling.
+- No live broker connection.
+- No order placement.
+- No buy/sell instruction generation.
+- Social-media or low-confidence signals must remain research leads until verified by official sources or high-confidence media.
 
-- 这不是自动交易系统。
-- 不自动下单。
-- 不承诺盈利。
-- 盘前流动性低、价差大、波动极端。
-- 任何提醒都只是“人工判断前的线索”。
-- 社媒未确认消息不能作为买入依据。
-- 高涨幅股票优先判断是否已计价，不鼓励追高。
-- 遇到增发、稀释、退市、破产、诉讼、财报暴雷，应优先标记风险。
+## Current deployment
 
-## 执行原则
+- Primary deployment path: Cloudflare Pages.
+- Static output directory: `docs`.
+- Static page source: `beidou_monitor_site/preview_dashboard.html`.
+- Generated static page: `docs/index.html`.
+- Generated static data: `docs/api/webdata.json`.
 
-- 所有信息先分为：事实、假设、市场情绪、投机叙事。
-- 数据源只用于交叉验证，不直接生成买卖建议。
-- 13F、国会议员交易、社交媒体、另类数据都有滞后或噪音，不能单独触发交易结论。
-- 盘前异动必须同时看“真实催化 + 盘前量价 + 风险边界”，不能只看涨跌幅。
-- 没有官方或高可信来源验证前，不要把消息升级成正式北斗提醒。
-- “追 / 等30-60分钟 / 小仓研究 / 减风险 / 只看”是研究标签，不是自动交易指令。
+## Data boundary
 
-## 扫描时间
+- Public site data must not include real account balances, broker names, cost basis, position size, passwords, tokens, screenshots, or verification codes.
+- `data/holdings_accounts/accounts.json` is intentionally sanitized.
+- Watchlist data is research-only and does not imply a position or a trade.
 
-按北京时间运行：
+## Removed trading code
 
-- 15:30：提前扫新闻、财报、SEC、盘前前夜消息、世界级人物公开表态、社媒发酵。此时不能只靠价格异动。
-- 16:05：美股盘前刚开始后，第一次扫真实盘前异动。
-- 20:30：美股盘前中后段，流动性更好，筛选更有效。
-- 21:20：美股正式开盘前 10 分钟，输出最后一版“开盘前短线观察”。
-
-美股盘前时间按美东时间自动换算，夏令时/冬令时由 Python `zoneinfo` 处理。正常情况下，美股盘前约为美东 04:00-09:30，北京时间约 16:00-21:30。
-
-## 输出要求
-
-每次扫描只输出最重要的 3-7 个候选，使用中文手机短版。必须说明：
-
-- 发生了什么。
-- 为什么异动。
-- 资料来源。
-- 是否和北斗观察池有关。
-- 是否新消息、旧消息新发酵或旧消息重复。
-- 是否可能已计价。
-- 最大风险。
-- 操作标签：追 / 等30-60分钟 / 小仓研究 / 减风险 / 只看。
-
-## 强提醒、观察提醒、过滤
-
-强提醒通常满足多数条件：
-
-- 盘前涨跌幅 >= 6%。
-- 盘前成交量明显放大，至少 50,000 股以上，或明显高于平常盘前量。
-- 有财报、指引、订单、合同、政府合同、并购、融资、回购、FDA/监管、重大客户合作、AI/国防/数据中心相关公告。
-- 世界级人物或世界级企业公开点名、合作、同台、演讲提到该公司，并且有高可信来源确认。
-- 分析师大幅上调/下调评级或目标价，且盘前有价格确认。
-
-观察提醒通常满足：
-
-- 涨跌幅 3%-6%，并且有新闻。
-- 无明显新闻但成交量异常。
-- 与北斗观察池高度相关。
-
-过滤或低优先级：
-
-- 低价垃圾股无新闻暴涨。
-- 盘前成交量太小，只有几百股或几千股。
-- 买卖价差过大。
-- 只有社媒截图，没有官方或高可信来源。
-- 旧消息重复。
-- 盘前涨幅很大但原因是二次发行、稀释、破产重组、退市风险、诉讼等高风险事件。
-- 已经暴涨 20% 以上且无明确可持续催化，标记为“已计价/只看”。
-
-## Dodex Phase 1 工程规则
-
-- 修改交易相关代码时，必须优先保护安全边界。
-- 不得绕过 `RiskManager`。
-- 不得绕过 `AuditLog`。
-- 不得在第一阶段实现真实交易所下单。
-- 不得读取或提交 `.env`、API key、secret。
-- 所有交易功能必须先支持 paper trading。
-- 所有新增功能必须更新 `docs/architecture.md` 或 `docs/trading-roadmap.md`。
-- 如果存在测试框架，新增或更新测试。
-- 如果没有测试框架，至少保证 CLI 命令能运行，并在报告中说明。
+Dodex `live`, `paper`, and `backtest` entrypoints are not part of this website deployment repository. See `docs/dodex-removed.md`.
