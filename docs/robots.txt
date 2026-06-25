@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://beidou-investment-site.pages.dev/sitemap.xml

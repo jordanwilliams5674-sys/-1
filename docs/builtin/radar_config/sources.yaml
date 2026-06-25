@@ -1,0 +1,78 @@
+module: beidou_us_radar_sources
+version: 1
+
+source_rules:
+  fact_anchor: "财报、公告、增发、风险披露以 SEC EDGAR 和公司 IR 为最高优先级。"
+  market_data_rule: "行情只说明价格变化，不能替代财报、公告或 IR。"
+  social_rule: "社媒只能做早期线索，必须标记未确认，不能直接触发交易提醒。"
+  dedupe_window_hours: 48
+  required_fields: [source, timestamp, credibility, staleness_flag]
+
+disabled_a_share_sources:
+  - name: mootdx
+    status: disabled
+    reason: A股通达信 TCP 数据源，只适合 A 股 K线、盘口、F10。
+  - name: 同花顺热点
+    status: disabled
+    reason: A股题材热度和强势股接口。
+  - name: 百度股市通 PAE
+    status: disabled
+    reason: 主要用于 A股概念板块、资金流和 K线。
+  - name: iwencai
+    status: disabled
+    reason: A股自然语言选股且需要鉴权。
+  - name: Ashare
+    status: disabled
+    reason: 教学项目，停更风险高。
+  - name: tushare
+    status: disabled_as_core
+    reason: 不作为核心源；如后续使用，只能低优先级备选并做鉴权、字段和延迟检查。
+
+priority_1_official:
+  - name: SEC EDGAR
+    provider: providers/sec_edgar.py
+    source_kind: sec
+    source_tier: official
+    uses: [10-K, 10-Q, 8-K, S-1, S-3, 424B, Form 4, 13F, ATM, dilution, risk disclosure]
+  - name: Company IR / Newsroom
+    provider: providers/company_ir.py
+    source_kind: company_ir
+    source_tier: official
+    uses: [earnings release, guidance, investor presentation, conference call, orders, partnership, dividend, buyback]
+  - name: Official Macro
+    provider: providers/macro_official.py
+    source_kind: macro_official
+    source_tier: official
+    uses: [FRED, BLS, BEA, U.S. Treasury, Federal Reserve]
+  - name: Exchange / Index Official
+    source_kind: exchange
+    source_tier: official
+    uses: [Nasdaq, NYSE, CBOE, S&P Dow Jones Indices]
+
+priority_2_market_auxiliary:
+  - name: akshare_us
+    provider: providers/akshare_us.py
+    source_kind: akshare_aux
+    source_tier: auxiliary
+    uses: [get_us_stock_name, stock_us_spot, stock_us_daily, stock_us_hist_min_em, stock_financial_us_report_em, stock_financial_us_analysis_indicator_em, stock_us_valuation_baidu]
+    restriction: "免费辅助源；重要财报和公告必须回到 SEC 或公司 IR 验证。"
+  - name: Tencent US Finance
+    source_kind: market_data
+    source_tier: auxiliary_low
+    uses: [delayed_quote_cross_check]
+  - name: Optional Commercial APIs
+    source_kind: commercial_optional
+    source_tier: optional
+    uses: [Polygon, Finnhub, Alpha Vantage, IEX Cloud, Benzinga, Market Chameleon, Quartr, Koyfin]
+    restriction: "只有用户提供 API Key 后启用。"
+
+priority_3_news_and_signal:
+  - name: Trusted News
+    provider: providers/news_rss.py
+    source_kind: reliable_news
+    sources: [Reuters, Bloomberg, WSJ, CNBC, FT, AP, MarketWatch]
+  - name: Social Radar
+    provider: providers/social_radar.py
+    source_kind: social
+    sources: [X, Reddit, YouTube, Stocktwits, Serenity]
+    restriction: "社媒早期线索/未确认。"

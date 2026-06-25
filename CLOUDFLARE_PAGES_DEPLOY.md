@@ -2,6 +2,14 @@
 
 Use Cloudflare Pages for this repository. Render asked for a payment card, so Render is no longer the active deployment path.
 
+Expected public URL:
+
+```text
+https://beidou-investment-site.pages.dev
+```
+
+If Cloudflare assigns a different project URL, set `BEIDOU_PUBLIC_SITE_URL` before running `scripts/export_static_site.py` so `sitemap.xml`, canonical URL, and Open Graph URL match the real public site.
+
 ## Fill These Fields
 
 When Cloudflare asks for project settings, use:
@@ -29,6 +37,9 @@ Cloudflare Pages serves the static files in `docs`.
 - Homepage: `docs/index.html`
 - Static data: `docs/api/webdata.json`
 - Health text file: `docs/health.txt`
+- Robots and sitemap: `docs/robots.txt`, `docs/sitemap.xml`
+- Favicon: `docs/favicon.svg`
+- Built-in reference files: `docs/builtin/`
 
 The repository root intentionally does not contain `render.yaml`. The archived Render config is under `docs/deployment/archive/` for reference only.
 
@@ -50,7 +61,7 @@ python scripts\export_static_site.py
 Then commit and push:
 
 ```powershell
-git add docs/index.html docs/api/webdata.json
+git add docs/index.html docs/api/webdata.json docs/robots.txt docs/sitemap.xml docs/favicon.svg docs/builtin
 git commit -m "Refresh static Beidou snapshot"
 git push origin main
 ```
@@ -62,8 +73,9 @@ Cloudflare should redeploy from `main`.
 After deployment, open the Cloudflare URL and check:
 
 - The page title shows `北斗投研雷达`.
-- `今日最重要事件` is visible.
-- `观察池`, `研究池`, `事件雷达`, `资料库`, and `风险提醒` are visible.
+- `今日最重要事件`, `市场快照`, `观察池`, `研究池`, `事件雷达`, `资料库`, `数据源健康`, and `风险提醒` are visible.
+- The top bar shows `静态快照`, not a live refresh button.
+- Built-in reference links under `/builtin/...` open correctly.
 - No broker login, payment, password, 2FA, or trading page is opened.
 
 If the page is blank, verify that Cloudflare's output directory is exactly:

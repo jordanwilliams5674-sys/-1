@@ -1,0 +1,38 @@
+ticker,name,category,theme,status,rule,notes
+PEP,PepsiCo,Watch,Defensive Consumer,Watch,Former holding moved to watchlist,No position size/cost/account retained
+KO,Coca-Cola,Watch,Defensive Consumer,Watch,Former holding moved to watchlist,No position size/cost/account retained
+AEP,American Electric Power,Watch,Utility/AI Power,Watch,Former holding moved to watchlist,No position size/cost/account retained
+CSIQ,Canadian Solar,Watch,Solar/Tariff,Watch,Former holding moved to watchlist,No position size/cost/account retained
+CRCL,Circle Internet Group,Watch,Crypto/Stablecoin Regulation,Watch,Former holding moved to watchlist,No position size/cost/account retained
+SQQQ,ProShares UltraPro Short QQQ,Watch,Market Hedge ETF,Watch,Former holding moved to watchlist,No position size/cost/account retained
+SOXS,Direxion Daily Semiconductor Bear 3X Shares,Watch,Semiconductor Hedge ETF,Watch,Former holding moved to watchlist,No position size/cost/account retained
+INTC,Intel,Watch,Semiconductor,Watch,Former holding moved to watchlist,No position size/cost/account retained
+RGTI,Rigetti Computing,C,Quantum,Watch,Former holding moved to watchlist,No position size/cost/account retained
+GOLD_BASKET,Gold Basket,Macro,Gold/Dollar/Rates,Watch,Former holding moved to watchlist,No gram/cost/account retained
+NVDA,Nvidia,A,AI Infrastructure,Watch,Only research after valuation and thesis support,
+AVGO,Broadcom,A,AI Infrastructure,Watch,Only research after valuation and thesis support,
+TSM,TSMC,A,Foundry/AI Semiconductor,Watch,Only research after valuation and thesis support,
+ORCL,Oracle,A,AI Cloud/RPO/OCI,Watch Pending Holding Confirmation,Check RPO to revenue capex FCF debt,
+ANET,Arista Networks,A,AI Networking,Watch,Only research after valuation and thesis support,
+PANW,Palo Alto Networks,A,Cybersecurity,Watch,Only research after valuation and thesis support,
+CRWD,CrowdStrike,A,AI Security,Watch,Only research after valuation and thesis support,
+CEG,Constellation Energy,A,AI Power Elasticity,Watch,Not true defensive utility,
+VST,Vistra,A,AI Power Elasticity,Watch,Not true defensive utility,
+AMKR,Amkor,B,Advanced Packaging/OSAT,Sold Watch,Not actual holding,
+ASX,ASE Technology,B,Advanced Packaging/OSAT,Sold Watch,Not actual holding,
+NOK,Nokia,B,AI-RAN/6G/Data Center Network,Watch Pending Holding Confirmation,
+WDC,Western Digital,B,AI Storage/NAND/HDD,Watch,
+CIEN,Ciena,B,Optical Networking,Watch,
+CRDO,Credo,B,AI Interconnect,Watch,
+MRVL,Marvell,B,AI Networking/Custom Silicon/CPO,Watch Pending Holding Confirmation,
+DELL,Dell,B,AI Server,Watch,
+HPE,HPE,B,AI Server/Networking,Watch,
+SMCI,Super Micro Computer,B,AI Server,Watch,
+OUST,Ouster,C,Physical AI/Lidar,Watch,Only small research after low price + new catalyst + volume confirmation,
+QBTS,D-Wave,C,Quantum,Watch,
+QUBT,Quantum Computing Inc,C,Quantum,Watch,
+IONQ,IonQ,C,Quantum,Watch,
+SMR,NuScale Power,C,SMR/Nuclear/AI Power,Watch,High volatility not defensive utility,
+BB,BlackBerry,C,QNX/Embedded Software,Watch,
+QCOM,Qualcomm,D,Signal Source,Observation Only,
+DASH,DoorDash,Excluded,Consumer,Do Not Add,

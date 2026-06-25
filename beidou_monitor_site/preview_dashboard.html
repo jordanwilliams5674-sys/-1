@@ -4,6 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>北斗投研雷达</title>
+  <meta name="description" content="北斗投研雷达是研究和风险提醒仪表盘，展示市场快照、重点事件、观察池、研究池、数据源健康和风险提示，不连接券商，不提供自动交易。">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="__PUBLIC_SITE_URL__/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="北斗投研雷达">
+  <meta property="og:description" content="研究和风险提醒仪表盘：市场快照、重点事件、观察池、研究池、数据源健康和风险提示。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="__PUBLIC_SITE_URL__/">
   <style>
     :root{--bg:#0b0f14;--panel:#121922;--panel2:#172230;--line:#28384d;--text:#e9f0f7;--muted:#94a3b5;--blue:#4f8cff;--green:#22b573;--red:#e65757;--yellow:#d9a441;--cyan:#34b6c6;--shadow:0 18px 44px rgba(0,0,0,.34);--r:8px}
     *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Microsoft YaHei",sans-serif}.page{width:100%;max-width:1680px;margin:0 auto;padding:18px;display:grid;gap:14px}.topbar{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:12px}
@@ -24,6 +32,7 @@
     </div>
     <section class="panel overview" id="overview"></section>
     <section class="section"><div class="head"><div><h2>市场快照</h2><p class="muted">公开免费行情源快照；ETF 代理和空值会明确标注。</p></div><span class="tag gray">非实时交易依据</span></div><div class="marketGrid" id="marketInstruments"></div></section>
+    <div class="disclaimer" id="snapshotNotice"></div>
     <section class="section"><div class="head"><h2>今日最重要事件</h2><span class="tag yellow">3-5 条</span></div><div class="eventGrid" id="topEvents"></div></section>
     <section class="section"><div class="head"><h2>重点标的</h2><span class="tag blue">北斗关注权重</span></div><div class="focusGrid" id="focusSymbols"></div></section>
     <div class="disclaimer" id="disclaimer"></div>
@@ -31,6 +40,7 @@
     <section class="section"><div class="head"><h2>研究池</h2><span class="tag green">主题资料</span></div><div class="researchGrid" id="researchPool"></div></section>
     <section class="section"><div class="head"><h2>事件雷达</h2><span class="tag yellow">按事件，不堆股票</span></div><div class="radarList" id="eventRadar"></div></section>
     <section class="section"><div class="head"><h2>资料库</h2><span class="tag blue">北斗 / 七星资料</span></div><div class="libraryList" id="library"></div></section>
+    <section class="section"><div class="head"><h2>数据源健康</h2><span class="tag green">公开可信度</span></div><div class="radarList" id="sourceHealth"></div></section>
     <section class="section"><div class="head"><h2>风险提醒</h2><span class="tag red">先核验</span></div><div class="riskList" id="risks"></div></section>
   </main>
   <script>
@@ -50,8 +60,9 @@
     function renderResearch(rows){el('researchPool').innerHTML=rows?.length?rows.map(r=>`<article class="card researchCard"><div class="head"><h3>${esc(r.topic)}</h3>${tag(r.sourceType,'gray')}</div><div class="symbolLine">${tags(r.relatedSymbols,'green')}</div><p class="muted" style="margin-top:8px">${esc(r.researchReason)}</p>${kv([['北斗结论',r.beidouConclusion],['下一步动作',r.nextAction],['更新时间',r.updatedAt]])}</article>`).join(''):empty('暂无研究池主题。')}
     function renderRadar(rows){el('eventRadar').innerHTML=rows?.length?rows.map(e=>`<article class="radarRow"><div><h3>${esc(e.eventTitle)}</h3><p class="muted">${esc(e.beidouJudgement)}</p>${socialWarn(e)}</div><div>${toneTag(e.impactDirection)} ${toneTag(e.sourceStatus)} ${toneTag(e.expiryStatus)}<div class="symbolLine">${tags(e.relatedSymbols,'blue')}</div></div>${kv([['事件时间',e.eventTime],['来源',e.source],['更新时间',e.updatedAt]])}</article>`).join(''):empty('暂无事件雷达内容。')}
     function renderLibrary(rows){el('library').innerHTML=rows?.length?rows.map(f=>`<article class="libraryRow"><div><h3>${f.url?`<a href="${esc(f.url)}" target="_blank" rel="noreferrer">${esc(f.title)}</a>`:esc(f.title)}</h3><p class="muted">${esc(f.oneLineConclusion)}</p></div><div>${tag(f.beidouAbsorbStatus,'blue')}<p class="muted" style="margin-top:8px">${esc(f.category)}</p></div>${kv([['最后更新',f.lastUpdated],['原始文件',f.fileName]])}</article>`).join(''):empty('暂无资料库内容。')}
+    function renderSourceHealth(rows){el('sourceHealth').innerHTML=rows?.length?rows.map(s=>`<article class="radarRow"><div><h3>${esc(s.source_name)}</h3><p class="muted">${esc(s.layer)}</p></div><div>${tag(s.status,s.status==='active'?'green':s.status==='disabled'?'gray':'yellow')} ${tag(s.credibility_level||'待确认','blue')}</div>${kv([['最后成功',s.last_success_time],['错误数',s.error_count],['过期数',s.stale_count],['限流状态',s.rate_limit_status]])}</article>`).join(''):empty('暂无数据源健康信息。')}
     function renderRisks(rows){el('risks').innerHTML=rows?.length?rows.map(r=>`<article class="riskRow"><div><h3>${esc(r.riskTitle)}</h3><div class="symbolLine">${tags(r.affectedSymbols,'yellow')}</div></div><div>${tag(r.riskLevel,'yellow')}</div><div><p class="muted">${esc(r.riskReason)}</p>${kv([['北斗动作',r.beidouAction],['更新时间',r.updatedAt]])}</div></article>`).join(''):empty('暂无风险提醒。')}
-    async function main(){const res=await fetch('/api/webdata?ts='+Date.now());const raw=await res.json();const data=raw.homeV1||{},scan=raw.status?.scan||{};el('topMeta').innerHTML=tag(raw.market?.sessionLabel||'状态待确认','gray')+tag(scanLabel(scan),scan.running?'yellow':scan.scan_enabled===false?'red':'green')+tag(`快照 ${raw.market?.beijingTime||'-'}`,'blue')+'<button class="tag blue" id="refreshBtn" onclick="refreshNow()">立即更新</button>';renderOverview(data);renderMarket(raw.market?.instruments);renderTopEvents(data.topEvents);renderFocus(data.focusSymbols);el('disclaimer').textContent=data.disclaimer||'';renderWatch(data.watchPool);renderResearch(data.researchPool);renderRadar(data.eventRadar);renderLibrary(data.library);renderRisks(data.risks);const seconds=Number(raw.market?.refreshPolicy?.intervalSeconds||300);if(refreshTimer)clearTimeout(refreshTimer);refreshTimer=setTimeout(()=>main().catch(showError),(scan.running?15:Math.max(30,seconds))*1000)}
+    async function main(){const res=await fetch('/api/webdata?ts='+Date.now());const raw=await res.json();const data=raw.homeV1||{},scan=raw.status?.scan||{},staticExport=raw.status?.staticExport||{};el('topMeta').innerHTML=tag(raw.market?.sessionLabel||'状态待确认','gray')+tag(scanLabel(scan),scan.running?'yellow':scan.scan_enabled===false?'red':'green')+tag(`快照 ${raw.market?.beijingTime||'-'}`,'blue')+'<button class="tag blue" id="refreshBtn" onclick="refreshNow()">立即更新</button>';el('snapshotNotice').textContent=`本页为静态快照，非实时行情或交易依据；快照年龄 ${staticExport.snapshotAgeHours??'-'} 小时，超过 24 小时需重新导出。`;renderOverview(data);renderMarket(raw.market?.instruments);renderTopEvents(data.topEvents);renderFocus(data.focusSymbols);el('disclaimer').textContent=data.disclaimer||'';renderWatch(data.watchPool);renderResearch(data.researchPool);renderRadar(data.eventRadar);renderLibrary(data.library);renderSourceHealth(raw.sourceHealth);renderRisks(data.risks);const seconds=Number(raw.market?.refreshPolicy?.intervalSeconds||300);if(refreshTimer)clearTimeout(refreshTimer);refreshTimer=setTimeout(()=>main().catch(showError),(scan.running?15:Math.max(30,seconds))*1000)}
     function showError(err){document.body.innerHTML=`<pre style="white-space:pre-wrap;color:white;padding:20px">${esc(err.stack||err)}</pre>`}
     main().catch(showError);
   </script>

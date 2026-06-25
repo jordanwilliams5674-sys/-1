@@ -7,6 +7,7 @@ The site is research-only. It does not connect to brokers, place orders, run liv
 ## Current Deployment
 
 - Platform: Cloudflare Pages
+- Public URL: `https://beidou-investment-site.pages.dev`
 - Repository: `jordanwilliams5674-sys/-`
 - Branch: `main`
 - Build command: leave blank
@@ -20,6 +21,8 @@ See `CLOUDFLARE_PAGES_DEPLOY.md` for step-by-step setup.
 - `beidou_monitor_site/preview_dashboard.html`: single dashboard HTML source.
 - `docs/index.html`: generated static page for Cloudflare Pages. Do not edit directly.
 - `docs/api/webdata.json`: generated static data snapshot.
+- `docs/robots.txt`, `docs/sitemap.xml`, `docs/favicon.svg`: generated public-site support files.
+- `docs/builtin/`: generated static copy of readable built-in Beidou/Qixing reference files.
 - `scripts/export_static_site.py`: exports the static site from the source dashboard and local Beidou data.
 - `CLOUDFLARE_PAGES_DEPLOY.md`: Cloudflare Pages setup guide.
 - `docs/dodex-removed.md`: explains why trading execution entrypoints are not part of this site repo.
