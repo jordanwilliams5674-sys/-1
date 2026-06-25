@@ -25,16 +25,17 @@ def validate_static_data(out_root: Path) -> int:
     path = out_root / "api" / "webdata.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     instruments = data.get("market", {}).get("instruments", [])
-    by_original_symbol = {item.get("symbol"): item for item in instruments}
     labels = {item.get("label") for item in instruments}
     missing_price_items = [item for item in instruments if item.get("price") is None]
+    dxy_items = [item for item in instruments if "美元" in str(item.get("label")) or item.get("sourceSymbol") in {"DXY", "DX-Y.NYB", "UUP"}]
+    gold_items = [item for item in instruments if "黄金" in str(item.get("label")) or item.get("sourceSymbol") in {"Gold", "GLD", "IAU", "GC=F"}]
     checks = {
         "schemaVersion": data.get("schemaVersion") == "beidou_monitor_site_v1",
         "watchlist_nonempty": len(data.get("watchlist", [])) > 0,
         "no_public_holdings": data.get("holdings", []) == [],
         "static_export_marker": bool(data.get("status", {}).get("staticExport", {}).get("enabled")),
-        "dxy_not_mislabeled": "DXY" not in labels and bool(by_original_symbol.get("UUP", {}).get("sourceNote")),
-        "gold_not_mislabeled": "Gold" not in labels and bool(by_original_symbol.get("GLD", {}).get("sourceNote")),
+        "dxy_not_mislabeled": "DXY" not in labels and all(item.get("sourceNote") for item in dxy_items),
+        "gold_not_mislabeled": "Gold" not in labels and all(item.get("sourceNote") for item in gold_items) and all(str(item.get("sourceSymbol", "")).upper() in str(item.get("label", "")).upper() for item in gold_items if str(item.get("sourceSymbol", "")).upper() in {"GLD", "IAU"}),
         "missing_quotes_marked": all(item.get("quoteStatus") == "未取得" and item.get("displayPrice") == "未取得" for item in missing_price_items),
     }
     failed = [name for name, ok in checks.items() if not ok]

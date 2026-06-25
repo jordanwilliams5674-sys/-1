@@ -23,6 +23,7 @@ See `CLOUDFLARE_PAGES_DEPLOY.md` for step-by-step setup.
 - `scripts/export_static_site.py`: exports the static site from the source dashboard and local Beidou data.
 - `CLOUDFLARE_PAGES_DEPLOY.md`: Cloudflare Pages setup guide.
 - `docs/dodex-removed.md`: explains why trading execution entrypoints are not part of this site repo.
+- `data/holdings_accounts/accounts.json`: sanitized placeholder only. It is not a real account data source.
 
 ## Refreshing Site Data
 
@@ -52,3 +53,4 @@ See `docs/testing.md` for details.
 - No order placement.
 - No real account balances, broker names, cost basis, or position sizes in the public site data.
 - Watchlist and event data are research signals only, not trading instructions.
+- `data/holdings_accounts/accounts.json` must remain empty of real account, broker, balance, cost, position-size, password, token, screenshot, and verification-code data.

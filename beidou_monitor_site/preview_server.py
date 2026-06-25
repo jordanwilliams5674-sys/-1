@@ -1455,18 +1455,39 @@ def build_webdata() -> dict:
             "latest_research_event": evs[0]["summary"] if evs else "观察池只进入研究队列，不按实仓防守提醒。",
         })
 
-    instrument_overrides = {
-        "DXY": {
-            "label": "UUP 美元ETF代理",
-            "symbol": "UUP",
-            "sourceNote": "当前免费源返回的是UUP美元ETF价格，不是真正DXY美元指数；DXY需以ICE/MarketWatch等指数源核验。",
-        },
-        "Gold": {
-            "label": "GLD 黄金ETF代理",
-            "symbol": "GLD",
-            "sourceNote": "当前免费源返回的是GLD黄金ETF价格，不是现货黄金/COMEX黄金；现货黄金需单独核验。",
-        },
-    }
+    def instrument_quote_note(requested_symbol: str, matched_symbol: str) -> dict:
+        matched = matched_symbol.upper()
+        if requested_symbol == "DXY":
+            if matched == "UUP":
+                return {
+                    "label": "UUP 美元ETF代理",
+                    "symbol": "UUP",
+                    "sourceNote": "当前免费源返回的是UUP美元ETF价格，不是真正DXY美元指数；DXY需以ICE/MarketWatch等指数源核验。",
+                }
+            return {
+                "label": "DXY 美元指数",
+                "symbol": matched or "DXY",
+                "sourceNote": "美元指数口径；仍需以ICE/MarketWatch等指数源核验。",
+            }
+        if requested_symbol == "Gold":
+            if matched in {"GLD", "IAU"}:
+                return {
+                    "label": f"{matched} 黄金ETF代理",
+                    "symbol": matched,
+                    "sourceNote": f"当前免费源返回的是{matched}黄金ETF价格，不是现货黄金/COMEX黄金；现货黄金需单独核验。",
+                }
+            if matched == "GC=F":
+                return {
+                    "label": "COMEX黄金期货代理",
+                    "symbol": "GC=F",
+                    "sourceNote": "当前免费源返回的是COMEX黄金期货价格，不是现货黄金；现货黄金需单独核验。",
+                }
+            return {
+                "label": "黄金代理指标",
+                "symbol": matched or "Gold",
+                "sourceNote": "当前免费源返回的是黄金相关代理价格，不保证是现货黄金；现货黄金需单独核验。",
+            }
+        return {}
     instruments = []
     rows = (live.get("美国指数") or []) + (live.get("实时快照") or [])
     aliases = {
@@ -1476,11 +1497,13 @@ def build_webdata() -> dict:
     }
     for label, symbol in [("SPY", "SPY"), ("QQQ", "QQQ"), ("DIA", "DIA"), ("IWM", "IWM"), ("SOXX", "SOXX"), ("VIX", "VIX"), ("DXY", "DXY"), ("10Y Yield", "10Y"), ("Gold", "Gold"), ("BTC", "BTC")]:
         row = next((r for r in rows if text(r.get("标的") or r.get("股票代码") or r.get("symbol")).upper() in {x.upper() for x in aliases[symbol]}), {})
+        matched_symbol = text(row.get("标的") or row.get("股票代码") or row.get("symbol"), symbol)
         price = number(row.get("当前价格"))
         change = number(row.get("当前涨跌幅"))
         item = {
             "label": label,
             "symbol": symbol,
+            "sourceSymbol": matched_symbol,
             "price": price,
             "change": change,
             "quoteStatus": "ok" if price is not None else "未取得",
@@ -1488,7 +1511,7 @@ def build_webdata() -> dict:
             "displayChange": change if change is not None else "未取得",
             "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。",
         }
-        item.update(instrument_overrides.get(symbol, {}))
+        item.update(instrument_quote_note(symbol, matched_symbol))
         instruments.append(item)
 
     health = []

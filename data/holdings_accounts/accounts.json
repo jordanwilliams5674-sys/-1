@@ -1,9 +1,10 @@
 {
-  "说明": "用户已要求删除实仓内容；当前北斗投研雷达只保留观察池，不保存账户、数量、成本、市值、盈亏或券商归属。",
-  "更新时间": "2026-06-07",
-  "账户列表": [],
-  "账户持仓": {},
-  "账户摘要": {},
-  "持仓列表": [],
-  "零股观察": []
+  "purpose": "sanitized_placeholder",
+  "description": "This file intentionally contains no real accounts, brokers, balances, position sizes, cost basis, screenshots, passwords, tokens, or verification codes.",
+  "updated_at": "2026-06-25",
+  "accounts": [],
+  "account_holdings": {},
+  "account_summary": {},
+  "positions": [],
+  "fractional_share_watch": []
 }
