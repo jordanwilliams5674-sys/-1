@@ -34,6 +34,16 @@ python scripts\export_static_site.py
 
 Then commit and push the changed `docs/index.html` and `docs/api/webdata.json`.
 
+## Checks
+
+Run the current site checks with:
+
+```powershell
+python run_beidou_checks.py
+```
+
+See `docs/testing.md` for details.
+
 ## Safety Boundary
 
 - No live broker connection.

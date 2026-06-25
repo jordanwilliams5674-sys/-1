@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB_ROOT = ROOT / "beidou_monitor_site"
-OUT_ROOT = ROOT / "docs"
+DEFAULT_OUT_ROOT = ROOT / "docs"
 DEFAULT_SOURCE_ROOT = Path(r"C:\premarket_mover_radar")
 STATIC_REFRESH_MESSAGE = "静态网站不支持在线刷新，请更新数据后重新导出。"
 GENERATED_NOTICE = (
@@ -20,6 +20,11 @@ GENERATED_NOTICE = (
 sys.path.insert(0, str(ROOT))
 
 from beidou_monitor_site import preview_server  # noqa: E402
+
+
+def resolve_out_root() -> Path:
+    configured = os.environ.get("BEIDOU_STATIC_OUT_ROOT")
+    return Path(configured) if configured else DEFAULT_OUT_ROOT
 
 
 def resolve_source_root() -> Path:
@@ -85,16 +90,17 @@ def validate_static_html(html: str) -> None:
 
 
 def main() -> None:
-    OUT_ROOT.mkdir(parents=True, exist_ok=True)
-    shutil.rmtree(OUT_ROOT / "api", ignore_errors=True)
-    for generated in [OUT_ROOT / "index.html", OUT_ROOT / ".nojekyll", OUT_ROOT / "health.txt"]:
+    out_root = resolve_out_root()
+    out_root.mkdir(parents=True, exist_ok=True)
+    shutil.rmtree(out_root / "api", ignore_errors=True)
+    for generated in [out_root / "index.html", out_root / ".nojekyll", out_root / "health.txt"]:
         if generated.exists():
             generated.unlink()
-    (OUT_ROOT / "api").mkdir(parents=True)
+    (out_root / "api").mkdir(parents=True)
 
     html = build_static_html((WEB_ROOT / "preview_dashboard.html").read_text(encoding="utf-8"))
     validate_static_html(html)
-    (OUT_ROOT / "index.html").write_text(html, encoding="utf-8")
+    (out_root / "index.html").write_text(html, encoding="utf-8")
 
     source_root = resolve_source_root()
     configure_preview_source(source_root)
@@ -110,13 +116,13 @@ def main() -> None:
         "isStale": age_hours is None or age_hours > 24,
         "note": "Static snapshot for Pages deployment. Refresh the source radar data, then rerun scripts/export_static_site.py.",
     }
-    (OUT_ROOT / "api" / "webdata.json").write_text(
+    (out_root / "api" / "webdata.json").write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
-    (OUT_ROOT / ".nojekyll").write_text("", encoding="utf-8")
-    (OUT_ROOT / "health.txt").write_text("ok\n", encoding="utf-8")
+    (out_root / ".nojekyll").write_text("", encoding="utf-8")
+    (out_root / "health.txt").write_text("ok\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
