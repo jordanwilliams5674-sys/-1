@@ -1,11 +1,11 @@
-# Cloudflare Pages Deployment
+﻿# Cloudflare Pages Deployment
 
 Use Cloudflare Pages for this repository. Render asked for a payment card, so Render is no longer the active deployment path.
 
 Expected public URL:
 
 ```text
-https://beidou-investment-site.pages.dev
+https://jordanwilliams5674-sys.github.io/-1
 ```
 
 If Cloudflare assigns a different project URL, set `BEIDOU_PUBLIC_SITE_URL` before running `scripts/export_static_site.py` so `sitemap.xml`, canonical URL, and Open Graph URL match the real public site.
@@ -72,9 +72,9 @@ Cloudflare should redeploy from `main`.
 
 After deployment, open the Cloudflare URL and check:
 
-- The page title shows `北斗投研雷达`.
-- `今日最重要事件`, `市场快照`, `观察池`, `研究池`, `事件雷达`, `资料库`, `数据源健康`, and `风险提醒` are visible.
-- The top bar shows `静态快照`, not a live refresh button.
+- The page title shows `鍖楁枟鎶曠爺闆疯揪`.
+- `浠婃棩鏈€閲嶈浜嬩欢`, `甯傚満蹇収`, `瑙傚療姹燻, `鐮旂┒姹燻, `浜嬩欢闆疯揪`, `璧勬枡搴揱, `鏁版嵁婧愬仴搴穈, and `椋庨櫓鎻愰啋` are visible.
+- The top bar shows `闈欐€佸揩鐓, not a live refresh button.
 - Built-in reference links under `/builtin/...` open correctly.
 - No broker login, payment, password, 2FA, or trading page is opened.
 
@@ -83,3 +83,4 @@ If the page is blank, verify that Cloudflare's output directory is exactly:
 ```text
 docs
 ```
+

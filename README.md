@@ -1,4 +1,4 @@
-# Beidou Investment Site
+﻿# Beidou Investment Site
 
 This repository publishes the Beidou investment research dashboard as a static website.
 
@@ -7,8 +7,8 @@ The site is research-only. It does not connect to brokers, place orders, run liv
 ## Current Deployment
 
 - Platform: Cloudflare Pages
-- Public URL: `https://beidou-investment-site.pages.dev`
-- Backup public URL after GitHub Pages is set to the `gh-pages` branch: `https://jordanwilliams5674-sys.github.io/-/`
+- Public URL: `https://jordanwilliams5674-sys.github.io/-1/`
+- Backup public URL after GitHub Pages is set to the `gh-pages` branch: `https://jordanwilliams5674-sys.github.io/-1/`
 - Repository: `jordanwilliams5674-sys/-`
 - Branch: `main`
 - Build command: leave blank
@@ -58,3 +58,4 @@ See `docs/testing.md` for details.
 - No real account balances, broker names, cost basis, or position sizes in the public site data.
 - Watchlist and event data are research signals only, not trading instructions.
 - `data/holdings_accounts/accounts.json` must remain empty of real account, broker, balance, cost, position-size, password, token, screenshot, and verification-code data.
+
