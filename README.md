@@ -8,6 +8,7 @@ The site is research-only. It does not connect to brokers, place orders, run liv
 
 - Platform: Cloudflare Pages
 - Public URL: `https://beidou-investment-site.pages.dev`
+- Backup public URL after GitHub Pages workflow succeeds: `https://jordanwilliams5674-sys.github.io/-/`
 - Repository: `jordanwilliams5674-sys/-`
 - Branch: `main`
 - Build command: leave blank
