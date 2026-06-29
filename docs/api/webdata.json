@@ -7,21 +7,21 @@
     "dedupe_policy": "前台只保留一套观察池、事件流、数据源健康和人工判断；不展示实仓明细，老雷达作为后台数据源。"
   },
   "market": {
-    "easternTime": "2026-06-29 05:35:32",
-    "beijingTime": "2026-06-29 17:35:32",
+    "easternTime": "2026-06-29 07:30:57",
+    "beijingTime": "2026-06-29 19:30:57",
     "sessionLabel": "盘前",
     "marketRegime": "pending / no signal",
-    "generatedAtUtc": "2026-06-29T09:35:32.296858+00:00",
+    "generatedAtUtc": "2026-06-29T11:30:57.594262+00:00",
     "instruments": [
       {
         "label": "SPY",
         "symbol": "SPY",
         "sourceSymbol": "SPY",
         "price": 728.99,
-        "change": 1.0178466096928571,
+        "change": 1.0753233926391228,
         "quoteStatus": "ok",
         "displayPrice": 728.99,
-        "displayChange": 1.0178466096928571,
+        "displayChange": 1.0753233926391228,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -30,10 +30,10 @@
         "symbol": "QQQ",
         "sourceSymbol": "QQQ",
         "price": 706.52,
-        "change": 1.1676951820189096,
+        "change": 1.2005746475683647,
         "quoteStatus": "ok",
         "displayPrice": 706.52,
-        "displayChange": 1.1676951820189096,
+        "displayChange": 1.2005746475683647,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -42,10 +42,10 @@
         "symbol": "DIA",
         "sourceSymbol": "DIA",
         "price": 517.75,
-        "change": 0.4268469338483894,
+        "change": 0.49444712699178084,
         "quoteStatus": "ok",
         "displayPrice": 517.75,
-        "displayChange": 0.4268469338483894,
+        "displayChange": 0.49444712699178084,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -54,10 +54,10 @@
         "symbol": "IWM",
         "sourceSymbol": "IWM",
         "price": 299.83,
-        "change": -0.26681786345596215,
+        "change": -0.26014741686955034,
         "quoteStatus": "ok",
         "displayPrice": 299.83,
-        "displayChange": -0.26681786345596215,
+        "displayChange": -0.26014741686955034,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -66,10 +66,10 @@
         "symbol": "SOXX",
         "sourceSymbol": "SOXX",
         "price": 589.94,
-        "change": 1.7476353527477277,
+        "change": 1.4815065938908862,
         "quoteStatus": "ok",
         "displayPrice": 589.94,
-        "displayChange": 1.7476353527477277,
+        "displayChange": 1.4815065938908862,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -90,10 +90,10 @@
         "symbol": "UUP",
         "sourceSymbol": "UUP",
         "price": 28.46,
-        "change": -0.0702247191011221,
+        "change": -0.198875614898101,
         "quoteStatus": "ok",
         "displayPrice": 28.46,
-        "displayChange": -0.0702247191011221,
+        "displayChange": -0.198875614898101,
         "verificationStatus": "代理指标，待DXY官方源核验",
         "sourceNote": "当前免费源返回的是UUP美元ETF价格，不是真正DXY美元指数；DXY需以ICE/MarketWatch等指数源核验。"
       },
@@ -114,10 +114,10 @@
         "symbol": "GLD",
         "sourceSymbol": "GLD",
         "price": 373.63,
-        "change": -0.4871129191981354,
+        "change": -0.8992853892888724,
         "quoteStatus": "ok",
         "displayPrice": 373.63,
-        "displayChange": -0.4871129191981354,
+        "displayChange": -0.8992853892888724,
         "verificationStatus": "代理指标，待现货黄金/COMEX核验",
         "sourceNote": "当前免费源返回的是GLD黄金ETF价格，不是现货黄金/COMEX黄金；现货黄金需单独核验。"
       },
@@ -138,7 +138,7 @@
       "mode": "盘前",
       "intervalSeconds": 90,
       "reason": "盘前异动较多，前台90秒刷新一次。",
-      "easternTime": "2026-06-29T05:39:13.153334-04:00"
+      "easternTime": "2026-06-29T07:35:09.356895-04:00"
     }
   },
   "holdings": [],
@@ -153,7 +153,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -166,7 +166,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -174,13 +174,13 @@
       "company": "OUST",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "市场新闻：What Does the Sale of Ouster Shares Worth $2.1 Million by the CFO Mean for Investors?",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
+      "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
       "ticker": "PEP",
@@ -192,7 +192,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -205,7 +205,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -218,7 +218,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -231,7 +231,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -244,7 +244,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -257,7 +257,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -270,7 +270,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -278,12 +278,12 @@
       "company": "INTC",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
+      "catalyst": "市场新闻：Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race",
       "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -291,13 +291,13 @@
       "company": "MRVL",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "等待高质量新催化",
-      "valuation_status": "pending",
+      "catalyst": "AI 产业链相关消息：Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+      "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
-      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
+      "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
       "ticker": "RGTI",
@@ -309,7 +309,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -322,7 +322,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
     },
     {
@@ -335,7 +335,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -348,7 +348,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -360,8 +360,8 @@
       "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -369,12 +369,12 @@
       "company": "NVDA",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
+      "catalyst": "Is NVIDIA (NVDA) the Best Fast Growth Stock to Buy as It Targets Fully Autonomous AI for Telecom Networks?",
       "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
     },
     {
@@ -382,26 +382,26 @@
       "company": "WDC",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "合同、合作或订单相关消息：Western Digital (WDC) Stock Rallies As Micron’s $100 Billion AI Deals Lift Storage Demand",
-      "valuation_status": "valuation_watch",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
-      "latest_research_event": "观察池普通线索，等待官方或量价确认。"
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
       "ticker": "CRWD",
       "company": "CRWD",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "CrowdStrike (CRWD) Extends Falcon AIDR to Create Unified AI Security Control Plane",
-      "valuation_status": "valuation_watch",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
-      "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
+      "low_buy_status": "not_ready",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
       "ticker": "SMR",
@@ -413,7 +413,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -426,7 +426,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -439,7 +439,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -452,7 +452,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -460,26 +460,26 @@
       "company": "TSLA",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
-      "valuation_status": "valuation_watch",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
-      "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
+      "low_buy_status": "not_ready",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
       "ticker": "QCOM",
       "company": "QCOM",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
+      "catalyst": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
       "valuation_status": "valuation_watch",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
-      "latest_research_event": "观察池普通线索，等待官方或量价确认。"
+      "low_buy_status": "batch_research_allowed",
+      "last_checked_time": "2026-06-29T11:30:57.594262+00:00",
+      "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
     }
   ],
   "events": [
@@ -534,157 +534,7 @@
       "severity": 2
     },
     {
-      "id": "INTC-1",
-      "ticker": "INTC",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "SEC filing",
-      "source": "Yahoo Finance RSS",
-      "source_tier": "free_aux",
-      "verification_status": "free_aux_only",
-      "source_credibility": 0.72,
-      "source_label": "高可信新闻源",
-      "primary_source": {
-        "name": "Yahoo Finance RSS",
-        "domain": "yahoo-finance-rss",
-        "url": null,
-        "source_tier": "free_aux",
-        "credibility": 0.72,
-        "published_at_et": "2026-06-29T07:53:08+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:53:08+00:00",
-      "detected_time": "2026-06-29T07:53:08+00:00",
-      "title": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-      "summary": "观察池普通线索，等待官方或量价确认。",
-      "impact_direction": "neutral",
-      "impact_strength": "high",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "INTC|intc|sec-filing|yahoo-finance-rss|市场新闻-here-s-what-bank-of-america-securities-thinks-about-intel-intc|2026-06-29",
-      "severity": 4
-    },
-    {
-      "id": "SOXS-2",
-      "ticker": "SOXS",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "AI infrastructure",
-      "source": "Yahoo Finance RSS",
-      "source_tier": "free_aux",
-      "verification_status": "free_aux_only",
-      "source_credibility": 0.72,
-      "source_label": "高可信新闻源",
-      "primary_source": {
-        "name": "Yahoo Finance RSS",
-        "domain": "yahoo-finance-rss",
-        "url": null,
-        "source_tier": "free_aux",
-        "credibility": 0.72,
-        "published_at_et": "2026-06-26T21:44:00+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-26T21:44:00+00:00",
-      "detected_time": "2026-06-26T21:44:00+00:00",
-      "title": "市场新闻：Direxion to Split Nine ETFs",
-      "summary": "观察池普通线索，等待官方或量价确认。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "SOXS|soxs|ai-infrastructure|yahoo-finance-rss|市场新闻-direxion-to-split-nine-etfs|2026-06-26",
-      "severity": 2
-    },
-    {
-      "id": "ORCL-3",
-      "ticker": "ORCL",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "AI infrastructure",
-      "source": "Yahoo Finance RSS",
-      "source_tier": "free_aux",
-      "verification_status": "free_aux_only",
-      "source_credibility": 0.72,
-      "source_label": "高可信新闻源",
-      "primary_source": {
-        "name": "Yahoo Finance RSS",
-        "domain": "yahoo-finance-rss",
-        "url": null,
-        "source_tier": "free_aux",
-        "credibility": 0.72,
-        "published_at_et": "2026-06-28T15:26:10+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-28T15:26:10+00:00",
-      "detected_time": "2026-06-28T15:26:10+00:00",
-      "title": "市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?",
-      "summary": "观察池普通线索，等待官方或量价确认。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "ORCL|orcl|ai-infrastructure|yahoo-finance-rss|市场新闻-is-oracle-s-debt-simply-too-much-to-justify-the-risk|2026-06-28",
-      "severity": 2
-    },
-    {
-      "id": "SQQQ-4",
+      "id": "SQQQ-1",
       "ticker": "SQQQ",
       "tickers": null,
       "sector": "",
@@ -734,58 +584,8 @@
       "severity": 2
     },
     {
-      "id": "INTC-5",
+      "id": "INTC-2",
       "ticker": "INTC",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "SEC filing",
-      "source": "Yahoo Finance RSS",
-      "source_tier": "free_aux",
-      "verification_status": "free_aux_only",
-      "source_credibility": 0.72,
-      "source_label": "高可信新闻源",
-      "primary_source": {
-        "name": "Yahoo Finance RSS",
-        "domain": "yahoo-finance-rss",
-        "url": null,
-        "source_tier": "free_aux",
-        "credibility": 0.72,
-        "published_at_et": "2026-06-29T07:53:08+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:53:08+00:00",
-      "detected_time": "2026-06-29T07:53:08+00:00",
-      "title": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-      "summary": "观察池普通线索，等待官方或量价确认。",
-      "impact_direction": "neutral",
-      "impact_strength": "high",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "INTC|intc|sec-filing|yahoo-finance-rss|市场新闻-here-s-what-bank-of-america-securities-thinks-about-intel-intc|2026-06-29",
-      "severity": 4
-    },
-    {
-      "id": "QCOM-6",
-      "ticker": "QCOM",
       "tickers": null,
       "sector": "",
       "relation_type": "watchlist",
@@ -801,14 +601,14 @@
         "url": null,
         "source_tier": "free_aux",
         "credibility": 0.72,
-        "published_at_et": "2026-06-28T18:46:22+00:00",
+        "published_at_et": "2026-06-29T10:18:34+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-28T18:46:22+00:00",
-      "detected_time": "2026-06-28T18:46:22+00:00",
-      "title": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
+      "published_time": "2026-06-29T10:18:34+00:00",
+      "detected_time": "2026-06-29T10:18:34+00:00",
+      "title": "市场新闻：Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race",
       "summary": "观察池普通线索，等待官方或量价确认。",
       "impact_direction": "neutral",
       "impact_strength": "low",
@@ -830,16 +630,16 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "QCOM|qcom|unusual-price-volume-options|yahoo-finance-rss|市场新闻-is-qualcomm-incorporated-qcom-set-to-acquire-a-startup|2026-06-28",
+      "event_signature": "INTC|intc|unusual-price-volume-options|yahoo-finance-rss|市场新闻-wall-street-firm-says-intel-intc-has-a-cost-edge-over-tsmc-in-the-advanced-|2026-06-29",
       "severity": 2
     },
     {
-      "id": "WDC-7",
-      "ticker": "WDC",
+      "id": "QCOM-3",
+      "ticker": "QCOM",
       "tickers": null,
       "sector": "",
       "relation_type": "watchlist",
-      "event_type": "AI infrastructure",
+      "event_type": "earnings",
       "source": "Yahoo Finance RSS",
       "source_tier": "free_aux",
       "verification_status": "free_aux_only",
@@ -851,64 +651,14 @@
         "url": null,
         "source_tier": "free_aux",
         "credibility": 0.72,
-        "published_at_et": "2026-06-28T11:07:15+00:00",
+        "published_at_et": "2026-06-29T11:20:20+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-28T11:07:15+00:00",
-      "detected_time": "2026-06-28T11:07:15+00:00",
-      "title": "合同、合作或订单相关消息：Western Digital (WDC) Stock Rallies As Micron’s $100 Billion AI Deals Lift Storage Demand",
-      "summary": "观察池普通线索，等待官方或量价确认。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "WDC|wdc|ai-infrastructure|yahoo-finance-rss|合同-合作或订单相关消息-western-digital-wdc-stock-rallies-as-micron-s-100-billion-ai-deals-|2026-06-28",
-      "severity": 2
-    },
-    {
-      "id": "TSLA-8",
-      "ticker": "TSLA",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "index inclusion/removal",
-      "source": "Yahoo Finance RSS",
-      "source_tier": "free_aux",
-      "verification_status": "free_aux_only",
-      "source_credibility": 0.72,
-      "source_label": "高可信新闻源",
-      "primary_source": {
-        "name": "Yahoo Finance RSS",
-        "domain": "yahoo-finance-rss",
-        "url": null,
-        "source_tier": "free_aux",
-        "credibility": 0.72,
-        "published_at_et": "2026-06-29T08:42:44+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T08:42:44+00:00",
-      "detected_time": "2026-06-29T08:42:44+00:00",
-      "title": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
+      "published_time": "2026-06-29T11:20:20+00:00",
+      "detected_time": "2026-06-29T11:20:20+00:00",
+      "title": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
       "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
       "impact_direction": "neutral",
       "impact_strength": "low",
@@ -930,11 +680,411 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "TSLA|tsla|index-inclusion-removal|yahoo-finance-rss|市场新闻-dow-nasdaq-s-p-500-futures-rise-on-us-iran-truce-hopes-why-dram-aapl-tsla-s|2026-06-29",
+      "event_signature": "QCOM|qcom|earnings|yahoo-finance-rss|市场新闻-magic-formula-showdown-why-cvs-beats-qualcomm-and-valero-for-retirees|2026-06-29",
       "severity": 2
     },
     {
-      "id": "NOK-9",
+      "id": "MRVL-4",
+      "ticker": "MRVL",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-29T10:18:01+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:18:01+00:00",
+      "detected_time": "2026-06-29T10:18:01+00:00",
+      "title": "AI 产业链相关消息：Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+      "summary": "观察池普通线索，等待官方或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "MRVL|mrvl|ai-infrastructure|yahoo-finance-rss|ai-产业链相关消息-amazon-explores-external-trainium-chip-sales-putting-marvell-mrvl-in-|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "SOXS-5",
+      "ticker": "SOXS",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-26T21:44:00+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-26T21:44:00+00:00",
+      "detected_time": "2026-06-26T21:44:00+00:00",
+      "title": "市场新闻：Direxion to Split Nine ETFs",
+      "summary": "观察池普通线索，等待官方或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "SOXS|soxs|ai-infrastructure|yahoo-finance-rss|市场新闻-direxion-to-split-nine-etfs|2026-06-26",
+      "severity": 2
+    },
+    {
+      "id": "ORCL-6",
+      "ticker": "ORCL",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-28T15:26:10+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-28T15:26:10+00:00",
+      "detected_time": "2026-06-28T15:26:10+00:00",
+      "title": "市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?",
+      "summary": "观察池普通线索，等待官方或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "ORCL|orcl|ai-infrastructure|yahoo-finance-rss|市场新闻-is-oracle-s-debt-simply-too-much-to-justify-the-risk|2026-06-28",
+      "severity": 2
+    },
+    {
+      "id": "SQQQ-7",
+      "ticker": "SQQQ",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-26T14:53:00+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-26T14:53:00+00:00",
+      "detected_time": "2026-06-26T14:53:00+00:00",
+      "title": "市场新闻：Seeking Short-Term Opportunities? ETFs for Tactical Investors",
+      "summary": "观察池普通线索，等待官方或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "SQQQ|sqqq|unusual-price-volume-options|yahoo-finance-rss|市场新闻-seeking-short-term-opportunities-etfs-for-tactical-investors|2026-06-26",
+      "severity": 2
+    },
+    {
+      "id": "INTC-8",
+      "ticker": "INTC",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-29T10:18:34+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:18:34+00:00",
+      "detected_time": "2026-06-29T10:18:34+00:00",
+      "title": "市场新闻：Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race",
+      "summary": "观察池普通线索，等待官方或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "INTC|intc|unusual-price-volume-options|yahoo-finance-rss|市场新闻-wall-street-firm-says-intel-intc-has-a-cost-edge-over-tsmc-in-the-advanced-|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "QCOM-9",
+      "ticker": "QCOM",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "earnings",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-29T11:20:20+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T11:20:20+00:00",
+      "detected_time": "2026-06-29T11:20:20+00:00",
+      "title": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
+      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "分批研究",
+      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "QCOM|qcom|earnings|yahoo-finance-rss|市场新闻-magic-formula-showdown-why-cvs-beats-qualcomm-and-valero-for-retirees|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "MRVL-10",
+      "ticker": "MRVL",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-29T10:18:01+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:18:01+00:00",
+      "detected_time": "2026-06-29T10:18:01+00:00",
+      "title": "AI 产业链相关消息：Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+      "summary": "观察池普通线索，等待官方或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "MRVL|mrvl|ai-infrastructure|yahoo-finance-rss|ai-产业链相关消息-amazon-explores-external-trainium-chip-sales-putting-marvell-mrvl-in-|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "OUST-11",
+      "ticker": "OUST",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance RSS",
+      "source_tier": "free_aux",
+      "verification_status": "free_aux_only",
+      "source_credibility": 0.72,
+      "source_label": "高可信新闻源",
+      "primary_source": {
+        "name": "Yahoo Finance RSS",
+        "domain": "yahoo-finance-rss",
+        "url": null,
+        "source_tier": "free_aux",
+        "credibility": 0.72,
+        "published_at_et": "2026-06-26T18:25:01+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-26T18:25:01+00:00",
+      "detected_time": "2026-06-26T18:25:01+00:00",
+      "title": "市场新闻：What Does the Sale of Ouster Shares Worth $2.1 Million by the CFO Mean for Investors?",
+      "summary": "观察池普通线索，等待官方或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "观察池普通线索，等待官方或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "OUST|oust|unusual-price-volume-options|yahoo-finance-rss|市场新闻-what-does-the-sale-of-ouster-shares-worth-2-1-million-by-the-cfo-mean-for-i|2026-06-26",
+      "severity": 2
+    },
+    {
+      "id": "NOK-12",
       "ticker": "NOK",
       "tickers": null,
       "sector": "",
@@ -984,8 +1134,8 @@
       "severity": 2
     },
     {
-      "id": "SPY-10",
-      "ticker": "SPY",
+      "id": "USMARKET-13",
+      "ticker": "USMARKET",
       "tickers": null,
       "sector": "",
       "relation_type": "excluded",
@@ -1001,14 +1151,14 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-28T22:42:30+00:00",
+        "published_at_et": "2026-06-29T11:04:39+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-28T22:42:30+00:00",
-      "detected_time": "2026-06-28T22:42:30+00:00",
-      "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as US and Iran reportedly call a halt to attacks",
+      "published_time": "2026-06-29T11:04:39+00:00",
+      "detected_time": "2026-06-29T11:04:39+00:00",
+      "title": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
       "impact_strength": "low",
@@ -1030,157 +1180,7 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "SPY|spy|index-inclusion-removal|yahoo-finance资讯|stock-market-today-s-p-500-nasdaq-dow-futures-rise-as-us-and-iran-reportedly-cal|2026-06-28",
-      "severity": 2
-    },
-    {
-      "id": "TSLA-11",
-      "ticker": "TSLA",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "unusual price/volume/options",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T07:55:59+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:55:59+00:00",
-      "detected_time": "2026-06-29T07:55:59+00:00",
-      "title": "JPMorgan Lowers Q2 Delivery Estimates for Tesla (TSLA), Here’s What You Need to Know",
-      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "分批研究",
-      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "TSLA|tsla|unusual-price-volume-options|yahoo-finance资讯|jpmorgan-lowers-q2-delivery-estimates-for-tesla-tsla-here-s-what-you-need-to-kno|2026-06-29",
-      "severity": 2
-    },
-    {
-      "id": "META-12",
-      "ticker": "META",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "unusual price/volume/options",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T07:54:57+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:54:57+00:00",
-      "detected_time": "2026-06-29T07:54:57+00:00",
-      "title": "Meta Platforms (META) To Launch a New Line of Smart Glasses and This Time They are Cheaper",
-      "summary": "不在观察池，默认排除。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "META|meta|unusual-price-volume-options|yahoo-finance资讯|meta-platforms-meta-to-launch-a-new-line-of-smart-glasses-and-this-time-they-are|2026-06-29",
-      "severity": 2
-    },
-    {
-      "id": "GOOGL-13",
-      "ticker": "GOOGL",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "analyst action",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T07:54:48+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:54:48+00:00",
-      "detected_time": "2026-06-29T07:54:48+00:00",
-      "title": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
-      "summary": "不在观察池，默认排除。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "GOOGL|googl|analyst-action|yahoo-finance资讯|jefferies-maintain-a-buy-rating-on-alphabet-googl|2026-06-29",
+      "event_signature": "USMARKET|usmarket|index-inclusion-removal|yahoo-finance资讯|spacex-stock-will-join-the-nasdaq-100-index-on-july-7|2026-06-29",
       "severity": 2
     },
     {
@@ -1189,7 +1189,7 @@
       "tickers": null,
       "sector": "",
       "relation_type": "watchlist",
-      "event_type": "SEC filing",
+      "event_type": "AI infrastructure",
       "source": "Yahoo Finance资讯",
       "source_tier": "official",
       "verification_status": "official_confirmed",
@@ -1201,65 +1201,15 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T07:54:41+00:00",
+        "published_at_et": "2026-06-29T10:25:25+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T07:54:41+00:00",
-      "detected_time": "2026-06-29T07:54:41+00:00",
-      "title": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
+      "published_time": "2026-06-29T10:25:25+00:00",
+      "detected_time": "2026-06-29T10:25:25+00:00",
+      "title": "Is NVIDIA (NVDA) the Best Fast Growth Stock to Buy as It Targets Fully Autonomous AI for Telecom Networks?",
       "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "impact_direction": "neutral",
-      "impact_strength": "high",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "分批研究",
-      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "NVDA|nvda|sec-filing|yahoo-finance资讯|nvidia-nvda-ceo-says-national-security-takes-priority-over-commercial-opportunit|2026-06-29",
-      "severity": 4
-    },
-    {
-      "id": "MSFT-15",
-      "ticker": "MSFT",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "analyst action",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T07:54:30+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:54:30+00:00",
-      "detected_time": "2026-06-29T07:54:30+00:00",
-      "title": "Stifel Lowers PT on Microsoft (MSFT), Maintains a Hold Rating",
-      "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
       "impact_strength": "low",
       "is_duplicate": false,
@@ -1270,106 +1220,6 @@
       "is_social_only": false,
       "stale_flag": false,
       "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "MSFT|msft|analyst-action|yahoo-finance资讯|stifel-lowers-pt-on-microsoft-msft-maintains-a-hold-rating|2026-06-29",
-      "severity": 2
-    },
-    {
-      "id": "AMZN-16",
-      "ticker": "AMZN",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "unusual price/volume/options",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T07:54:21+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:54:21+00:00",
-      "detected_time": "2026-06-29T07:54:21+00:00",
-      "title": "Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
-      "summary": "不在观察池，默认排除。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "AMZN|amzn|unusual-price-volume-options|yahoo-finance资讯|amazon-com-amzn-partners-with-nokia-here-s-what-you-need-to-know|2026-06-29",
-      "severity": 2
-    },
-    {
-      "id": "INTC-17",
-      "ticker": "INTC",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "SEC filing",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T07:53:08+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T07:53:08+00:00",
-      "detected_time": "2026-06-29T07:53:08+00:00",
-      "title": "Here’s What Bank of America Securities Thinks About Intel (INTC)",
-      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "impact_direction": "neutral",
-      "impact_strength": "high",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
       "suggested_action": "分批研究",
       "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
       "price_context": {
@@ -1380,62 +1230,12 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "INTC|intc|sec-filing|yahoo-finance资讯|here-s-what-bank-of-america-securities-thinks-about-intel-intc|2026-06-29",
-      "severity": 4
+      "event_signature": "NVDA|nvda|ai-infrastructure|yahoo-finance资讯|is-nvidia-nvda-the-best-fast-growth-stock-to-buy-as-it-targets-fully-autonomous-|2026-06-29",
+      "severity": 2
     },
     {
-      "id": "CRWD-18",
-      "ticker": "CRWD",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "SEC filing",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T05:28:18+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T05:28:18+00:00",
-      "detected_time": "2026-06-29T05:28:18+00:00",
-      "title": "CrowdStrike (CRWD) Extends Falcon AIDR to Create Unified AI Security Control Plane",
-      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "impact_direction": "neutral",
-      "impact_strength": "high",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "分批研究",
-      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "CRWD|crwd|sec-filing|yahoo-finance资讯|crowdstrike-crwd-extends-falcon-aidr-to-create-unified-ai-security-control-plane|2026-06-29",
-      "severity": 4
-    },
-    {
-      "id": "GOOGL-19",
-      "ticker": "GOOGL",
+      "id": "MU-15",
+      "ticker": "MU",
       "tickers": null,
       "sector": "",
       "relation_type": "excluded",
@@ -1451,14 +1251,14 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T05:27:45+00:00",
+        "published_at_et": "2026-06-29T10:22:50+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T05:27:45+00:00",
-      "detected_time": "2026-06-29T05:27:45+00:00",
-      "title": "Alphabet’s (GOOGL) Google Cloud Partners with Philippine Government to Deploy AI Agents in Public Services",
+      "published_time": "2026-06-29T10:22:50+00:00",
+      "detected_time": "2026-06-29T10:22:50+00:00",
+      "title": "Can Micron (MU) ’s Deal With Anthropic Cement Its Place in the AI Memory Market?",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
       "impact_strength": "low",
@@ -1480,12 +1280,262 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "GOOGL|googl|ai-infrastructure|yahoo-finance资讯|alphabet-s-googl-google-cloud-partners-with-philippine-government-to-deploy-ai-a|2026-06-29",
+      "event_signature": "MU|mu|ai-infrastructure|yahoo-finance资讯|can-micron-mu-s-deal-with-anthropic-cement-its-place-in-the-ai-memory-market|2026-06-29",
       "severity": 2
     },
     {
-      "id": "MSFT-20",
-      "ticker": "MSFT",
+      "id": "AMD-16",
+      "ticker": "AMD",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "excluded",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance资讯",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "Yahoo Finance资讯",
+        "domain": "yahoo-finance资讯",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T10:22:39+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:22:39+00:00",
+      "detected_time": "2026-06-29T10:22:39+00:00",
+      "title": "AMD (AMD) Commits £2 Billion to the UK and Helps Build Two AI Supercomputers at Cambridge",
+      "summary": "不在观察池，默认排除。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "不在观察池，默认排除。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "AMD|amd|ai-infrastructure|yahoo-finance资讯|amd-amd-commits-2-billion-to-the-uk-and-helps-build-two-ai-supercomputers-at-cam|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "INTC-17",
+      "ticker": "INTC",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance资讯",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "Yahoo Finance资讯",
+        "domain": "yahoo-finance资讯",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T10:18:34+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:18:34+00:00",
+      "detected_time": "2026-06-29T10:18:34+00:00",
+      "title": "Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race",
+      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "分批研究",
+      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "INTC|intc|unusual-price-volume-options|yahoo-finance资讯|wall-street-firm-says-intel-intc-has-a-cost-edge-over-tsmc-in-the-advanced-chip-|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "MRVL-18",
+      "ticker": "MRVL",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance资讯",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "Yahoo Finance资讯",
+        "domain": "yahoo-finance资讯",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T10:18:01+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:18:01+00:00",
+      "detected_time": "2026-06-29T10:18:01+00:00",
+      "title": "Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "分批研究",
+      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "MRVL|mrvl|ai-infrastructure|yahoo-finance资讯|amazon-explores-external-trainium-chip-sales-putting-marvell-mrvl-in-focus|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "ORCL-19",
+      "ticker": "ORCL",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "watchlist",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance资讯",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "Yahoo Finance资讯",
+        "domain": "yahoo-finance资讯",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T10:16:32+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:16:32+00:00",
+      "detected_time": "2026-06-29T10:16:32+00:00",
+      "title": "Arm Holdings (ARM) Expands Its Agentic-AI CPU Ecosystem With Oracle Cloud Infrastructure",
+      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "分批研究",
+      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "ORCL|orcl|ai-infrastructure|yahoo-finance资讯|arm-holdings-arm-expands-its-agentic-ai-cpu-ecosystem-with-oracle-cloud-infrastr|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "AAPL-20",
+      "ticker": "AAPL",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "excluded",
+      "event_type": "AI infrastructure",
+      "source": "Yahoo Finance资讯",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "Yahoo Finance资讯",
+        "domain": "yahoo-finance资讯",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T10:09:14+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T10:09:14+00:00",
+      "detected_time": "2026-06-29T10:09:14+00:00",
+      "title": "Exclusive-Apple accuses India of 'copy-pasting' rivals' claims in antitrust investigation",
+      "summary": "不在观察池，默认排除。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "不在观察池，默认排除。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "AAPL|aapl|ai-infrastructure|yahoo-finance资讯|exclusive-apple-accuses-india-of-copy-pasting-rivals-claims-in-antitrust-investi|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "AVGO-21",
+      "ticker": "AVGO",
       "tickers": null,
       "sector": "",
       "relation_type": "excluded",
@@ -1501,14 +1551,14 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T05:27:39+00:00",
+        "published_at_et": "2026-06-29T09:58:43+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T05:27:39+00:00",
-      "detected_time": "2026-06-29T05:27:39+00:00",
-      "title": "Morningstar (MORN) Integrates Investment Intelligence into Microsoft 365 (MSFT) Copilot Workflows",
+      "published_time": "2026-06-29T09:58:43+00:00",
+      "detected_time": "2026-06-29T09:58:43+00:00",
+      "title": "Broadcom (AVGO) The Best High Growth Semiconductor to Buy Now?",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
       "impact_strength": "low",
@@ -1530,11 +1580,61 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "MSFT|msft|unusual-price-volume-options|yahoo-finance资讯|morningstar-morn-integrates-investment-intelligence-into-microsoft-365-msft-copi|2026-06-29",
+      "event_signature": "AVGO|avgo|unusual-price-volume-options|yahoo-finance资讯|broadcom-avgo-the-best-high-growth-semiconductor-to-buy-now|2026-06-29",
       "severity": 2
     },
     {
-      "id": "USSTOCK-21",
+      "id": "QQQ-22",
+      "ticker": "QQQ",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "excluded",
+      "event_type": "unusual price/volume/options",
+      "source": "Yahoo Finance资讯",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "Yahoo Finance资讯",
+        "domain": "yahoo-finance资讯",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T11:02:41+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T11:02:41+00:00",
+      "detected_time": "2026-06-29T11:02:41+00:00",
+      "title": "SpaceX Shares Rise Ahead of Nasdaq 100 Inclusion on July 7 (SPCX)",
+      "summary": "不在观察池，默认排除。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "不在观察池，默认排除。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "QQQ|qqq|unusual-price-volume-options|yahoo-finance资讯|spacex-shares-rise-ahead-of-nasdaq-100-inclusion-on-july-7-spcx|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "USSTOCK-23",
       "ticker": "USSTOCK",
       "tickers": null,
       "sector": "",
@@ -1584,7 +1684,7 @@
       "severity": 1
     },
     {
-      "id": "USSTOCK-22",
+      "id": "USSTOCK-24",
       "ticker": "USSTOCK",
       "tickers": null,
       "sector": "",
@@ -1634,7 +1734,7 @@
       "severity": 1
     },
     {
-      "id": "USSTOCK-23",
+      "id": "USSTOCK-25",
       "ticker": "USSTOCK",
       "tickers": null,
       "sector": "",
@@ -1684,7 +1784,7 @@
       "severity": 1
     },
     {
-      "id": "USMARKET-24",
+      "id": "USMARKET-26",
       "ticker": "USMARKET",
       "tickers": null,
       "sector": "",
@@ -1734,7 +1834,7 @@
       "severity": 3
     },
     {
-      "id": "USSTOCK-25",
+      "id": "USSTOCK-27",
       "ticker": "USSTOCK",
       "tickers": null,
       "sector": "",
@@ -1784,7 +1884,7 @@
       "severity": 1
     },
     {
-      "id": "USSTOCK-26",
+      "id": "USSTOCK-28",
       "ticker": "USSTOCK",
       "tickers": null,
       "sector": "",
@@ -1834,7 +1934,7 @@
       "severity": 1
     },
     {
-      "id": "USSTOCK-27",
+      "id": "USSTOCK-29",
       "ticker": "USSTOCK",
       "tickers": null,
       "sector": "",
@@ -1881,106 +1981,6 @@
       "signal_score": null,
       "suppression_reason": "social_only_unconfirmed",
       "event_signature": "USSTOCK|usstock|earnings|youtube|ed-yardeni-the-market-looks-very-solid-from-an-earnings-standpoint|2026-06-26",
-      "severity": 1
-    },
-    {
-      "id": "USMARKET-28",
-      "ticker": "USMARKET",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "unusual price/volume/options",
-      "source": "YouTube",
-      "source_tier": "official",
-      "verification_status": "social_only_unconfirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "YouTube",
-        "domain": "youtube",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-26T16:29:04+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-26T16:29:04+00:00",
-      "detected_time": "2026-06-26T16:29:04+00:00",
-      "title": "Former Nasdaq CEO Robert Greifeld on the next test for SpaceX",
-      "summary": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": true,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": "social_only_unconfirmed",
-      "event_signature": "USMARKET|usmarket|unusual-price-volume-options|youtube|former-nasdaq-ceo-robert-greifeld-on-the-next-test-for-spacex|2026-06-26",
-      "severity": 1
-    },
-    {
-      "id": "USSTOCK-29",
-      "ticker": "USSTOCK",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "AI infrastructure",
-      "source": "YouTube",
-      "source_tier": "official",
-      "verification_status": "social_only_unconfirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "YouTube",
-        "domain": "youtube",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-26T16:26:59+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-26T16:26:59+00:00",
-      "detected_time": "2026-06-26T16:26:59+00:00",
-      "title": "Behind China's rapid AI ascent",
-      "summary": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": true,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": "social_only_unconfirmed",
-      "event_signature": "USSTOCK|usstock|ai-infrastructure|youtube|behind-china-s-rapid-ai-ascent|2026-06-26",
       "severity": 1
     },
     {
@@ -2134,32 +2134,32 @@
       "severity": 3
     },
     {
-      "id": "USMARKET-33",
-      "ticker": "USMARKET",
+      "id": "USSTOCK-33",
+      "ticker": "USSTOCK",
       "tickers": null,
       "sector": "",
       "relation_type": "excluded",
-      "event_type": "AI infrastructure",
-      "source": "金投网财经源",
+      "event_type": "unusual price/volume/options",
+      "source": "YouTube",
       "source_tier": "official",
-      "verification_status": "official_confirmed",
+      "verification_status": "social_only_unconfirmed",
       "source_credibility": 0.9,
       "source_label": "官方/权威源",
       "primary_source": {
-        "name": "金投网财经源",
-        "domain": "金投网财经源",
+        "name": "YouTube",
+        "domain": "youtube",
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:36:00+00:00",
+        "published_at_et": "2026-06-26T17:37:01+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:36:00+00:00",
-      "detected_time": "2026-06-29T09:36:00+00:00",
-      "title": "据知情人士称，由黑石集团支持的数据中心运营商AirTrunk接近在新加坡秘密提交房地产投资信托基金首次公开募股申请。此前由报道称，AirTrunk寻求通过此次发行筹资约15亿美元，这将使其成为新加坡自2017年以来规模最大的IPO。",
-      "summary": "不在观察池，默认排除。",
+      "published_time": "2026-06-26T17:37:01+00:00",
+      "detected_time": "2026-06-26T17:37:01+00:00",
+      "title": "Volkswagen May Cut 100,000 Jobs In Historic Overhaul",
+      "summary": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
       "impact_direction": "neutral",
       "impact_strength": "low",
       "is_duplicate": false,
@@ -2167,11 +2167,11 @@
       "is_second_catalyst": false,
       "is_old_event": false,
       "is_priced_in": null,
-      "is_social_only": false,
+      "is_social_only": true,
       "stale_flag": false,
       "stale_reason": "",
       "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
+      "beidou_reason": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
       "price_context": {
         "last": null,
         "change_pct": null,
@@ -2179,12 +2179,62 @@
         "session_phase": null
       },
       "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "USMARKET|usmarket|ai-infrastructure|金投网财经源|据知情人士称-由黑石集团支持的数据中心运营商airtrunk接近在新加坡秘密提交房地产投资信托基金首次公开募股申请-此前由报道称-airtrunk寻求通过此次发|2026-06-29",
-      "severity": 2
+      "suppression_reason": "social_only_unconfirmed",
+      "event_signature": "USSTOCK|usstock|unusual-price-volume-options|youtube|volkswagen-may-cut-100-000-jobs-in-historic-overhaul|2026-06-26",
+      "severity": 1
     },
     {
-      "id": "USMARKET-34",
+      "id": "USSTOCK-34",
+      "ticker": "USSTOCK",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "excluded",
+      "event_type": "AI infrastructure",
+      "source": "YouTube",
+      "source_tier": "official",
+      "verification_status": "social_only_unconfirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "YouTube",
+        "domain": "youtube",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-26T15:41:56+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-26T15:41:56+00:00",
+      "detected_time": "2026-06-26T15:41:56+00:00",
+      "title": "Tech Selloff Deepens, Is the AI Trade Finally Breaking? | PreMarket Playbook [LIVE] | June 26, 2026",
+      "summary": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": true,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": "social_only_unconfirmed",
+      "event_signature": "USSTOCK|usstock|ai-infrastructure|youtube|tech-selloff-deepens-is-the-ai-trade-finally-breaking-premarket-playbook-live-ju|2026-06-26",
+      "severity": 1
+    },
+    {
+      "id": "USMARKET-35",
       "ticker": "USMARKET",
       "tickers": null,
       "sector": "",
@@ -2201,14 +2251,14 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:36:00+00:00",
+        "published_at_et": "2026-06-27T11:32:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:36:00+00:00",
-      "detected_time": "2026-06-29T09:36:00+00:00",
-      "title": "美无铅汽油期货主力刚刚突破2.8700美元/加仑关口，最新报2.8702美元/加仑，日内涨1.57%",
+      "published_time": "2026-06-27T11:32:00+00:00",
+      "detected_time": "2026-06-27T11:32:00+00:00",
+      "title": "公告精选︱陕鼓动力：拟收购秦风气体36.06%的股权 股票6月29日起停牌；飞凯材料：目前公司TGV湿电子化学品暂未实现大批量供货",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
       "impact_strength": "low",
@@ -2230,11 +2280,11 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "USMARKET|usmarket|unusual-price-volume-options|金投网财经源|美无铅汽油期货主力刚刚突破2-8700美元-加仑关口-最新报2-8702美元-加仑-日内涨1-57|2026-06-29",
+      "event_signature": "USMARKET|usmarket|unusual-price-volume-options|金投网财经源|公告精选-陕鼓动力-拟收购秦风气体36-06-的股权-股票6月29日起停牌-飞凯材料-目前公司tgv湿电子化学品暂未实现大批量供货|2026-06-27",
       "severity": 2
     },
     {
-      "id": "MU-35",
+      "id": "MU-36",
       "ticker": "MU",
       "tickers": null,
       "sector": "",
@@ -2251,13 +2301,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-26T09:36:00+00:00",
+        "published_at_et": "2026-06-26T11:32:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-26T09:36:00+00:00",
-      "detected_time": "2026-06-26T09:36:00+00:00",
+      "published_time": "2026-06-26T11:32:00+00:00",
+      "detected_time": "2026-06-26T11:32:00+00:00",
       "title": "存储危机“冰与火”：美光笑了，苹果哭了",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
@@ -2284,7 +2334,7 @@
       "severity": 2
     },
     {
-      "id": "USMARKET-36",
+      "id": "USMARKET-37",
       "ticker": "USMARKET",
       "tickers": null,
       "sector": "",
@@ -2301,13 +2351,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:36:36.543799+00:00",
+        "published_at_et": "2026-06-29T11:32:14.466395+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:36:36.543799+00:00",
-      "detected_time": "2026-06-29T09:36:36.543799+00:00",
+      "published_time": "2026-06-29T11:32:14.466395+00:00",
+      "detected_time": "2026-06-29T11:32:14.466395+00:00",
       "title": "下一任美联储主席会是谁？",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
@@ -2334,7 +2384,7 @@
       "severity": 4
     },
     {
-      "id": "GOLD_BASKET-37",
+      "id": "GOLD_BASKET-38",
       "ticker": "GOLD_BASKET",
       "tickers": null,
       "sector": "",
@@ -2351,13 +2401,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:36:00+00:00",
+        "published_at_et": "2026-06-29T11:32:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:36:00+00:00",
-      "detected_time": "2026-06-29T09:36:00+00:00",
+      "published_time": "2026-06-29T11:32:00+00:00",
+      "detected_time": "2026-06-29T11:32:00+00:00",
       "title": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
       "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
       "impact_direction": "neutral",
@@ -2384,7 +2434,7 @@
       "severity": 4
     },
     {
-      "id": "GOLD_BASKET-38",
+      "id": "GOLD_BASKET-39",
       "ticker": "GOLD_BASKET",
       "tickers": null,
       "sector": "",
@@ -2401,13 +2451,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:36:00+00:00",
+        "published_at_et": "2026-06-29T11:32:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:36:00+00:00",
-      "detected_time": "2026-06-29T09:36:00+00:00",
+      "published_time": "2026-06-29T11:32:00+00:00",
+      "detected_time": "2026-06-29T11:32:00+00:00",
       "title": "今日国际金价实时行情(2026年6月29日)",
       "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
       "impact_direction": "neutral",
@@ -2431,56 +2481,6 @@
       "signal_score": null,
       "suppression_reason": null,
       "event_signature": "GOLD_BASKET|gold_basket|unusual-price-volume-options|金投网财经源|今日国际金价实时行情-2026年6月29日|2026-06-29",
-      "severity": 2
-    },
-    {
-      "id": "AAPL-39",
-      "ticker": "AAPL",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "unusual price/volume/options",
-      "source": "金投网财经源",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "金投网财经源",
-        "domain": "金投网财经源",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-26T09:36:00+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-26T09:36:00+00:00",
-      "detected_time": "2026-06-26T09:36:00+00:00",
-      "title": "科技类美股点评：苹果以6.12%的跌幅位居榜首",
-      "summary": "不在观察池，默认排除。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "AAPL|aapl|unusual-price-volume-options|金投网财经源|科技类美股点评-苹果以6-12-的跌幅位居榜首|2026-06-26",
       "severity": 2
     }
   ],
@@ -2530,9 +2530,9 @@
         "symbol": "QQQ",
         "label": "纳斯达克100风险偏好",
         "spotPrice": 706.52,
-        "changePct": 1.1676951820189096,
-        "volume": 255857.0,
-        "timestamp": "2026-06-29T17:38:41.098721+08:00",
+        "changePct": 1.2005746475683647,
+        "volume": 533132.0,
+        "timestamp": "2026-06-29T19:35:08.442722+08:00",
         "source": "TradingView scanner",
         "session": "盘前",
         "freshnessSeconds": 0,
@@ -2558,9 +2558,9 @@
         "symbol": "SPY",
         "label": "标普500市场宽度",
         "spotPrice": 728.99,
-        "changePct": 1.0178466096928571,
-        "volume": 88604.0,
-        "timestamp": "2026-06-29T17:38:41.098721+08:00",
+        "changePct": 1.0753233926391228,
+        "volume": 260577.0,
+        "timestamp": "2026-06-29T19:35:08.442722+08:00",
         "source": "TradingView scanner",
         "session": "盘前",
         "freshnessSeconds": 0,
@@ -2632,7 +2632,7 @@
       "机构一定卖出"
     ],
     "sourceDoc": "/builtin/qixing_project/market_structure_radar.md",
-    "asOf": "2026-06-29T17:38:41.098721+08:00"
+    "asOf": "2026-06-29T19:35:08.442722+08:00"
   },
   "researchRadar": {
     "title": "观察池 / 研究池智能雷达",
@@ -2691,40 +2691,10 @@
         ],
         "alertType": "新闻/事件触发",
         "eventCount": 3,
-        "latestEvent": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
+        "latestEvent": "市场新闻：Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race",
         "changePct": 0.989713216957614,
-        "volume": 246057.0,
+        "volume": 559222.0,
         "price": 128.32,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "EV / robotaxi / Optimus / energy storage",
-        "beidouRole": "physical_ai_and_consumer_giant",
-        "action": "deep_scan",
-        "watchPoints": [
-          "auto gross margin",
-          "Robotaxi progress",
-          "Optimus production plan",
-          "energy storage growth",
-          "AI chip and compute spending"
-        ],
-        "score": 134,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "本地事件流 2 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 2,
-        "latestEvent": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
-        "changePct": 0.7690079271022665,
-        "volume": 76504.0,
-        "price": 379.71,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -2742,132 +2712,47 @@
           "mobile AI recovery",
           "automotive and IoT growth"
         ],
-        "score": 130,
+        "score": 134,
         "reasons": [
           "P0 研究优先级",
           "已在观察池",
-          "本地事件流 1 条",
+          "本地事件流 2 条",
           "需要深扫"
         ],
         "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
-        "changePct": 2.0117218438143527,
-        "volume": 67020.0,
+        "eventCount": 2,
+        "latestEvent": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
+        "changePct": 1.7477163525001334,
+        "volume": 106042.0,
         "price": 189.39,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
-        "ticker": "MSFT",
-        "name": "Microsoft",
+        "ticker": "MRVL",
+        "name": "Marvell",
         "pool": "observation_pool_p0",
         "bucket": "P0",
-        "segment": "cloud / Azure / Copilot / AI cash flow",
-        "beidouRole": "ai_cash_flow_anchor",
-        "action": "deep_scan",
+        "segment": "AI networking / custom silicon / CPO",
+        "beidouRole": "ai_networking_core; not_actual_holding",
+        "action": "scan_and_research",
         "watchPoints": [
-          "Azure growth",
-          "AI contribution",
-          "capex",
-          "free cash flow",
-          "Copilot monetization"
+          "custom silicon orders",
+          "AI networking revenue",
+          "optical/CPO progress",
+          "data center growth"
         ],
-        "score": 124,
+        "score": 130,
         "reasons": [
           "P0 研究优先级",
-          "本地事件流 2 条",
-          "需要深扫"
+          "已在观察池",
+          "本地事件流 3 条"
         ],
         "alertType": "新闻/事件触发",
-        "eventCount": 2,
-        "latestEvent": "Stifel Lowers PT on Microsoft (MSFT), Maintains a Hold Rating",
-        "changePct": 2.0832774754001613,
-        "volume": 101891.0,
-        "price": 372.97,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "cloud / TPU / search AI",
-        "beidouRole": "ai_cash_flow_anchor",
-        "action": "deep_scan",
-        "watchPoints": [
-          "Google Cloud growth",
-          "TPU strategy",
-          "AI search monetization",
-          "capex"
-        ],
-        "score": 124,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 2 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 2,
-        "latestEvent": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
-        "changePct": 1.1885355226888736,
-        "volume": 66529.0,
-        "price": 337.39,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "META",
-        "name": "Meta Platforms",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "AI capex / ads / data center",
-        "beidouRole": "ai_capex_and_cash_flow_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "AI capex",
-          "ad growth",
-          "AI recommendation efficiency",
-          "Reality Labs loss"
-        ],
-        "score": 120,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 1 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "Meta Platforms (META) To Launch a New Line of Smart Glasses and This Time They are Cheaper",
-        "changePct": 1.2866878691503936,
-        "volume": 12688.0,
-        "price": 550.25,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "AWS / retail / AI cloud",
-        "beidouRole": "ai_cloud_and_consumer_cross_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "AWS growth",
-          "AI demand",
-          "retail margin",
-          "capex"
-        ],
-        "score": 120,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 1 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
-        "changePct": 0.9884395547724489,
-        "volume": 52693.0,
-        "price": 232.69,
+        "eventCount": 3,
+        "latestEvent": "AI 产业链相关消息：Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+        "changePct": 1.2295235596206582,
+        "volume": 143915.0,
+        "price": 266.77,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -2892,10 +2777,109 @@
         ],
         "alertType": "新闻/事件触发",
         "eventCount": 1,
-        "latestEvent": "科技类美股点评：苹果以6.12%的跌幅位居榜首",
-        "changePct": -0.09623652124885457,
-        "volume": 57687.0,
+        "latestEvent": "Exclusive-Apple accuses India of 'copy-pasting' rivals' claims in antitrust investigation",
+        "changePct": 0.10571569525689316,
+        "volume": 127084.0,
         "price": 283.78,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "AI networking / custom ASIC",
+        "beidouRole": "ai_custom_chip_anchor",
+        "action": "scan_and_research",
+        "watchPoints": [
+          "custom AI ASIC demand",
+          "networking growth",
+          "VMware cash flow",
+          "valuation pressure"
+        ],
+        "score": 112,
+        "reasons": [
+          "P0 研究优先级",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "Broadcom (AVGO) The Best High Growth Semiconductor to Buy Now?",
+        "changePct": 1.4327982028382056,
+        "volume": 76672.0,
+        "price": 365.02,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "NOK",
+        "name": "Nokia",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "AI optical network / AI-RAN / 6G",
+        "beidouRole": "ai_network_infrastructure_candidate",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 94,
+        "reasons": [
+          "P1 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "市场新闻：Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
+        "changePct": -1.152959262106075,
+        "volume": 1361863.0,
+        "price": 13.01,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "HBM / DRAM / NAND",
+        "beidouRole": "hbm_memory_chain_validator_after_profit_taking",
+        "action": "chain_validation_only_not_new_buy_priority",
+        "watchPoints": [],
+        "score": 76,
+        "reasons": [
+          "P3 研究优先级",
+          "本地事件流 2 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 2,
+        "latestEvent": "Can Micron (MU) ’s Deal With Anthropic Cement Its Place in the AI Memory Market?",
+        "changePct": -0.24992714138103975,
+        "volume": 450633.0,
+        "price": 1132.33,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "pool": "actual_holding_research",
+        "bucket": "其他",
+        "segment": "GPU / AI compute / AI ecosystem",
+        "beidouRole": "ai_chain_master_signal",
+        "action": "watchlist_risk_scan_first",
+        "watchPoints": [
+          "Blackwell/Rubin supply and demand",
+          "AI PC and edge AI expansion",
+          "data center GPU supply chain"
+        ],
+        "score": 67,
+        "reasons": [
+          "其他 研究优先级",
+          "已在观察池",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "Is NVIDIA (NVDA) the Best Fast Growth Stock to Buy as It Targets Fully Autonomous AI for Telecom Networks?",
+        "changePct": 0.9401132291071532,
+        "volume": 507622.0,
+        "price": 192.53,
         "source": "candidate_pool + local_events + live_quote"
       }
     ],
@@ -2923,40 +2907,10 @@
         ],
         "alertType": "新闻/事件触发",
         "eventCount": 3,
-        "latestEvent": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
+        "latestEvent": "市场新闻：Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race",
         "changePct": 0.989713216957614,
-        "volume": 246057.0,
+        "volume": 559222.0,
         "price": 128.32,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "EV / robotaxi / Optimus / energy storage",
-        "beidouRole": "physical_ai_and_consumer_giant",
-        "action": "deep_scan",
-        "watchPoints": [
-          "auto gross margin",
-          "Robotaxi progress",
-          "Optimus production plan",
-          "energy storage growth",
-          "AI chip and compute spending"
-        ],
-        "score": 134,
-        "reasons": [
-          "P0 研究优先级",
-          "已在观察池",
-          "本地事件流 2 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 2,
-        "latestEvent": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
-        "changePct": 0.7690079271022665,
-        "volume": 76504.0,
-        "price": 379.71,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -2974,132 +2928,47 @@
           "mobile AI recovery",
           "automotive and IoT growth"
         ],
-        "score": 130,
+        "score": 134,
         "reasons": [
           "P0 研究优先级",
           "已在观察池",
-          "本地事件流 1 条",
+          "本地事件流 2 条",
           "需要深扫"
         ],
         "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
-        "changePct": 2.0117218438143527,
-        "volume": 67020.0,
+        "eventCount": 2,
+        "latestEvent": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
+        "changePct": 1.7477163525001334,
+        "volume": 106042.0,
         "price": 189.39,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
-        "ticker": "MSFT",
-        "name": "Microsoft",
+        "ticker": "MRVL",
+        "name": "Marvell",
         "pool": "observation_pool_p0",
         "bucket": "P0",
-        "segment": "cloud / Azure / Copilot / AI cash flow",
-        "beidouRole": "ai_cash_flow_anchor",
-        "action": "deep_scan",
+        "segment": "AI networking / custom silicon / CPO",
+        "beidouRole": "ai_networking_core; not_actual_holding",
+        "action": "scan_and_research",
         "watchPoints": [
-          "Azure growth",
-          "AI contribution",
-          "capex",
-          "free cash flow",
-          "Copilot monetization"
+          "custom silicon orders",
+          "AI networking revenue",
+          "optical/CPO progress",
+          "data center growth"
         ],
-        "score": 124,
+        "score": 130,
         "reasons": [
           "P0 研究优先级",
-          "本地事件流 2 条",
-          "需要深扫"
+          "已在观察池",
+          "本地事件流 3 条"
         ],
         "alertType": "新闻/事件触发",
-        "eventCount": 2,
-        "latestEvent": "Stifel Lowers PT on Microsoft (MSFT), Maintains a Hold Rating",
-        "changePct": 2.0832774754001613,
-        "volume": 101891.0,
-        "price": 372.97,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "cloud / TPU / search AI",
-        "beidouRole": "ai_cash_flow_anchor",
-        "action": "deep_scan",
-        "watchPoints": [
-          "Google Cloud growth",
-          "TPU strategy",
-          "AI search monetization",
-          "capex"
-        ],
-        "score": 124,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 2 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 2,
-        "latestEvent": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
-        "changePct": 1.1885355226888736,
-        "volume": 66529.0,
-        "price": 337.39,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "META",
-        "name": "Meta Platforms",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "AI capex / ads / data center",
-        "beidouRole": "ai_capex_and_cash_flow_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "AI capex",
-          "ad growth",
-          "AI recommendation efficiency",
-          "Reality Labs loss"
-        ],
-        "score": 120,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 1 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "Meta Platforms (META) To Launch a New Line of Smart Glasses and This Time They are Cheaper",
-        "changePct": 1.2866878691503936,
-        "volume": 12688.0,
-        "price": 550.25,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "AWS / retail / AI cloud",
-        "beidouRole": "ai_cloud_and_consumer_cross_signal",
-        "action": "deep_scan",
-        "watchPoints": [
-          "AWS growth",
-          "AI demand",
-          "retail margin",
-          "capex"
-        ],
-        "score": 120,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 1 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
-        "changePct": 0.9884395547724489,
-        "volume": 52693.0,
-        "price": 232.69,
+        "eventCount": 3,
+        "latestEvent": "AI 产业链相关消息：Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+        "changePct": 1.2295235596206582,
+        "volume": 143915.0,
+        "price": 266.77,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3124,33 +2993,120 @@
         ],
         "alertType": "新闻/事件触发",
         "eventCount": 1,
-        "latestEvent": "科技类美股点评：苹果以6.12%的跌幅位居榜首",
-        "changePct": -0.09623652124885457,
-        "volume": 57687.0,
+        "latestEvent": "Exclusive-Apple accuses India of 'copy-pasting' rivals' claims in antitrust investigation",
+        "changePct": 0.10571569525689316,
+        "volume": 127084.0,
         "price": 283.78,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
-        "ticker": "SMCI",
-        "name": "Super Micro Computer",
-        "pool": "research_pool_p1",
-        "bucket": "P1",
-        "segment": "AI server / high volatility",
-        "beidouRole": "high_volatility_ai_server_candidate",
-        "action": "research_only_high_risk",
-        "watchPoints": [],
-        "score": 106,
-        "reasons": [
-          "P1 研究优先级",
-          "涨跌幅 5.65%",
-          "高波动"
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "AI networking / custom ASIC",
+        "beidouRole": "ai_custom_chip_anchor",
+        "action": "scan_and_research",
+        "watchPoints": [
+          "custom AI ASIC demand",
+          "networking growth",
+          "VMware cash flow",
+          "valuation pressure"
         ],
-        "alertType": "异常波动",
+        "score": 112,
+        "reasons": [
+          "P0 研究优先级",
+          "本地事件流 1 条"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 1,
+        "latestEvent": "Broadcom (AVGO) The Best High Growth Semiconductor to Buy Now?",
+        "changePct": 1.4327982028382056,
+        "volume": 76672.0,
+        "price": 365.02,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "ASX",
+        "name": "ASE Technology",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "advanced packaging / OSAT",
+        "beidouRole": "advanced_packaging_diffusion_signal",
+        "action": "deep_scan",
+        "watchPoints": [
+          "advanced packaging revenue",
+          "AI chip packaging demand",
+          "margin trend"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
         "eventCount": 0,
         "latestEvent": "",
-        "changePct": 5.648057460006531,
-        "volume": 393756.0,
-        "price": 30.63,
+        "changePct": -1.019646854016423,
+        "volume": 54122.0,
+        "price": 40.21,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "EV / robotaxi / Optimus / energy storage",
+        "beidouRole": "physical_ai_and_consumer_giant",
+        "action": "deep_scan",
+        "watchPoints": [
+          "auto gross margin",
+          "Robotaxi progress",
+          "Optimus production plan",
+          "energy storage growth",
+          "AI chip and compute spending"
+        ],
+        "score": 108,
+        "reasons": [
+          "P0 研究优先级",
+          "已在观察池",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": 0.8295804693055316,
+        "volume": 175122.0,
+        "price": 379.71,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "foundry / advanced process / CoWoS",
+        "beidouRole": "core_ai_supply_chain_anchor",
+        "action": "deep_scan",
+        "watchPoints": [
+          "AI revenue growth",
+          "CoWoS capacity",
+          "pricing power",
+          "capex guidance"
+        ],
+        "score": 98,
+        "reasons": [
+          "P0 研究优先级",
+          "需要深扫"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": 1.4551405111599347,
+        "volume": 54380.0,
+        "price": 432.35,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3171,32 +3127,9 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "市场新闻：Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
-        "changePct": -0.46118370484243276,
-        "volume": 440014.0,
+        "changePct": -1.152959262106075,
+        "volume": 1361863.0,
         "price": 13.01,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "WDC",
-        "name": "Western Digital",
-        "pool": "research_pool_p3_high_volatility",
-        "bucket": "P3",
-        "segment": "AI storage / HDD / NAND cycle",
-        "beidouRole": "ai_storage_cycle_candidate",
-        "action": "research_only",
-        "watchPoints": [],
-        "score": 82,
-        "reasons": [
-          "P3 研究优先级",
-          "已在观察池",
-          "本地事件流 1 条"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "合同、合作或订单相关消息：Western Digital (WDC) Stock Rallies As Micron’s $100 Billion AI Deals Lift Storage Demand",
-        "changePct": 1.7563304629550607,
-        "volume": 38164.0,
-        "price": 586.45,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3208,17 +3141,39 @@
         "beidouRole": "hbm_memory_chain_validator_after_profit_taking",
         "action": "chain_validation_only_not_new_buy_priority",
         "watchPoints": [],
-        "score": 72,
+        "score": 76,
         "reasons": [
           "P3 研究优先级",
-          "本地事件流 1 条"
+          "本地事件流 2 条"
         ],
         "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "存储危机“冰与火”：美光笑了，苹果哭了",
-        "changePct": 0.8539913276165141,
-        "volume": 175445.0,
+        "eventCount": 2,
+        "latestEvent": "Can Micron (MU) ’s Deal With Anthropic Cement Its Place in the AI Memory Market?",
+        "changePct": -0.24992714138103975,
+        "volume": 450633.0,
         "price": 1132.33,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "SMCI",
+        "name": "Super Micro Computer",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "AI server / high volatility",
+        "beidouRole": "high_volatility_ai_server_candidate",
+        "action": "research_only_high_risk",
+        "watchPoints": [],
+        "score": 68,
+        "reasons": [
+          "P1 研究优先级",
+          "高波动"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": 2.9382957884427103,
+        "volume": 738236.0,
+        "price": 30.63,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3242,9 +3197,9 @@
         ],
         "alertType": "新闻/事件触发",
         "eventCount": 1,
-        "latestEvent": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
-        "changePct": 1.1219030800394725,
-        "volume": 232425.0,
+        "latestEvent": "Is NVIDIA (NVDA) the Best Fast Growth Stock to Buy as It Targets Fully Autonomous AI for Telecom Networks?",
+        "changePct": 0.9401132291071532,
+        "volume": 507622.0,
         "price": 192.53,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -3349,9 +3304,31 @@
         "alertType": "预判关注",
         "eventCount": 0,
         "latestEvent": "",
-        "changePct": 1.7429193899782152,
-        "volume": 67571.0,
+        "changePct": 1.906318082788679,
+        "volume": 131724.0,
         "price": 18.36,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "WDC",
+        "name": "Western Digital",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "AI storage / HDD / NAND cycle",
+        "beidouRole": "ai_storage_cycle_candidate",
+        "action": "research_only",
+        "watchPoints": [],
+        "score": 60,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": 1.0964276579418448,
+        "volume": 70540.0,
+        "price": 586.45,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3372,7 +3349,7 @@
         "eventCount": 0,
         "latestEvent": "",
         "changePct": -0.24046962302848507,
-        "volume": 728.0,
+        "volume": 2369.0,
         "price": 141.39,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -3563,22 +3540,21 @@
       "riskAppetite": "谨慎",
       "topEvent": "下一任美联储主席会是谁？",
       "keySymbols": [
+        "OUST",
         "INTC",
+        "MRVL",
         "NOK",
-        "NVDA",
         "ORCL",
-        "CRWD",
-        "WDC",
-        "TSLA",
+        "NVDA",
         "QCOM"
       ],
       "beidouConclusion": "先分层研究和风险核验，不把关注权重当作交易指令。",
-      "updatedAt": "2026-06-29 17:39"
+      "updatedAt": "2026-06-29 19:35"
     },
     "topEvents": [
       {
         "eventTitle": "下一任美联储主席会是谁？",
-        "eventTime": "2026-06-29T09:36:36.543799+00:00",
+        "eventTime": "2026-06-29T11:32:14.466395+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -3588,11 +3564,11 @@
         "beidouJudgement": "不在观察池，默认排除。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "eventTitle": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
-        "eventTime": "2026-06-29T09:36:00+00:00",
+        "eventTime": "2026-06-29T11:32:00+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -3602,163 +3578,149 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
-        "eventTitle": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
-        "eventTime": "2026-06-29T07:54:41+00:00",
-        "source": "Yahoo Finance资讯",
+        "eventTitle": "Fed will not raise rates this year, says EY-Parthenon's Greg Daco",
+        "eventTime": "2026-06-26T18:31:37+00:00",
+        "source": "YouTube",
+        "sourceStatus": "社媒线索",
+        "relatedSymbols": [
+          "USMARKET"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "待核验",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "Mohamed El-Erian's Fed warning",
+        "eventTime": "2026-06-26T18:00:08+00:00",
+        "source": "YouTube",
+        "sourceStatus": "社媒线索",
+        "relatedSymbols": [
+          "USMARKET"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "待核验",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "今日国际金价实时行情(2026年6月29日)",
+        "eventTime": "2026-06-29T11:32:00+00:00",
+        "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
-          "NVDA"
+          "GOLD_BASKET"
         ],
         "impactDirection": "中性",
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "eventTime": "2026-06-29T07:53:08+00:00",
-        "source": "Yahoo Finance RSS",
-        "sourceStatus": "待核验",
-        "relatedSymbols": [
-          "INTC"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
-        "actionMeaning": "先核验来源，再提高研究优先级",
-        "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "eventTime": "2026-06-29T07:53:08+00:00",
-        "source": "Yahoo Finance RSS",
-        "sourceStatus": "待核验",
-        "relatedSymbols": [
-          "INTC"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
-        "actionMeaning": "先核验来源，再提高研究优先级",
-        "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       }
     ],
     "focusSymbols": [
+      {
+        "symbol": "OUST",
+        "name": "OUST",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 94,
+        "latestEvent": "市场新闻：What Does the Sale of Ouster Shares Worth $2.1 Million by the CFO Mean for Investors?",
+        "eventTime": "2026-06-26T18:25:01+00:00",
+        "sourceStatus": "待核验",
+        "impactDirection": "中性",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "事件时效已经下降，只保留为背景样本。",
+        "updatedAt": "2026-06-29 19:35"
+      },
       {
         "symbol": "INTC",
         "name": "INTC",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 98,
-        "latestEvent": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "eventTime": "2026-06-29T07:53:08+00:00",
+        "focusWeight": 91,
+        "latestEvent": "市场新闻：Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race",
+        "eventTime": "2026-06-29T10:18:34+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "MRVL",
+        "theme": "research",
+        "beidouStatus": "核心跟踪",
+        "focusWeight": 88,
+        "latestEvent": "AI 产业链相关消息：Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+        "eventTime": "2026-06-29T10:18:01+00:00",
+        "sourceStatus": "待核验",
+        "impactDirection": "中性",
+        "actionBias": "先核验来源，再提高研究优先级",
+        "riskNote": "影响方向仍需验证。",
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "NOK",
         "name": "NOK",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 91,
+        "focusWeight": 85,
         "latestEvent": "市场新闻：Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
         "eventTime": "2026-06-29T07:54:21+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "symbol": "NVDA",
-        "name": "NVDA",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 89,
-        "latestEvent": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
-        "eventTime": "2026-06-29T07:54:41+00:00",
-        "sourceStatus": "官方",
-        "impactDirection": "中性",
-        "actionBias": "只记录线索，等待更强证据",
-        "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "ORCL",
         "name": "ORCL",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 88,
-        "latestEvent": "市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?",
-        "eventTime": "2026-06-28T15:26:10+00:00",
-        "sourceStatus": "待核验",
-        "impactDirection": "中性",
-        "actionBias": "先核验来源，再提高研究优先级",
-        "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "symbol": "CRWD",
-        "name": "CRWD",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 83,
-        "latestEvent": "CrowdStrike (CRWD) Extends Falcon AIDR to Create Unified AI Security Control Plane",
-        "eventTime": "2026-06-29T05:28:18+00:00",
+        "focusWeight": 82,
+        "latestEvent": "Arm Holdings (ARM) Expands Its Agentic-AI CPU Ecosystem With Oracle Cloud Infrastructure",
+        "eventTime": "2026-06-29T10:16:32+00:00",
         "sourceStatus": "官方",
         "impactDirection": "中性",
         "actionBias": "只记录线索，等待更强证据",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
-        "symbol": "WDC",
-        "name": "WDC",
+        "symbol": "NVDA",
+        "name": "NVDA",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 82,
-        "latestEvent": "合同、合作或订单相关消息：Western Digital (WDC) Stock Rallies As Micron’s $100 Billion AI Deals Lift Storage Demand",
-        "eventTime": "2026-06-28T11:07:15+00:00",
-        "sourceStatus": "待核验",
+        "focusWeight": 79,
+        "latestEvent": "Is NVIDIA (NVDA) the Best Fast Growth Stock to Buy as It Targets Fully Autonomous AI for Telecom Networks?",
+        "eventTime": "2026-06-29T10:25:25+00:00",
+        "sourceStatus": "官方",
         "impactDirection": "中性",
-        "actionBias": "先核验来源，再提高研究优先级",
+        "actionBias": "只记录线索，等待更强证据",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "symbol": "TSLA",
-        "name": "TSLA",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 76,
-        "latestEvent": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
-        "eventTime": "2026-06-29T08:42:44+00:00",
-        "sourceStatus": "待核验",
-        "impactDirection": "中性",
-        "actionBias": "先核验来源，再提高研究优先级",
-        "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "QCOM",
         "name": "QCOM",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 73,
-        "latestEvent": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
-        "eventTime": "2026-06-28T18:46:22+00:00",
+        "focusWeight": 76,
+        "latestEvent": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
+        "eventTime": "2026-06-29T11:20:20+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       }
     ],
     "watchPool": [
@@ -3769,7 +3731,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "ASX",
@@ -3778,16 +3740,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "symbol": "OUST",
-        "name": "OUST",
-        "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
-        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
-        "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "PEP",
@@ -3796,7 +3749,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "KO",
@@ -3805,7 +3758,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "AEP",
@@ -3814,7 +3767,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "CSIQ",
@@ -3823,7 +3776,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "CRCL",
@@ -3832,7 +3785,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "SQQQ",
@@ -3841,7 +3794,7 @@
         "watchReason": "市场新闻：Seeking Short-Term Opportunities? ETFs for Tactical Investors",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "观察等待",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "SOXS",
@@ -3850,16 +3803,7 @@
         "watchReason": "市场新闻：Direxion to Split Nine ETFs",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "观察等待",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "symbol": "MRVL",
-        "name": "MRVL",
-        "theme": "research",
-        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
-        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
-        "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "RGTI",
@@ -3868,7 +3812,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "GOLD_BASKET",
@@ -3877,7 +3821,7 @@
         "watchReason": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "观察等待",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "AWK",
@@ -3886,7 +3830,25 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "symbol": "WDC",
+        "name": "WDC",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CRWD",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "SMR",
@@ -3895,7 +3857,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "CEG",
@@ -3904,7 +3866,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "VST",
@@ -3913,7 +3875,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "symbol": "NRG",
@@ -3922,7 +3884,16 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "TSLA",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-29 19:35"
       }
     ],
     "researchPool": [
@@ -3937,7 +3908,7 @@
         "sourceType": "财报 / 行业价格 / 产能数据",
         "beidouConclusion": "方向有效，但需要估值、财报和涨幅共同验证。",
         "nextAction": "等待 MU 财报和 HBM 订单验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "topic": "AI电力",
@@ -3952,7 +3923,7 @@
         "sourceType": "政策 / 电力合同 / 公司指引",
         "beidouConclusion": "长期逻辑清楚，短期要防止叙事拥挤。",
         "nextAction": "跟踪正式合同、监管批准和资本开支。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "topic": "先进封装",
@@ -3966,7 +3937,7 @@
         "sourceType": "公司公告 / 产能 / 财报",
         "beidouConclusion": "属于 AI 主线扩散方向，需要订单和毛利验证。",
         "nextAction": "跟踪先进封装产能和客户结构。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "topic": "CPO / 硅光",
@@ -3981,7 +3952,7 @@
         "sourceType": "行业资料 / 财报 / 技术路线",
         "beidouConclusion": "可作为 AI 后排扩散研究，不直接等同短线动作。",
         "nextAction": "跟踪商业化时间和客户验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "topic": "Physical AI",
@@ -3994,7 +3965,7 @@
         "sourceType": "产品发布 / 客户 / 收入质量",
         "beidouConclusion": "需要把叙事和实际收入分开。",
         "nextAction": "等待订单、收入和现金流确认。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "topic": "成熟现金流公司估值",
@@ -4007,7 +3978,7 @@
         "sourceType": "财报 / 估值模型 / 股息数据",
         "beidouConclusion": "重点在防守属性和估值安全边际。",
         "nextAction": "更新估值区间和财报质量。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "topic": "世界杯消费链",
@@ -4019,7 +3990,7 @@
         "sourceType": "赛事日历 / 销售数据 / 财报",
         "beidouConclusion": "只作为阶段性主题资料沉淀。",
         "nextAction": "等待公司层面验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "topic": "AI数据中心产业链",
@@ -4034,13 +4005,13 @@
         "sourceType": "产业链资料 / 财报 / capex",
         "beidouConclusion": "主线有效，但需要分层看估值和兑现节奏。",
         "nextAction": "维护产业链地图和风险清单。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       }
     ],
     "eventRadar": [
       {
         "eventTitle": "下一任美联储主席会是谁？",
-        "eventTime": "2026-06-29T09:36:36.543799+00:00",
+        "eventTime": "2026-06-29T11:32:14.466395+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -4050,11 +4021,11 @@
         "beidouJudgement": "不在观察池，默认排除。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "eventTitle": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
-        "eventTime": "2026-06-29T09:36:00+00:00",
+        "eventTime": "2026-06-29T11:32:00+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -4064,77 +4035,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
-        "eventTime": "2026-06-29T07:54:41+00:00",
-        "source": "Yahoo Finance资讯",
-        "sourceStatus": "官方",
-        "relatedSymbols": [
-          "NVDA"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-        "actionMeaning": "只记录线索，等待更强证据",
-        "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "eventTime": "2026-06-29T07:53:08+00:00",
-        "source": "Yahoo Finance RSS",
-        "sourceStatus": "待核验",
-        "relatedSymbols": [
-          "INTC"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
-        "actionMeaning": "先核验来源，再提高研究优先级",
-        "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "eventTime": "2026-06-29T07:53:08+00:00",
-        "source": "Yahoo Finance RSS",
-        "sourceStatus": "待核验",
-        "relatedSymbols": [
-          "INTC"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
-        "actionMeaning": "先核验来源，再提高研究优先级",
-        "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "eventTime": "2026-06-29T07:53:08+00:00",
-        "source": "Yahoo Finance资讯",
-        "sourceStatus": "官方",
-        "relatedSymbols": [
-          "INTC"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-        "actionMeaning": "只记录线索，等待更强证据",
-        "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "CrowdStrike (CRWD) Extends Falcon AIDR to Create Unified AI Security Control Plane",
-        "eventTime": "2026-06-29T05:28:18+00:00",
-        "source": "Yahoo Finance资讯",
-        "sourceStatus": "官方",
-        "relatedSymbols": [
-          "CRWD"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-        "actionMeaning": "只记录线索，等待更强证据",
-        "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "eventTitle": "Fed will not raise rates this year, says EY-Parthenon's Greg Daco",
@@ -4148,7 +4049,7 @@
         "beidouJudgement": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "待核验",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "eventTitle": "Mohamed El-Erian's Fed warning",
@@ -4162,39 +4063,11 @@
         "beidouJudgement": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "待核验",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "据知情人士称，由黑石集团支持的数据中心运营商AirTrunk接近在新加坡秘密提交房地产投资信托基金首次公开募股申请。此前由报道称，AirTrunk寻求通过此次发行筹资约15亿美元，这将使其成为新加坡自2017年以来规模最大的IPO。",
-        "eventTime": "2026-06-29T09:36:00+00:00",
-        "source": "金投网财经源",
-        "sourceStatus": "官方",
-        "relatedSymbols": [
-          "USMARKET"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "不在观察池，默认排除。",
-        "actionMeaning": "只记录线索，等待更强证据",
-        "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
-      },
-      {
-        "eventTitle": "美无铅汽油期货主力刚刚突破2.8700美元/加仑关口，最新报2.8702美元/加仑，日内涨1.57%",
-        "eventTime": "2026-06-29T09:36:00+00:00",
-        "source": "金投网财经源",
-        "sourceStatus": "官方",
-        "relatedSymbols": [
-          "USMARKET"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "不在观察池，默认排除。",
-        "actionMeaning": "只记录线索，等待更强证据",
-        "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "eventTitle": "今日国际金价实时行情(2026年6月29日)",
-        "eventTime": "2026-06-29T09:36:00+00:00",
+        "eventTime": "2026-06-29T11:32:00+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -4204,7 +4077,105 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
+        "eventTime": "2026-06-29T11:20:20+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "QCOM"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "新事件",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "市场新闻：Magic Formula Showdown: Why CVS Beats Qualcomm and Valero for Retirees",
+        "eventTime": "2026-06-29T11:20:20+00:00",
+        "source": "Yahoo Finance RSS",
+        "sourceStatus": "待核验",
+        "relatedSymbols": [
+          "QCOM"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+        "actionMeaning": "先核验来源，再提高研究优先级",
+        "expiryStatus": "新事件",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7",
+        "eventTime": "2026-06-29T11:04:39+00:00",
+        "source": "Yahoo Finance资讯",
+        "sourceStatus": "官方",
+        "relatedSymbols": [
+          "USMARKET"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "不在观察池，默认排除。",
+        "actionMeaning": "只记录线索，等待更强证据",
+        "expiryStatus": "已验证",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "SpaceX Shares Rise Ahead of Nasdaq 100 Inclusion on July 7 (SPCX)",
+        "eventTime": "2026-06-29T11:02:41+00:00",
+        "source": "Yahoo Finance资讯",
+        "sourceStatus": "官方",
+        "relatedSymbols": [
+          "QQQ"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "不在观察池，默认排除。",
+        "actionMeaning": "只记录线索，等待更强证据",
+        "expiryStatus": "已验证",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "Is NVIDIA (NVDA) the Best Fast Growth Stock to Buy as It Targets Fully Autonomous AI for Telecom Networks?",
+        "eventTime": "2026-06-29T10:25:25+00:00",
+        "source": "Yahoo Finance资讯",
+        "sourceStatus": "官方",
+        "relatedSymbols": [
+          "NVDA"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
+        "actionMeaning": "只记录线索，等待更强证据",
+        "expiryStatus": "已验证",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "Can Micron (MU) ’s Deal With Anthropic Cement Its Place in the AI Memory Market?",
+        "eventTime": "2026-06-29T10:22:50+00:00",
+        "source": "Yahoo Finance资讯",
+        "sourceStatus": "官方",
+        "relatedSymbols": [
+          "MU"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "不在观察池，默认排除。",
+        "actionMeaning": "只记录线索，等待更强证据",
+        "expiryStatus": "已验证",
+        "updatedAt": "2026-06-29 19:35"
+      },
+      {
+        "eventTitle": "AMD (AMD) Commits £2 Billion to the UK and Helps Build Two AI Supercomputers at Cambridge",
+        "eventTime": "2026-06-29T10:22:39+00:00",
+        "source": "Yahoo Finance资讯",
+        "sourceStatus": "官方",
+        "relatedSymbols": [
+          "AMD"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "不在观察池，默认排除。",
+        "actionMeaning": "只记录线索，等待更强证据",
+        "expiryStatus": "已验证",
+        "updatedAt": "2026-06-29 19:35"
       }
     ],
     "library": [
@@ -4272,7 +4243,7 @@
         "title": "雷达观察池配置；当前站点读取此配置",
         "category": "雷达配置",
         "relatedSymbols": [],
-        "lastUpdated": "2026-06-29 09:19:25",
+        "lastUpdated": "2026-06-29 11:15:50",
         "beidouAbsorbStatus": "已吸收",
         "oneLineConclusion": "YAML 配置，约 383 行有效内容。",
         "fileName": "watchlist.yaml",
@@ -4375,29 +4346,29 @@
       {
         "riskTitle": "AI半导体利好兑现风险",
         "affectedSymbols": [
-          "NVDA"
+          "NVDA",
+          "MRVL"
         ],
         "riskLevel": "中高",
         "riskReason": "如果市场已经提前交易景气改善，短线可能出现利好兑现。",
         "beidouAction": "确认景气，但等待财报、订单、回调或价格结构验证。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "riskTitle": "来源时效和外部接口风险",
         "affectedSymbols": [
+          "OUST",
           "INTC",
+          "MRVL",
           "NOK",
-          "NVDA",
           "ORCL",
-          "CRWD",
-          "WDC",
-          "TSLA",
+          "NVDA",
           "QCOM"
         ],
         "riskLevel": "中",
         "riskReason": "后台会定时刷新事件快照，但部分外部来源可能延迟或超时。",
         "beidouAction": "事件卡必须查看来源状态和时效状态，旧内容只作为背景样本。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "riskTitle": "社媒线索待核验风险",
@@ -4407,7 +4378,7 @@
         "riskLevel": "中",
         "riskReason": "社媒内容不能直接当作事实，需要官方公告或高可信媒体交叉验证。",
         "beidouAction": "只进入研究雷达，不直接形成行动结论。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       },
       {
         "riskTitle": "高波动标的叙事拥挤风险",
@@ -4420,7 +4391,7 @@
         "riskLevel": "中高",
         "riskReason": "高波动主题容易由情绪驱动，基本面兑现节奏可能滞后。",
         "beidouAction": "降低冲动判断，优先补充财报、订单、监管和现金流证据。",
-        "updatedAt": "2026-06-29 17:39"
+        "updatedAt": "2026-06-29 19:35"
       }
     ],
     "disclaimer": "北斗系统用于投资研究、事件整理和风险提示，不构成买卖建议。北斗关注权重仅代表研究优先级，不代表仓位比例或交易指令。"
@@ -4430,7 +4401,7 @@
       "source_name": "SEC/IR official anchor",
       "layer": "Data Source Layer V1",
       "status": "active",
-      "last_success_time": "2026-06-29T09:39:13.026709+00:00",
+      "last_success_time": "2026-06-29T11:35:08.421502+00:00",
       "latency_ms": null,
       "error_count": 0,
       "stale_count": 0,
@@ -4441,7 +4412,7 @@
       "source_name": "market data",
       "layer": "Data Source Layer V1",
       "status": "active",
-      "last_success_time": "2026-06-29T09:39:13.026709+00:00",
+      "last_success_time": "2026-06-29T11:35:08.421502+00:00",
       "latency_ms": null,
       "error_count": 0,
       "stale_count": 0,
@@ -4452,7 +4423,7 @@
       "source_name": "news/social feed",
       "layer": "Data Source Layer V1",
       "status": "active",
-      "last_success_time": "2026-06-29T09:39:13.026709+00:00",
+      "last_success_time": "2026-06-29T11:35:08.421502+00:00",
       "latency_ms": null,
       "error_count": 0,
       "stale_count": 0,
@@ -4633,7 +4604,7 @@
       {
         "name": "雷达配置",
         "file_count": 2,
-        "total_bytes": 14291
+        "total_bytes": 14683
       },
       {
         "name": "雷达说明文档",
@@ -4713,8 +4684,8 @@
         "relative_path": "radar_config/watchlist.yaml",
         "group": "雷达配置",
         "note": "雷达观察池配置；当前站点读取此配置",
-        "size_bytes": 11173,
-        "modified": "2026-06-29T09:19:25.336746+00:00",
+        "size_bytes": 11565,
+        "modified": "2026-06-29T11:15:50.390358+00:00",
         "line_count": 392,
         "preview": "YAML 配置，约 383 行有效内容。",
         "url": "/builtin/radar_config/watchlist.yaml"
@@ -4781,24 +4752,24 @@
     ]
   },
   "alertSamples": [
-    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:35 / 美东时间 2026年06月29日 05:35\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月28日 23:26。\nYahoo Finance RSS：市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?。AI数据中心 / 世界级人物/企业催化 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：ORCL；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
-    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:35 / 美东时间 2026年06月29日 05:35\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月29日 15:53。\nYahoo Finance RSS：市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)。分析师动作 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；今日新消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：INTC；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
-    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:35 / 美东时间 2026年06月29日 05:35\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月27日 05:44。\nYahoo Finance RSS：市场新闻：Direxion to Split Nine ETFs。AI芯片链 / 新闻催化 / 盘前量价确认 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：SOXS；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。"
+    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 19:30 / 美东时间 2026年06月29日 07:30\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月28日 23:26。\nYahoo Finance RSS：市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?。AI数据中心 / 世界级人物/企业催化 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：ORCL；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
+    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 19:30 / 美东时间 2026年06月29日 07:30\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月26日 22:53。\nYahoo Finance RSS：市场新闻：Seeking Short-Term Opportunities? ETFs for Tactical Investors。世界级人物/企业催化 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：SQQQ；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
+    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 19:30 / 美东时间 2026年06月29日 07:30\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月29日 18:18。\nYahoo Finance RSS：市场新闻：Wall Street Firm Says Intel (INTC) Has a Cost Edge Over TSMC in the Advanced Chip Packaging Race。分析师动作 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；今日新消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：INTC；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。"
   ],
   "status": {
     "source": "api + builtin",
     "scan": {
       "running": false,
-      "last_scan_started": "2026-06-29T17:35:32",
-      "last_scan_finished": "2026-06-29T17:36:36",
+      "last_scan_started": "2026-06-29T19:30:57",
+      "last_scan_finished": "2026-06-29T19:32:14",
       "last_error": null,
-      "last_report": "local-radar-source\\reports\\premarket\\2026-06-29_1735.md",
-      "last_member_source_started": "2026-06-29T17:36:36",
-      "last_member_source_finished": "2026-06-29T17:36:46",
+      "last_report": "local-radar-source\\reports\\premarket\\2026-06-29_1930.md",
+      "last_member_source_started": "2026-06-29T19:32:14",
+      "last_member_source_finished": "2026-06-29T19:32:27",
       "last_member_source_error": null,
-      "last_member_source_count": 50,
-      "last_live_started": "2026-06-29T17:38:41",
-      "last_live_finished": "2026-06-29T17:38:41",
+      "last_member_source_count": 51,
+      "last_live_started": "2026-06-29T19:33:41",
+      "last_live_finished": "2026-06-29T19:33:42",
       "last_live_error": null,
       "last_live_count": 60,
       "scan_enabled": true
@@ -4809,7 +4780,7 @@
       "sourceRoot": "local-radar-source",
       "eventCount": 40,
       "topEventCount": 5,
-      "snapshotAgeHours": 0.06,
+      "snapshotAgeHours": 0.07,
       "isStale": false,
       "note": "Static snapshot for Pages deployment. Refresh the source radar data, then rerun scripts/export_static_site.py."
     }

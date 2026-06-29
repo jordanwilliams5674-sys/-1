@@ -151,6 +151,8 @@ def sanitize_public_static_data(data: object, source_root: Path) -> object:
 def validate_static_html(html: str) -> None:
     required = [
         "fetch('api/webdata.json?ts='+Date.now())",
+        "api/quotes?symbols=",
+        "Cloudflare Functions 只读行情",
         "静态快照",
         GENERATED_NOTICE,
     ]

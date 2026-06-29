@@ -43,6 +43,26 @@ Cloudflare Pages serves the static files in `docs`.
 
 The repository root intentionally does not contain `render.yaml`. The archived Render config is under `docs/deployment/archive/` for reference only.
 
+## Optional Dynamic Read-Only Quotes
+
+Cloudflare Pages can also run the included Pages Function:
+
+```text
+functions/api/quotes.js
+```
+
+The dashboard will try `api/quotes?symbols=...` and overlay dynamic read-only quotes only when the Function and provider keys are available. Without keys, the site still works as a static snapshot.
+
+Optional Cloudflare environment variables:
+
+```text
+ALPACA_KEY_ID=your_alpaca_market_data_key
+ALPACA_SECRET_KEY=your_alpaca_market_data_secret
+ALPACA_DATA_FEED=iex
+```
+
+Do not enter broker passwords, account numbers, verification codes, 2FA, trading permissions, order tokens, or live account data. The Function is restricted to market-data `GET` requests and refuses account, position, order, trade, transfer, withdraw, or deposit endpoints.
+
 ## Source Rules
 
 - `beidou_monitor_site/preview_dashboard.html` is the single dashboard HTML source.
@@ -74,7 +94,8 @@ After deployment, open the Cloudflare URL and check:
 
 - The page title shows `鍖楁枟鎶曠爺闆疯揪`.
 - `浠婃棩鏈€閲嶈浜嬩欢`, `甯傚満蹇収`, `瑙傚療姹燻, `鐮旂┒姹燻, `浜嬩欢闆疯揪`, `璧勬枡搴揱, `鏁版嵁婧愬仴搴穈, and `椋庨櫓鎻愰啋` are visible.
-- The top bar shows `闈欐€佸揩鐓, not a live refresh button.
+- The top bar shows `静态快照`, not a live refresh button.
+- If dynamic quotes are configured, market cards may show `动态只读`; otherwise they remain static snapshots.
 - Built-in reference links under `/builtin/...` open correctly.
 - No broker login, payment, password, 2FA, or trading page is opened.
 
