@@ -34,6 +34,7 @@ if str(SCRIPT_DIR) not in sys.path:
 from news_catalyst_scan import Catalyst, catalysts_for_ticker, parse_watchlist_config  # noqa: E402
 from cross_verify import SourceCheck, five_site_cross_check, format_cross_checks, fetch_tradingview_scan  # noqa: E402
 from nasdaq100_universe import get_nasdaq100_symbols  # noqa: E402
+from beidou_us_radar.providers.readonly_market_data import fetch_readonly_quotes  # noqa: E402
 
 try:
     from send_alert import send_alert  # noqa: E402
@@ -591,6 +592,26 @@ def fetch_finnhub_quote(symbol: str) -> Quote | None:
         source="Finnhub quote API",
         raw=data,
     )
+
+
+def fetch_readonly_adapter_quotes(symbols: list[str]) -> dict[str, Quote]:
+    try:
+        rows = fetch_readonly_quotes(symbols)
+    except Exception as exc:
+        log(f"Read-only market data adapter skipped: {exc}")
+        return {}
+    quotes: dict[str, Quote] = {}
+    for symbol, row in rows.items():
+        quotes[symbol] = Quote(
+            symbol=symbol,
+            name=symbol,
+            price=row.price,
+            bid=row.bid,
+            ask=row.ask,
+            source=row.source,
+            raw={"provider": row.provider, "timestamp": row.timestamp, "quote": row.raw},
+        )
+    return quotes
 
 
 def relation_maps():
@@ -1659,6 +1680,8 @@ def run_scan(include_news: bool = True) -> tuple[Path, list[Candidate], list[Can
         fallback_symbols={s.upper() for s in base_symbols},
     )
     quotes.update(yahoo_quotes)
+    readonly_quotes = fetch_readonly_adapter_quotes([s for s in seed_symbols if s not in quotes])
+    quotes.update(readonly_quotes)
     for symbol in seed_symbols:
         if symbol not in quotes:
             fh = fetch_finnhub_quote(symbol)

@@ -33,6 +33,7 @@ See `CLOUDFLARE_PAGES_DEPLOY.md` for step-by-step setup.
 - `data/qixing_stock_universe.json`: Qixing research/watch pool universe.
 - `templates/beidou_daily_email.md`: Beidou daily email/report template with a mock sample.
 - `docs/dynamic_site_market_data.md`: free dynamic-site and read-only market-data connector plan.
+- `beidou_us_radar/providers/readonly_market_data.py`: optional read-only market-data adapter; no broker account, order, position, transfer, password, or 2FA calls.
 
 ## Refreshing Site Data
 

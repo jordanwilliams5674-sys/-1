@@ -120,17 +120,30 @@ data_sources:
     notes: "配置 API Key 后可显著增强全市场扫描。"
 
   - source_name: Alpaca market data API
-    url: "https://alpaca.markets/data"
+    url: "https://data.alpaca.markets/v2/stocks/quotes/latest"
     category: "行情API"
-    use_case: "可选美股行情源。"
-    beidou_role: "备用行情源"
+    use_case: "可选只读美股 latest quotes 行情源。"
+    beidou_role: "只读备用行情源"
     automation_level: "可接入：需要 ALPACA_KEY_ID 和 ALPACA_SECRET_KEY"
     requires_login: true
     lag_risk: "取决于套餐"
     best_for: "更稳定的行情数据"
     not_suitable_for: "无 API Key 环境"
     weight_in_scoring: "中"
-    notes: "本项目禁止调用交易下单接口，只允许 market data。"
+    notes: "本项目禁止调用交易下单、账户、持仓、资金划转接口，只允许 market data GET 请求。默认 feed=iex。"
+
+  - source_name: Tiger OpenAPI quote API
+    url: "https://quant.itiger.com/openapi"
+    category: "行情API/候选"
+    use_case: "候选只读行情源；需用户后续确认行情权限、SDK和密钥管理方式。"
+    beidou_role: "港美股只读行情候选"
+    automation_level: "未启用；只登记候选，不写登录、账户或交易调用。"
+    requires_login: true
+    lag_risk: "取决于老虎行情权限和订阅"
+    best_for: "未来港美股只读行情增强"
+    not_suitable_for: "券商登录、账户读取、下单、交易执行"
+    weight_in_scoring: "待定"
+    notes: "北斗投资系统只允许只读行情；老虎交易、账户、订单能力必须留在未来北斗交易系统，当前禁用。"
 
 manual_or_limited_sources:
   - Blue Ocean ATS / overnight venue feeds (夜盘专用；当前未接入)
