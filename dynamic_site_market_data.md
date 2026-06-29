@@ -31,12 +31,26 @@ GitHub Pages is suitable for static backup only. A dynamic free path should use:
 The repository now includes a read-only market data adapter:
 
 - Module: `beidou_us_radar/providers/readonly_market_data.py`
+- Cloudflare Function: `functions/api/quotes.js`
 - Enabled provider: Alpaca Market Data latest quotes, only when `ALPACA_KEY_ID` and `ALPACA_SECRET_KEY` are present.
 - HTTP method: `GET` only.
 - Guardrail: endpoint paths containing account, position, order, trade, transfer, withdraw, or deposit words are refused.
 - Scan integration: `scripts/premarket_mover_scan.py` uses the adapter as an optional fallback after TradingView/Yahoo and before Finnhub.
+- Frontend integration: the static dashboard attempts `api/quotes?symbols=...` and overlays dynamic read-only prices only when Cloudflare Functions and provider keys are available.
 
 Tiger OpenAPI remains a documented candidate only. It is not called by this repository because the current boundary forbids broker login, account access, and trading operations.
+
+## Cloudflare Environment Variables
+
+Set these in Cloudflare Pages project settings, not in the repository:
+
+```text
+ALPACA_KEY_ID=...
+ALPACA_SECRET_KEY=...
+ALPACA_DATA_FEED=iex
+```
+
+Do not add broker usernames, passwords, verification codes, account numbers, order permissions, or trading secrets.
 
 ## Implementation Gate
 
