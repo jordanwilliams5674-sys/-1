@@ -28,6 +28,11 @@ See `CLOUDFLARE_PAGES_DEPLOY.md` for step-by-step setup.
 - `CLOUDFLARE_PAGES_DEPLOY.md`: Cloudflare Pages setup guide.
 - `docs/dodex-removed.md`: explains why trading execution entrypoints are not part of this site repo.
 - `data/holdings_accounts/accounts.json`: sanitized placeholder only. It is not a real account data source.
+- `config/holdings.yaml`: research-only actual-holding labels confirmed by the user, without account, broker, quantity, cost, or balance data.
+- `config/beidou_investment_rules.yaml`: Beidou investment-system boundaries and report rules.
+- `data/qixing_stock_universe.json`: Qixing research/watch pool universe.
+- `templates/beidou_daily_email.md`: Beidou daily email/report template with a mock sample.
+- `docs/dynamic_site_market_data.md`: free dynamic-site and read-only market-data connector plan.
 
 ## Refreshing Site Data
 

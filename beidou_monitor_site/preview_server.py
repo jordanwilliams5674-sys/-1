@@ -29,6 +29,8 @@ RESEARCH_OVERFLOW_ROOT = Path("D:/BeidouResearchLibrary/research_pool")
 RESEARCH_RETENTION_DAYS = 183
 RESEARCH_ROLLOVER_BYTES = 300 * 1024 * 1024
 RESEARCH_MIN_FREE_BYTES = 5 * 1024 * 1024 * 1024
+CONFIRMED_ACTUAL_HOLDINGS = {"NVDA", "SOXS", "CRCL", "AEP", "AMKR", "KO", "HK_DAJIN_HEAVY", "HK_LENS_TECH", "HK_CHAOQI_TECH"}
+PROTECTED_NON_HOLDINGS = {"INTC", "MRVL", "RGTI", "SQQQ"}
 
 
 def read_json(path: Path, fallback):
@@ -833,6 +835,13 @@ def load_candidate_pool_items() -> list[dict]:
         for key in ("beidou_role", "action", "segment", "name"):
             clean_item[key] = sanitize_research_text(clean_item.get(key))
         clean_item["ticker"] = ticker
+        if ticker in CONFIRMED_ACTUAL_HOLDINGS:
+            clean_item["holding_status"] = "actual_holding"
+            clean_item["pool"] = "actual_holding_research"
+            clean_item["action"] = "holding_risk_scan_first"
+        elif ticker in PROTECTED_NON_HOLDINGS:
+            clean_item["holding_status"] = "watchlist_or_historical"
+            clean_item["beidou_role"] = f"{clean_item.get('beidou_role') or 'watchlist'}; not_actual_holding"
         clean_item["record_type"] = "candidate_pool"
         clean_item["text_index"] = " ".join([
             ticker,

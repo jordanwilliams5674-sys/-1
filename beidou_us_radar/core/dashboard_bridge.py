@@ -16,6 +16,7 @@ from .source_health import check_payload_health
 ROOT = Path(__file__).resolve().parents[2]
 ACCOUNTS_PATH = ROOT / "data" / "holdings_accounts" / "accounts.json"
 WATCHLIST_PATH = ROOT / "config" / "watchlist.yaml"
+HOLDINGS_CONFIG_PATH = ROOT / "config" / "holdings.yaml"
 
 DISABLED_A_SHARE_SOURCES = [
     {"name": "mootdx", "status": "disabled", "reason": "A股通达信 TCP 数据源，只适合 A 股 K线、盘口、F10。"},
@@ -50,7 +51,32 @@ def valid_us_symbol(symbol: str) -> bool:
     return re.fullmatch(r"[A-Z][A-Z0-9.]{0,9}", symbol or "") is not None
 
 
-def load_actual_holdings(path: Path = ACCOUNTS_PATH) -> set[str]:
+def load_actual_holdings(path: Path = ACCOUNTS_PATH, config_path: Path = HOLDINGS_CONFIG_PATH) -> set[str]:
+    out = set()
+    if config_path.exists():
+        in_actual = False
+        current_symbol = ""
+        current_status = ""
+        for raw in config_path.read_text(encoding="utf-8").splitlines():
+            if re.match(r"^actual_holdings:\s*$", raw):
+                in_actual = True
+                continue
+            if in_actual and re.match(r"^[A-Za-z0-9_]+:\s*", raw):
+                break
+            ticker_match = re.match(r"^\s{2}-\s+ticker:\s*(.+?)\s*$", raw)
+            if ticker_match:
+                if current_symbol and current_status == "actual_holding" and valid_us_symbol(current_symbol):
+                    out.add(current_symbol)
+                current_symbol = ticker_match.group(1).upper().strip().strip('"').strip("'")
+                current_status = ""
+                continue
+            status_match = re.match(r"^\s{4}holding_status:\s*(.+?)\s*$", raw)
+            if status_match:
+                current_status = status_match.group(1).strip().strip('"').strip("'")
+        if current_symbol and current_status == "actual_holding" and valid_us_symbol(current_symbol):
+            out.add(current_symbol)
+    if out:
+        return out
     if not path.exists():
         return set()
     try:
@@ -58,7 +84,6 @@ def load_actual_holdings(path: Path = ACCOUNTS_PATH) -> set[str]:
     except Exception:
         return set()
     holdings = payload.get("持仓列表", [])
-    out = set()
     if isinstance(holdings, list):
         for item in holdings:
             if not isinstance(item, dict):

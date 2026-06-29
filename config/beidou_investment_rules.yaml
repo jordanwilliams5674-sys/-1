@@ -1,0 +1,68 @@
+module: beidou_investment_rules
+version: 2026-06-29
+scope: research_risk_and_reporting_only
+
+boundaries:
+  allowed:
+    - 持仓风险识别
+    - 股票池分类
+    - 催化跟踪
+    - 财报与指引跟踪
+    - 政策/订单/FDA/SEC事件记录
+    - 投资研究评分
+    - 日报和邮件输出
+  forbidden:
+    - 自动下单
+    - 自动买入卖出
+    - 自动止损止盈
+    - 交易执行
+    - 券商交易接口调用
+    - 保存券商账号、密码、验证码、2FA、真实资金、成本、数量
+
+rules:
+  actual_holding_first:
+    description: "所有日报、研究报告、风险扫描，必须先输出实际持仓影响，再输出观察池机会。"
+  holding_watchlist_separation:
+    description: "实际持仓、观察池、历史持仓、排除标的必须用不同字段，不得混写。"
+  old_holding_guardrail:
+    description: "INTC、MRVL、RGTI、SQQQ 不得自动作为实际持仓，除非用户后续明确确认或上传新截图。"
+    protected_symbols: [INTC, MRVL, RGTI, SQQQ]
+  soxs_special_risk:
+    description: "SOXS是三倍做空半导体ETF，不是普通股票。若SMH/SOXX/NVDA/半导体链反弹，必须优先提示SOXS回吐和杠杆损耗风险。"
+    symbol: SOXS
+    benchmarks: [SMH, SOXX, NVDA, AMD, AVGO, TSM, QQQ]
+  healthcare_branch:
+    description: "医疗保健、AI医疗、基因疗法、基因编辑、GLP-1都要扫描，但医疗不能独占夜盘扫描。医疗只是全美股高β扫描的一条分支。"
+  ai_tech_lifeline:
+    description: "AI科技生命线必须覆盖AI半导体、AI基础设施、AI软件、AI医疗、AI制药、精准诊断、先进封装、量子、稳定币/加密金融。"
+  hk_actual_holdings:
+    description: "港股实际持仓包括大金重工、蓝思科技、潮起科技，不得只写大金重工一只。"
+
+read_only_market_data_connectors:
+  policy: "可接入免费或低成本只读行情源；禁止接入下单、账户交易、资金划转、密码或2FA流程。"
+  dynamic_site_preference: "免费动态网站优先考虑 Cloudflare Pages + Functions/Workers；GitHub Pages 保持静态备份。"
+  candidates:
+    - name: Alpaca Market Data
+      status: disabled_by_default
+      allowed_use: "只读美股行情；不使用交易下单接口。"
+      notes: "免费层行情覆盖和延迟需以官方套餐为准。"
+    - name: Tiger OpenAPI
+      status: disabled_by_default
+      allowed_use: "仅在用户确认权限后考虑只读行情；禁止登录代操作和交易接口。"
+      notes: "行情权限、港美股范围和订阅要求需以老虎官方说明为准。"
+    - name: Yahoo Finance public endpoints
+      status: optional
+      allowed_use: "辅助行情线索；不可作为唯一决策源。"
+
+daily_report_order:
+  - 一句话总判断
+  - 实际持仓影响
+  - 今日3-5条关键新消息
+  - 未来7天催化
+  - 未来30-90天催化
+  - 财报与指引
+  - 新药/新科技/政策/市场订单
+  - 今日可操作观察名单
+  - 只观察名单
+  - 明确不追名单
+  - 风险免责声明：不自动执行买卖

@@ -102,6 +102,7 @@ class WatchItem:
     priority: str = "medium"
     notes: str = ""
     mapping_symbols: list[str] = field(default_factory=list)
+    quote_enabled: bool = True
 
 
 @dataclass
@@ -169,6 +170,8 @@ def parse_watchlist_config(path: Path = CONFIG_PATH) -> tuple[list[WatchItem], d
                 current.notes = value
             elif key == "mapping_symbols":
                 current.mapping_symbols = [part.strip() for part in value.split(",") if part.strip()]
+            elif key == "quote_enabled":
+                current.quote_enabled = value.lower() not in {"false", "no", "0"}
 
     return items, meta
 
@@ -415,7 +418,7 @@ def main(argv: list[str] | None = None) -> int:
 
     now_utc = datetime.now(timezone.utc)
     watch_items, _ = parse_watchlist_config()
-    symbols = args.symbols or [item.ticker for item in watch_items if item.ticker != "GOLD_BASKET"]
+    symbols = args.symbols or [item.ticker for item in watch_items if item.ticker != "GOLD_BASKET" and item.quote_enabled]
     output = {symbol: [catalyst_to_dict(c) for c in catalysts_for_ticker(symbol.upper(), now_utc)] for symbol in symbols}
 
     if args.json:

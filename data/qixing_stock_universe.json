@@ -1,0 +1,82 @@
+{
+  "module": "qixing_stock_universe",
+  "version": "2026-06-29",
+  "scope": "research_pool_only",
+  "actual_holdings_reference": [
+    "NVDA",
+    "SOXS",
+    "CRCL",
+    "AEP",
+    "AMKR",
+    "KO",
+    "HK_DAJIN_HEAVY",
+    "HK_LENS_TECH",
+    "HK_CHAOQI_TECH"
+  ],
+  "pools": {
+    "healthcare_ai_life_science_high_beta": [
+      {"ticker": "RGNX", "theme": "基因疗法 / FDA反转事件票", "status": "watchlist"},
+      {"ticker": "RXRX", "theme": "AI制药 / AI医疗高β", "status": "watchlist"},
+      {"ticker": "TEM", "theme": "AI精准医疗 / AI诊断商业化", "status": "watchlist"},
+      {"ticker": "NTLA", "theme": "基因编辑高弹性", "status": "watchlist"},
+      {"ticker": "VKTX", "theme": "GLP-1 / 减肥药高弹性", "status": "watchlist"},
+      {"ticker": "QURE", "theme": "基因疗法事件票，已爆发，等二次机会", "status": "watchlist"},
+      {"ticker": "CLPT", "theme": "基因疗法卖铲子映射，等二次机会", "status": "watchlist"},
+      {"ticker": "TGTX", "theme": "生物科技强趋势", "status": "watchlist"},
+      {"ticker": "HIMS", "theme": "GLP-1消费医疗/远程医疗高β", "status": "watchlist"},
+      {"ticker": "GH", "theme": "精准诊断/肿瘤检测观察", "status": "watchlist"}
+    ],
+    "ai_semiconductor_infrastructure": [
+      {"ticker": "NVDA", "status": "actual_holding"},
+      {"ticker": "AMKR", "status": "actual_holding"},
+      {"ticker": "SOXS", "status": "actual_holding"},
+      {"ticker": "AMD", "status": "watchlist"},
+      {"ticker": "AVGO", "status": "watchlist"},
+      {"ticker": "TSM", "status": "watchlist"},
+      {"ticker": "MU", "status": "watchlist"},
+      {"ticker": "MRVL", "status": "watchlist_not_actual_holding"},
+      {"ticker": "INTC", "status": "watchlist_or_historical_not_actual_holding"},
+      {"ticker": "CRDO", "status": "watchlist"},
+      {"ticker": "ANET", "status": "watchlist"},
+      {"ticker": "CIEN", "status": "watchlist"},
+      {"ticker": "WDC", "status": "watchlist"},
+      {"ticker": "SNDK", "status": "watchlist"},
+      {"ticker": "SMH", "status": "watchlist"},
+      {"ticker": "SOXX", "status": "watchlist"}
+    ],
+    "ai_software_data_cybersecurity": [
+      {"ticker": "SNOW", "status": "watchlist"},
+      {"ticker": "PLTR", "status": "watchlist"},
+      {"ticker": "ORCL", "status": "watchlist"},
+      {"ticker": "CRWD", "status": "watchlist"},
+      {"ticker": "PANW", "status": "watchlist"},
+      {"ticker": "FTNT", "status": "watchlist"},
+      {"ticker": "DDOG", "status": "watchlist"},
+      {"ticker": "NET", "status": "watchlist"},
+      {"ticker": "MDB", "status": "watchlist"}
+    ],
+    "quantum": [
+      {"ticker": "RGTI", "status": "watchlist_or_historical_not_actual_holding"},
+      {"ticker": "QBTS", "status": "watchlist"},
+      {"ticker": "QUBT", "status": "watchlist"},
+      {"ticker": "IONQ", "status": "watchlist"},
+      {"ticker": "IBM", "status": "watchlist"}
+    ],
+    "stablecoin_crypto_finance": [
+      {"ticker": "CRCL", "status": "actual_holding"},
+      {"ticker": "COIN", "status": "watchlist"},
+      {"ticker": "HOOD", "status": "watchlist"},
+      {"ticker": "MSTR", "status": "watchlist"},
+      {"ticker": "IBIT", "status": "watchlist"},
+      {"ticker": "MARA", "status": "watchlist"},
+      {"ticker": "RIOT", "status": "watchlist"},
+      {"ticker": "BTC", "status": "watchlist"},
+      {"ticker": "ETH", "status": "watchlist"}
+    ]
+  },
+  "guardrails": {
+    "watchlist_is_not_holding": true,
+    "do_not_promote_to_actual_holding_without_user_confirmation": ["INTC", "MRVL", "RGTI", "SQQQ"],
+    "no_auto_trading": true
+  }
+}

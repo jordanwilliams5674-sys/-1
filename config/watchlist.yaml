@@ -15,7 +15,7 @@ scan_universe:
   include_market_movers: true
   nasdaq100_cache_file: "config/nasdaq100_symbols.txt"
   nasdaq100_cache_hours: 24
-  note: "默认扫描范围 = Nasdaq 100 + 观察池 + 全市场异动候选；不再保存或展示实仓明细。"
+  note: "默认扫描范围 = Nasdaq 100 + 实际持仓研究标签 + 观察池 + 全市场异动候选；不保存数量、成本、账户或券商信息。"
 
 notification:
   email_to: "295765031@qq.com"
@@ -44,12 +44,75 @@ important_messages:
   note: "重要消息保留约90分钟；页面合并展示，不铺满多个重复卡片；普通候选继续实时刷新，错过可看重要消息记录。"
 
 watchlists:
-  current_actual_holdings: []
-
-  sold_but_still_watching:
+  current_actual_holdings:
+    - ticker: NVDA
+      name: NVIDIA
+      display_name_cn: 英伟达
+      priority: high
+      role: actual_holding
+      theme: AI半导体
+      notes: "user_confirmed_2026_06_29；AI核心持仓 / AI半导体核心风向标。"
+    - ticker: SOXS
+      name: Direxion Daily Semiconductor Bear 3X Shares
+      display_name_cn: 三倍做空半导体ETF
+      priority: critical
+      role: actual_holding
+      theme: 半导体反向对冲
+      notes: "user_confirmed_2026_06_29；三倍做空半导体ETF，每日报告必须单独提示杠杆损耗和回吐风险。"
+    - ticker: CRCL
+      name: Circle Internet Group
+      display_name_cn: Circle
+      priority: high
+      role: actual_holding
+      theme: 稳定币/加密金融
+      notes: "user_confirmed_2026_06_29；稳定币/加密金融高β持仓。"
+    - ticker: AEP
+      name: American Electric Power
+      display_name_cn: American Electric Power
+      priority: medium
+      role: actual_holding
+      theme: 公用事业/电力
+      notes: "user_confirmed_2026_06_29；防守型公用事业持仓。"
     - ticker: AMKR
       name: Amkor Technology
+      display_name_cn: Amkor
+      priority: high
+      role: actual_holding
+      theme: 先进封装/OSAT
+      notes: "user_confirmed_2026_06_29；先进封装/OSAT实际持仓。"
+    - ticker: KO
+      name: Coca-Cola
+      display_name_cn: 可口可乐
       priority: medium
+      role: actual_holding
+      theme: 必选消费/防守
+      notes: "user_confirmed_2026_06_29；消费防守持仓。"
+    - ticker: HK_DAJIN_HEAVY
+      name: 大金重工
+      display_name_cn: 大金重工
+      priority: high
+      role: actual_holding
+      theme: 港股制造/风电装备
+      quote_enabled: false
+      notes: "user_confirmed_2026_06_29；港股实际持仓，仅作研究标签，未保存数量、成本或券商信息。"
+    - ticker: HK_LENS_TECH
+      name: 蓝思科技
+      display_name_cn: 蓝思科技
+      priority: high
+      role: actual_holding
+      theme: 港股科技制造
+      quote_enabled: false
+      notes: "user_confirmed_2026_06_29；港股实际持仓，仅作研究标签，未保存数量、成本或券商信息。"
+    - ticker: HK_CHAOQI_TECH
+      name: 潮起科技
+      display_name_cn: 潮起科技
+      priority: high
+      role: actual_holding
+      theme: 港股科技
+      quote_enabled: false
+      notes: "user_confirmed_2026_06_29；港股实际持仓，仅作研究标签，未保存数量、成本或券商信息。"
+
+  sold_but_still_watching:
     - ticker: ASX
       name: ASE Technology
       priority: medium
@@ -58,46 +121,80 @@ watchlists:
       priority: medium
 
   watch_pool_pending_confirmation:
+    - ticker: RGNX
+      name: REGENXBIO
+      priority: high
+      theme: 医疗保健/基因疗法
+      notes: "基因疗法 / FDA反转事件票；观察池，不是实际持仓。"
+    - ticker: RXRX
+      name: Recursion Pharmaceuticals
+      priority: high
+      theme: AI医疗/AI制药
+      notes: "AI制药 / AI医疗高β；观察池，不是实际持仓。"
+    - ticker: TEM
+      name: Tempus AI
+      priority: high
+      theme: AI精准医疗
+      notes: "AI精准医疗 / AI诊断商业化；观察池，不是实际持仓。"
+    - ticker: NTLA
+      name: Intellia Therapeutics
+      priority: high
+      theme: 基因编辑
+      notes: "基因编辑高弹性；观察池，不是实际持仓。"
+    - ticker: VKTX
+      name: Viking Therapeutics
+      priority: high
+      theme: GLP-1
+      notes: "GLP-1 / 减肥药高弹性；观察池，不是实际持仓。"
+    - ticker: QURE
+      name: uniQure
+      priority: medium
+      theme: 基因疗法
+      notes: "基因疗法事件票，已爆发，等二次机会；观察池。"
+    - ticker: CLPT
+      name: ClearPoint Neuro
+      priority: medium
+      theme: 基因疗法工具链
+      notes: "基因疗法卖铲子映射，等二次机会；观察池。"
+    - ticker: TGTX
+      name: TG Therapeutics
+      priority: high
+      theme: 生物科技
+      notes: "生物科技强趋势；观察池。"
+    - ticker: HIMS
+      name: Hims & Hers Health
+      priority: high
+      theme: GLP-1/消费医疗
+      notes: "GLP-1消费医疗/远程医疗高β；观察池。"
+    - ticker: GH
+      name: Guardant Health
+      priority: medium
+      theme: 精准诊断
+      notes: "精准诊断/肿瘤检测观察；观察池。"
     - ticker: PEP
       name: PepsiCo
-      priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
-    - ticker: KO
-      name: Coca-Cola
-      priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
-    - ticker: AEP
-      name: American Electric Power
       priority: medium
       notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
     - ticker: CSIQ
       name: Canadian Solar
       priority: medium
       notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
-    - ticker: CRCL
-      name: Circle Internet Group
-      priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
     - ticker: SQQQ
       name: ProShares UltraPro Short QQQ
       priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
-    - ticker: SOXS
-      name: Direxion Daily Semiconductor Bear 3X Shares
-      priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+      notes: "观察池/历史，不是实际持仓；除非用户后续用新截图确认，不得自动写回实际持仓。"
     - ticker: INTC
       name: Intel
       priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+      notes: "观察池/历史，不是实际持仓；除非用户后续用新截图确认，不得自动写回实际持仓。"
     - ticker: MRVL
       name: Marvell Technology
       priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+      notes: "观察池，不是实际持仓；除非用户后续用新截图确认，不得自动写回实际持仓。"
     - ticker: RGTI
       name: Rigetti Computing
       priority: medium
-      notes: "原实仓标的已转入观察池；不保留数量、成本或账户信息。"
+      notes: "观察池/历史，不是实际持仓；除非用户后续用新截图确认，不得自动写回实际持仓。"
     - ticker: GOLD_BASKET
       name: 黄金/积存金
       priority: medium
@@ -112,9 +209,6 @@ watchlists:
       priority: medium
     - ticker: ORCL
       name: Oracle
-      priority: medium
-    - ticker: NVDA
-      name: NVIDIA
       priority: medium
     - ticker: WDC
       name: Western Digital
@@ -141,8 +235,131 @@ watchlists:
       name: Qualcomm
       priority: low
       notes: "仅观察，不主动反复提醒；只记录重大变化。"
+    - ticker: AMD
+      name: Advanced Micro Devices
+      priority: high
+      theme: AI半导体
+    - ticker: AVGO
+      name: Broadcom
+      priority: high
+      theme: AI半导体
+    - ticker: TSM
+      name: Taiwan Semiconductor
+      priority: high
+      theme: AI半导体/先进制程
+    - ticker: MU
+      name: Micron
+      priority: high
+      theme: HBM/存储
+    - ticker: CRDO
+      name: Credo Technology
+      priority: high
+      theme: AI网络/CPO
+    - ticker: ANET
+      name: Arista Networks
+      priority: high
+      theme: AI网络
+    - ticker: CIEN
+      name: Ciena
+      priority: medium
+      theme: 光通信
+    - ticker: SNDK
+      name: SanDisk
+      priority: medium
+      theme: 存储
+    - ticker: SMH
+      name: VanEck Semiconductor ETF
+      priority: high
+      theme: 半导体ETF
+    - ticker: SOXX
+      name: iShares Semiconductor ETF
+      priority: high
+      theme: 半导体ETF
+    - ticker: SNOW
+      name: Snowflake
+      priority: medium
+      theme: AI软件/数据
+    - ticker: PLTR
+      name: Palantir
+      priority: high
+      theme: AI软件/数据
+    - ticker: PANW
+      name: Palo Alto Networks
+      priority: medium
+      theme: 网络安全
+    - ticker: FTNT
+      name: Fortinet
+      priority: medium
+      theme: 网络安全
+    - ticker: DDOG
+      name: Datadog
+      priority: medium
+      theme: AI软件/可观测性
+    - ticker: NET
+      name: Cloudflare
+      priority: medium
+      theme: 网络/边缘云
+    - ticker: MDB
+      name: MongoDB
+      priority: medium
+      theme: 数据库/AI软件
+    - ticker: QBTS
+      name: D-Wave Quantum
+      priority: medium
+      theme: 量子
+    - ticker: QUBT
+      name: Quantum Computing
+      priority: medium
+      theme: 量子
+    - ticker: IONQ
+      name: IonQ
+      priority: high
+      theme: 量子
+    - ticker: IBM
+      name: IBM
+      priority: medium
+      theme: 量子/AI基础设施
+    - ticker: COIN
+      name: Coinbase
+      priority: high
+      theme: 加密金融
+    - ticker: HOOD
+      name: Robinhood
+      priority: high
+      theme: 加密金融/券商平台
+    - ticker: MSTR
+      name: MicroStrategy
+      priority: medium
+      theme: BTC杠杆映射
+    - ticker: IBIT
+      name: iShares Bitcoin Trust
+      priority: medium
+      theme: BTC ETF
+    - ticker: MARA
+      name: MARA Holdings
+      priority: medium
+      theme: 比特币矿企
+    - ticker: RIOT
+      name: Riot Platforms
+      priority: medium
+      theme: 比特币矿企
+    - ticker: BTC
+      name: Bitcoin
+      priority: high
+      theme: 加密资产风向标
+    - ticker: ETH
+      name: Ethereum
+      priority: high
+      theme: 加密资产风向标
 
 focus_themes:
+  - 医疗保健
+  - AI医疗
+  - AI制药
+  - 精准诊断
+  - 基因疗法
+  - 基因编辑
+  - GLP-1
   - AI基础设施
   - AI芯片
   - 半导体

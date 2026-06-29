@@ -599,6 +599,8 @@ def relation_maps():
     quote_symbols: list[str] = []
     for item in items:
         relation[item.ticker] = (item.group, item.name or item.ticker, item.priority, item.mapping_symbols)
+        if not item.quote_enabled:
+            continue
         if item.ticker == "GOLD_BASKET":
             for mapped in item.mapping_symbols:
                 relation[mapped.upper()] = (item.group, f"黄金/积存金映射：{mapped}", item.priority, [])
