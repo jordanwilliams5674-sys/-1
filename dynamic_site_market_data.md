@@ -26,6 +26,18 @@ GitHub Pages is suitable for static backup only. A dynamic free path should use:
 | Tiger OpenAPI | Candidate, disabled by default | Possible quote reads after user confirms permissions | Login handling, order placement, account operations |
 | Yahoo Finance public endpoints | Existing auxiliary style | Quote and chart hints | Sole source for high-stakes decisions |
 
+## Current Read-Only Adapter
+
+The repository now includes a read-only market data adapter:
+
+- Module: `beidou_us_radar/providers/readonly_market_data.py`
+- Enabled provider: Alpaca Market Data latest quotes, only when `ALPACA_KEY_ID` and `ALPACA_SECRET_KEY` are present.
+- HTTP method: `GET` only.
+- Guardrail: endpoint paths containing account, position, order, trade, transfer, withdraw, or deposit words are refused.
+- Scan integration: `scripts/premarket_mover_scan.py` uses the adapter as an optional fallback after TradingView/Yahoo and before Finnhub.
+
+Tiger OpenAPI remains a documented candidate only. It is not called by this repository because the current boundary forbids broker login, account access, and trading operations.
+
 ## Implementation Gate
 
 Before enabling any dynamic connector:

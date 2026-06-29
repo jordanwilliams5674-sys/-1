@@ -7,21 +7,21 @@
     "dedupe_policy": "前台只保留一套观察池、事件流、数据源健康和人工判断；不展示实仓明细，老雷达作为后台数据源。"
   },
   "market": {
-    "easternTime": "2026-06-29 05:27:02",
-    "beijingTime": "2026-06-29 17:27:02",
+    "easternTime": "2026-06-29 05:35:32",
+    "beijingTime": "2026-06-29 17:35:32",
     "sessionLabel": "盘前",
     "marketRegime": "pending / no signal",
-    "generatedAtUtc": "2026-06-29T09:27:02.886006+00:00",
+    "generatedAtUtc": "2026-06-29T09:35:32.296858+00:00",
     "instruments": [
       {
         "label": "SPY",
         "symbol": "SPY",
         "sourceSymbol": "SPY",
         "price": 728.99,
-        "change": 0.960232650653644,
+        "change": 1.0178466096928571,
         "quoteStatus": "ok",
         "displayPrice": 728.99,
-        "displayChange": 0.960232650653644,
+        "displayChange": 1.0178466096928571,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -30,10 +30,10 @@
         "symbol": "QQQ",
         "sourceSymbol": "QQQ",
         "price": 706.52,
-        "change": 1.0578752193851584,
+        "change": 1.1676951820189096,
         "quoteStatus": "ok",
         "displayPrice": 706.52,
-        "displayChange": 1.0578752193851584,
+        "displayChange": 1.1676951820189096,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -42,10 +42,10 @@
         "symbol": "DIA",
         "sourceSymbol": "DIA",
         "price": 517.75,
-        "change": 0.4249154997585795,
+        "change": 0.4268469338483894,
         "quoteStatus": "ok",
         "displayPrice": 517.75,
-        "displayChange": 0.4249154997585795,
+        "displayChange": 0.4268469338483894,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -54,10 +54,10 @@
         "symbol": "IWM",
         "sourceSymbol": "IWM",
         "price": 299.83,
-        "change": -0.33685755261314443,
+        "change": -0.26681786345596215,
         "quoteStatus": "ok",
         "displayPrice": 299.83,
-        "displayChange": -0.33685755261314443,
+        "displayChange": -0.26681786345596215,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -66,10 +66,10 @@
         "symbol": "SOXX",
         "sourceSymbol": "SOXX",
         "price": 589.94,
-        "change": 1.6611858833101592,
+        "change": 1.7476353527477277,
         "quoteStatus": "ok",
         "displayPrice": 589.94,
-        "displayChange": 1.6611858833101592,
+        "displayChange": 1.7476353527477277,
         "verificationStatus": "本地行情快照，待外部公开源核验",
         "sourceNote": "公开免费行情源快照；仅作研究参考，不作为交易依据。"
       },
@@ -114,10 +114,10 @@
         "symbol": "GLD",
         "sourceSymbol": "GLD",
         "price": 373.63,
-        "change": -0.5004951422530323,
+        "change": -0.4871129191981354,
         "quoteStatus": "ok",
         "displayPrice": 373.63,
-        "displayChange": -0.5004951422530323,
+        "displayChange": -0.4871129191981354,
         "verificationStatus": "代理指标，待现货黄金/COMEX核验",
         "sourceNote": "当前免费源返回的是GLD黄金ETF价格，不是现货黄金/COMEX黄金；现货黄金需单独核验。"
       },
@@ -138,7 +138,7 @@
       "mode": "盘前",
       "intervalSeconds": 90,
       "reason": "盘前异动较多，前台90秒刷新一次。",
-      "easternTime": "2026-06-29T05:28:59.555522-04:00"
+      "easternTime": "2026-06-29T05:39:13.153334-04:00"
     }
   },
   "holdings": [],
@@ -153,7 +153,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -166,7 +166,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -179,7 +179,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -192,7 +192,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -205,7 +205,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -218,7 +218,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -231,7 +231,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -244,7 +244,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -257,7 +257,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -270,7 +270,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -283,7 +283,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -296,7 +296,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -304,13 +304,13 @@
       "company": "RGTI",
       "theme": "research",
       "company_type": "research",
-      "catalyst": "Powerhouse Energy, Quantum Blockchain, Futura Medical, ATOME, DeFi Development Corp UK",
-      "valuation_status": "valuation_watch",
+      "catalyst": "等待高质量新催化",
+      "valuation_status": "pending",
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
-      "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
-      "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
+      "low_buy_status": "not_ready",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
+      "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
       "ticker": "GOLD_BASKET",
@@ -322,7 +322,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
     },
     {
@@ -335,7 +335,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -348,7 +348,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -361,7 +361,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -374,7 +374,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
     },
     {
@@ -387,7 +387,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     },
     {
@@ -400,7 +400,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
     },
     {
@@ -413,7 +413,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -426,7 +426,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -439,7 +439,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -452,7 +452,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池只进入研究队列，不按实仓防守提醒。"
     },
     {
@@ -465,7 +465,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "batch_research_allowed",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池出现高质量新催化，进入研究而非持仓提醒。"
     },
     {
@@ -478,7 +478,7 @@
       "financial_quality": "fundamental_check_needed",
       "chart_structure": "pending",
       "low_buy_status": "not_ready",
-      "last_checked_time": "2026-06-29T09:27:02.886006+00:00",
+      "last_checked_time": "2026-06-29T09:35:32.296858+00:00",
       "latest_research_event": "观察池普通线索，等待官方或量价确认。"
     }
   ],
@@ -984,7 +984,57 @@
       "severity": 2
     },
     {
-      "id": "TSLA-10",
+      "id": "SPY-10",
+      "ticker": "SPY",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "excluded",
+      "event_type": "index inclusion/removal",
+      "source": "Yahoo Finance资讯",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "Yahoo Finance资讯",
+        "domain": "yahoo-finance资讯",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-28T22:42:30+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-28T22:42:30+00:00",
+      "detected_time": "2026-06-28T22:42:30+00:00",
+      "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as US and Iran reportedly call a halt to attacks",
+      "summary": "不在观察池，默认排除。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "不在观察池，默认排除。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "SPY|spy|index-inclusion-removal|yahoo-finance资讯|stock-market-today-s-p-500-nasdaq-dow-futures-rise-as-us-and-iran-reportedly-cal|2026-06-28",
+      "severity": 2
+    },
+    {
+      "id": "TSLA-11",
       "ticker": "TSLA",
       "tickers": null,
       "sector": "",
@@ -1034,7 +1084,7 @@
       "severity": 2
     },
     {
-      "id": "META-11",
+      "id": "META-12",
       "ticker": "META",
       "tickers": null,
       "sector": "",
@@ -1084,7 +1134,7 @@
       "severity": 2
     },
     {
-      "id": "GOOGL-12",
+      "id": "GOOGL-13",
       "ticker": "GOOGL",
       "tickers": null,
       "sector": "",
@@ -1134,7 +1184,7 @@
       "severity": 2
     },
     {
-      "id": "NVDA-13",
+      "id": "NVDA-14",
       "ticker": "NVDA",
       "tickers": null,
       "sector": "",
@@ -1184,7 +1234,7 @@
       "severity": 4
     },
     {
-      "id": "MSFT-14",
+      "id": "MSFT-15",
       "ticker": "MSFT",
       "tickers": null,
       "sector": "",
@@ -1234,7 +1284,7 @@
       "severity": 2
     },
     {
-      "id": "AMZN-15",
+      "id": "AMZN-16",
       "ticker": "AMZN",
       "tickers": null,
       "sector": "",
@@ -1284,7 +1334,7 @@
       "severity": 2
     },
     {
-      "id": "INTC-16",
+      "id": "INTC-17",
       "ticker": "INTC",
       "tickers": null,
       "sector": "",
@@ -1334,7 +1384,7 @@
       "severity": 4
     },
     {
-      "id": "CRWD-17",
+      "id": "CRWD-18",
       "ticker": "CRWD",
       "tickers": null,
       "sector": "",
@@ -1382,56 +1432,6 @@
       "suppression_reason": null,
       "event_signature": "CRWD|crwd|sec-filing|yahoo-finance资讯|crowdstrike-crwd-extends-falcon-aidr-to-create-unified-ai-security-control-plane|2026-06-29",
       "severity": 4
-    },
-    {
-      "id": "RGTI-18",
-      "ticker": "RGTI",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "watchlist",
-      "event_type": "AI infrastructure",
-      "source": "Yahoo Finance资讯",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "Yahoo Finance资讯",
-        "domain": "yahoo-finance资讯",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T08:46:01+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T08:46:01+00:00",
-      "detected_time": "2026-06-29T08:46:01+00:00",
-      "title": "Powerhouse Energy, Quantum Blockchain, Futura Medical, ATOME, DeFi Development Corp UK",
-      "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "分批研究",
-      "beidou_reason": "观察池出现高质量新催化，进入研究而非持仓提醒。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "RGTI|rgti|ai-infrastructure|yahoo-finance资讯|powerhouse-energy-quantum-blockchain-futura-medical-atome-defi-development-corp-|2026-06-29",
-      "severity": 2
     },
     {
       "id": "GOOGL-19",
@@ -2139,7 +2139,7 @@
       "tickers": null,
       "sector": "",
       "relation_type": "excluded",
-      "event_type": "macro data",
+      "event_type": "AI infrastructure",
       "source": "金投网财经源",
       "source_tier": "official",
       "verification_status": "official_confirmed",
@@ -2151,64 +2151,14 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:28:00+00:00",
+        "published_at_et": "2026-06-29T09:36:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:28:00+00:00",
-      "detected_time": "2026-06-29T09:28:00+00:00",
-      "title": "【沃什致信美联储全体员工 拟设五大工作组推进机构改革】 ⑴ 沃什接任美联储主席后不久，便致信该央行两万多名员工，阐述其领导思路，信中承诺将推动“针对美联储战略、政策及运作的公开且清醒的讨论”。 ⑵ 沃什战略的核心是一系列特别工作组，专注于五个关键领域，包括美联储的沟通方式、其持有的6.7万亿美元政府债券及抵押贷款支持证券投资组合、优先考量的数据来源、生产率趋势与就业状况，以及用于研判通胀的模型与衡量指标。 ⑶ 据知情人士透露，沃什将在未来几周内公布有关这些工作组的更多细节，目标是在年底前完成相关工作，随后决策者将审议应实施何种改革及具体如何实施；每个工作组将由沃什亲自挑选的几位外部人士领导，并由美联储内部选派的特定工作人员提供协助。",
-      "summary": "不在观察池，默认排除。",
-      "impact_direction": "neutral",
-      "impact_strength": "high",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "USMARKET|usmarket|macro-data|金投网财经源|沃什致信美联储全体员工-拟设五大工作组推进机构改革-⑴-沃什接任美联储主席后不久-便致信该央行两万多名员工-阐述其领导思路-信中承诺将推动-针对美联储战略-政策|2026-06-29",
-      "severity": 4
-    },
-    {
-      "id": "USMARKET-34",
-      "ticker": "USMARKET",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "unusual price/volume/options",
-      "source": "金投网财经源",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "金投网财经源",
-        "domain": "金投网财经源",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:28:00+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T09:28:00+00:00",
-      "detected_time": "2026-06-29T09:28:00+00:00",
-      "title": "【精达股份：持股5%以上股东华安保险减持0.23%股份】精达股份公告称，公司于2026年6月29日收到持股5%以上股东华安保险的告知函，获悉其当日通过集中竞价方式减持公司股份500万股，占公司总股本0.23%。华安保险持股比例由9.05%降至8.82%。本次权益变动为实施前期减持计划，不触及要约收购，不会导致公司控股股东、实控人变化，也未违反相关规定及承诺。截至公告披露日，华安保险仍处于减持计划实施期。",
+      "published_time": "2026-06-29T09:36:00+00:00",
+      "detected_time": "2026-06-29T09:36:00+00:00",
+      "title": "据知情人士称，由黑石集团支持的数据中心运营商AirTrunk接近在新加坡秘密提交房地产投资信托基金首次公开募股申请。此前由报道称，AirTrunk寻求通过此次发行筹资约15亿美元，这将使其成为新加坡自2017年以来规模最大的IPO。",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
       "impact_strength": "low",
@@ -2230,7 +2180,57 @@
       },
       "signal_score": null,
       "suppression_reason": null,
-      "event_signature": "USMARKET|usmarket|unusual-price-volume-options|金投网财经源|精达股份-持股5-以上股东华安保险减持0-23-股份-精达股份公告称-公司于2026年6月29日收到持股5-以上股东华安保险的告知函-获悉其当日通过集中竞价方式|2026-06-29",
+      "event_signature": "USMARKET|usmarket|ai-infrastructure|金投网财经源|据知情人士称-由黑石集团支持的数据中心运营商airtrunk接近在新加坡秘密提交房地产投资信托基金首次公开募股申请-此前由报道称-airtrunk寻求通过此次发|2026-06-29",
+      "severity": 2
+    },
+    {
+      "id": "USMARKET-34",
+      "ticker": "USMARKET",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "excluded",
+      "event_type": "unusual price/volume/options",
+      "source": "金投网财经源",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "金投网财经源",
+        "domain": "金投网财经源",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T09:36:00+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T09:36:00+00:00",
+      "detected_time": "2026-06-29T09:36:00+00:00",
+      "title": "美无铅汽油期货主力刚刚突破2.8700美元/加仑关口，最新报2.8702美元/加仑，日内涨1.57%",
+      "summary": "不在观察池，默认排除。",
+      "impact_direction": "neutral",
+      "impact_strength": "low",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "不在观察池，默认排除。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "USMARKET|usmarket|unusual-price-volume-options|金投网财经源|美无铅汽油期货主力刚刚突破2-8700美元-加仑关口-最新报2-8702美元-加仑-日内涨1-57|2026-06-29",
       "severity": 2
     },
     {
@@ -2251,13 +2251,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-26T09:28:00+00:00",
+        "published_at_et": "2026-06-26T09:36:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-26T09:28:00+00:00",
-      "detected_time": "2026-06-26T09:28:00+00:00",
+      "published_time": "2026-06-26T09:36:00+00:00",
+      "detected_time": "2026-06-26T09:36:00+00:00",
       "title": "存储危机“冰与火”：美光笑了，苹果哭了",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
@@ -2284,7 +2284,57 @@
       "severity": 2
     },
     {
-      "id": "GOLD_BASKET-36",
+      "id": "USMARKET-36",
+      "ticker": "USMARKET",
+      "tickers": null,
+      "sector": "",
+      "relation_type": "excluded",
+      "event_type": "macro data",
+      "source": "金投网财经源",
+      "source_tier": "official",
+      "verification_status": "official_confirmed",
+      "source_credibility": 0.9,
+      "source_label": "官方/权威源",
+      "primary_source": {
+        "name": "金投网财经源",
+        "domain": "金投网财经源",
+        "url": null,
+        "source_tier": "official",
+        "credibility": 0.9,
+        "published_at_et": "2026-06-29T09:36:36.543799+00:00",
+        "form_type": null
+      },
+      "official_form": null,
+      "official_doc_id": null,
+      "published_time": "2026-06-29T09:36:36.543799+00:00",
+      "detected_time": "2026-06-29T09:36:36.543799+00:00",
+      "title": "下一任美联储主席会是谁？",
+      "summary": "不在观察池，默认排除。",
+      "impact_direction": "neutral",
+      "impact_strength": "high",
+      "is_duplicate": false,
+      "is_repeat_48h": false,
+      "is_second_catalyst": false,
+      "is_old_event": false,
+      "is_priced_in": null,
+      "is_social_only": false,
+      "stale_flag": false,
+      "stale_reason": "",
+      "suggested_action": "只看不动",
+      "beidou_reason": "不在观察池，默认排除。",
+      "price_context": {
+        "last": null,
+        "change_pct": null,
+        "vol_vs_20d": null,
+        "session_phase": null
+      },
+      "signal_score": null,
+      "suppression_reason": null,
+      "event_signature": "USMARKET|usmarket|macro-data|金投网财经源|下一任美联储主席会是谁|2026-06-29",
+      "severity": 4
+    },
+    {
+      "id": "GOLD_BASKET-37",
       "ticker": "GOLD_BASKET",
       "tickers": null,
       "sector": "",
@@ -2301,13 +2351,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:28:00+00:00",
+        "published_at_et": "2026-06-29T09:36:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:28:00+00:00",
-      "detected_time": "2026-06-29T09:28:00+00:00",
+      "published_time": "2026-06-29T09:36:00+00:00",
+      "detected_time": "2026-06-29T09:36:00+00:00",
       "title": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
       "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
       "impact_direction": "neutral",
@@ -2334,7 +2384,7 @@
       "severity": 4
     },
     {
-      "id": "GOLD_BASKET-37",
+      "id": "GOLD_BASKET-38",
       "ticker": "GOLD_BASKET",
       "tickers": null,
       "sector": "",
@@ -2351,13 +2401,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:28:00+00:00",
+        "published_at_et": "2026-06-29T09:36:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-29T09:28:00+00:00",
-      "detected_time": "2026-06-29T09:28:00+00:00",
+      "published_time": "2026-06-29T09:36:00+00:00",
+      "detected_time": "2026-06-29T09:36:00+00:00",
       "title": "今日国际金价实时行情(2026年6月29日)",
       "summary": "观察池出现高质量新催化，进入研究而非持仓提醒。",
       "impact_direction": "neutral",
@@ -2384,7 +2434,7 @@
       "severity": 2
     },
     {
-      "id": "AAPL-38",
+      "id": "AAPL-39",
       "ticker": "AAPL",
       "tickers": null,
       "sector": "",
@@ -2401,13 +2451,13 @@
         "url": null,
         "source_tier": "official",
         "credibility": 0.9,
-        "published_at_et": "2026-06-26T09:28:00+00:00",
+        "published_at_et": "2026-06-26T09:36:00+00:00",
         "form_type": null
       },
       "official_form": null,
       "official_doc_id": null,
-      "published_time": "2026-06-26T09:28:00+00:00",
-      "detected_time": "2026-06-26T09:28:00+00:00",
+      "published_time": "2026-06-26T09:36:00+00:00",
+      "detected_time": "2026-06-26T09:36:00+00:00",
       "title": "科技类美股点评：苹果以6.12%的跌幅位居榜首",
       "summary": "不在观察池，默认排除。",
       "impact_direction": "neutral",
@@ -2431,56 +2481,6 @@
       "signal_score": null,
       "suppression_reason": null,
       "event_signature": "AAPL|aapl|unusual-price-volume-options|金投网财经源|科技类美股点评-苹果以6-12-的跌幅位居榜首|2026-06-26",
-      "severity": 2
-    },
-    {
-      "id": "GOOGL-39",
-      "ticker": "GOOGL",
-      "tickers": null,
-      "sector": "",
-      "relation_type": "excluded",
-      "event_type": "unusual price/volume/options",
-      "source": "金投网财经源",
-      "source_tier": "official",
-      "verification_status": "official_confirmed",
-      "source_credibility": 0.9,
-      "source_label": "官方/权威源",
-      "primary_source": {
-        "name": "金投网财经源",
-        "domain": "金投网财经源",
-        "url": null,
-        "source_tier": "official",
-        "credibility": 0.9,
-        "published_at_et": "2026-06-29T09:28:04.861177+00:00",
-        "form_type": null
-      },
-      "official_form": null,
-      "official_doc_id": null,
-      "published_time": "2026-06-29T09:28:04.861177+00:00",
-      "detected_time": "2026-06-29T09:28:04.861177+00:00",
-      "title": "谷歌-CL C",
-      "summary": "不在观察池，默认排除。",
-      "impact_direction": "neutral",
-      "impact_strength": "low",
-      "is_duplicate": false,
-      "is_repeat_48h": false,
-      "is_second_catalyst": false,
-      "is_old_event": false,
-      "is_priced_in": null,
-      "is_social_only": false,
-      "stale_flag": false,
-      "stale_reason": "",
-      "suggested_action": "只看不动",
-      "beidou_reason": "不在观察池，默认排除。",
-      "price_context": {
-        "last": null,
-        "change_pct": null,
-        "vol_vs_20d": null,
-        "session_phase": null
-      },
-      "signal_score": null,
-      "suppression_reason": null,
-      "event_signature": "GOOGL|googl|unusual-price-volume-options|金投网财经源|谷歌-cl-c|2026-06-29",
       "severity": 2
     }
   ],
@@ -2530,9 +2530,9 @@
         "symbol": "QQQ",
         "label": "纳斯达克100风险偏好",
         "spotPrice": 706.52,
-        "changePct": 1.0578752193851584,
-        "volume": 246286.0,
-        "timestamp": "2026-06-29T17:28:58.762821+08:00",
+        "changePct": 1.1676951820189096,
+        "volume": 255857.0,
+        "timestamp": "2026-06-29T17:38:41.098721+08:00",
         "source": "TradingView scanner",
         "session": "盘前",
         "freshnessSeconds": 0,
@@ -2558,9 +2558,9 @@
         "symbol": "SPY",
         "label": "标普500市场宽度",
         "spotPrice": 728.99,
-        "changePct": 0.960232650653644,
-        "volume": 83602.0,
-        "timestamp": "2026-06-29T17:28:58.762821+08:00",
+        "changePct": 1.0178466096928571,
+        "volume": 88604.0,
+        "timestamp": "2026-06-29T17:38:41.098721+08:00",
         "source": "TradingView scanner",
         "session": "盘前",
         "freshnessSeconds": 0,
@@ -2632,7 +2632,7 @@
       "机构一定卖出"
     ],
     "sourceDoc": "/builtin/qixing_project/market_structure_radar.md",
-    "asOf": "2026-06-29T17:28:58.762821+08:00"
+    "asOf": "2026-06-29T17:38:41.098721+08:00"
   },
   "researchRadar": {
     "title": "观察池 / 研究池智能雷达",
@@ -2692,8 +2692,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 3,
         "latestEvent": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "changePct": 0.8260598503740666,
-        "volume": 235148.0,
+        "changePct": 0.989713216957614,
+        "volume": 246057.0,
         "price": 128.32,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -2722,8 +2722,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 2,
         "latestEvent": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
-        "changePct": 0.7137025624819037,
-        "volume": 74840.0,
+        "changePct": 0.7690079271022665,
+        "volume": 76504.0,
         "price": 379.71,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -2752,37 +2752,9 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
-        "changePct": 2.112043930513755,
-        "volume": 66314.0,
+        "changePct": 2.0117218438143527,
+        "volume": 67020.0,
         "price": 189.39,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "cloud / TPU / search AI",
-        "beidouRole": "ai_cash_flow_anchor",
-        "action": "deep_scan",
-        "watchPoints": [
-          "Google Cloud growth",
-          "TPU strategy",
-          "AI search monetization",
-          "capex"
-        ],
-        "score": 128,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 3 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 3,
-        "latestEvent": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
-        "changePct": 1.0136637126174506,
-        "volume": 63192.0,
-        "price": 337.39,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -2809,9 +2781,37 @@
         "alertType": "新闻/事件触发",
         "eventCount": 2,
         "latestEvent": "Stifel Lowers PT on Microsoft (MSFT), Maintains a Hold Rating",
-        "changePct": 1.7668981419417042,
-        "volume": 92850.0,
+        "changePct": 2.0832774754001613,
+        "volume": 101891.0,
         "price": 372.97,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "cloud / TPU / search AI",
+        "beidouRole": "ai_cash_flow_anchor",
+        "action": "deep_scan",
+        "watchPoints": [
+          "Google Cloud growth",
+          "TPU strategy",
+          "AI search monetization",
+          "capex"
+        ],
+        "score": 124,
+        "reasons": [
+          "P0 研究优先级",
+          "本地事件流 2 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 2,
+        "latestEvent": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
+        "changePct": 1.1885355226888736,
+        "volume": 66529.0,
+        "price": 337.39,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -2837,8 +2837,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "Meta Platforms (META) To Launch a New Line of Smart Glasses and This Time They are Cheaper",
-        "changePct": 1.226715129486597,
-        "volume": 11973.0,
+        "changePct": 1.2866878691503936,
+        "volume": 12688.0,
         "price": 550.25,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -2865,8 +2865,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
-        "changePct": 0.820834586789289,
-        "volume": 51776.0,
+        "changePct": 0.9884395547724489,
+        "volume": 52693.0,
         "price": 232.69,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -2893,8 +2893,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "科技类美股点评：苹果以6.12%的跌幅位居榜首",
-        "changePct": -0.15152582986819016,
-        "volume": 52813.0,
+        "changePct": -0.09623652124885457,
+        "volume": 57687.0,
         "price": 283.78,
         "source": "candidate_pool + local_events + live_quote"
       }
@@ -2924,8 +2924,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 3,
         "latestEvent": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
-        "changePct": 0.8260598503740666,
-        "volume": 235148.0,
+        "changePct": 0.989713216957614,
+        "volume": 246057.0,
         "price": 128.32,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -2954,8 +2954,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 2,
         "latestEvent": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
-        "changePct": 0.7137025624819037,
-        "volume": 74840.0,
+        "changePct": 0.7690079271022665,
+        "volume": 76504.0,
         "price": 379.71,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -2984,37 +2984,9 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
-        "changePct": 2.112043930513755,
-        "volume": 66314.0,
+        "changePct": 2.0117218438143527,
+        "volume": 67020.0,
         "price": 189.39,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet",
-        "pool": "observation_pool_p0",
-        "bucket": "P0",
-        "segment": "cloud / TPU / search AI",
-        "beidouRole": "ai_cash_flow_anchor",
-        "action": "deep_scan",
-        "watchPoints": [
-          "Google Cloud growth",
-          "TPU strategy",
-          "AI search monetization",
-          "capex"
-        ],
-        "score": 128,
-        "reasons": [
-          "P0 研究优先级",
-          "本地事件流 3 条",
-          "需要深扫"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 3,
-        "latestEvent": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
-        "changePct": 1.0136637126174506,
-        "volume": 63192.0,
-        "price": 337.39,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3041,9 +3013,37 @@
         "alertType": "新闻/事件触发",
         "eventCount": 2,
         "latestEvent": "Stifel Lowers PT on Microsoft (MSFT), Maintains a Hold Rating",
-        "changePct": 1.7668981419417042,
-        "volume": 92850.0,
+        "changePct": 2.0832774754001613,
+        "volume": 101891.0,
         "price": 372.97,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "pool": "observation_pool_p0",
+        "bucket": "P0",
+        "segment": "cloud / TPU / search AI",
+        "beidouRole": "ai_cash_flow_anchor",
+        "action": "deep_scan",
+        "watchPoints": [
+          "Google Cloud growth",
+          "TPU strategy",
+          "AI search monetization",
+          "capex"
+        ],
+        "score": 124,
+        "reasons": [
+          "P0 研究优先级",
+          "本地事件流 2 条",
+          "需要深扫"
+        ],
+        "alertType": "新闻/事件触发",
+        "eventCount": 2,
+        "latestEvent": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
+        "changePct": 1.1885355226888736,
+        "volume": 66529.0,
+        "price": 337.39,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3069,8 +3069,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "Meta Platforms (META) To Launch a New Line of Smart Glasses and This Time They are Cheaper",
-        "changePct": 1.226715129486597,
-        "volume": 11973.0,
+        "changePct": 1.2866878691503936,
+        "volume": 12688.0,
         "price": 550.25,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -3097,8 +3097,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
-        "changePct": 0.820834586789289,
-        "volume": 51776.0,
+        "changePct": 0.9884395547724489,
+        "volume": 52693.0,
         "price": 232.69,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -3125,9 +3125,32 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "科技类美股点评：苹果以6.12%的跌幅位居榜首",
-        "changePct": -0.15152582986819016,
-        "volume": 52813.0,
+        "changePct": -0.09623652124885457,
+        "volume": 57687.0,
         "price": 283.78,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "SMCI",
+        "name": "Super Micro Computer",
+        "pool": "research_pool_p1",
+        "bucket": "P1",
+        "segment": "AI server / high volatility",
+        "beidouRole": "high_volatility_ai_server_candidate",
+        "action": "research_only_high_risk",
+        "watchPoints": [],
+        "score": 106,
+        "reasons": [
+          "P1 研究优先级",
+          "涨跌幅 5.65%",
+          "高波动"
+        ],
+        "alertType": "异常波动",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": 5.648057460006531,
+        "volume": 393756.0,
+        "price": 30.63,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3148,55 +3171,9 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "市场新闻：Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
-        "changePct": -0.5380476556495026,
-        "volume": 395443.0,
+        "changePct": -0.46118370484243276,
+        "volume": 440014.0,
         "price": 13.01,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "SMCI",
-        "name": "Super Micro Computer",
-        "pool": "research_pool_p1",
-        "bucket": "P1",
-        "segment": "AI server / high volatility",
-        "beidouRole": "high_volatility_ai_server_candidate",
-        "action": "research_only_high_risk",
-        "watchPoints": [],
-        "score": 88,
-        "reasons": [
-          "P1 研究优先级",
-          "涨跌幅 3.79%",
-          "高波动"
-        ],
-        "alertType": "价格异动",
-        "eventCount": 0,
-        "latestEvent": "",
-        "changePct": 3.787136793992818,
-        "volume": 288232.0,
-        "price": 30.63,
-        "source": "candidate_pool + local_events + live_quote"
-      },
-      {
-        "ticker": "RGTI",
-        "name": "Rigetti",
-        "pool": "research_pool_p3_high_volatility",
-        "bucket": "P3",
-        "segment": "quantum computing",
-        "beidouRole": "watchlist_tech_option; not_actual_holding",
-        "action": "small_watchlist_risk_scan_only",
-        "watchPoints": [],
-        "score": 82,
-        "reasons": [
-          "P3 研究优先级",
-          "已在观察池",
-          "本地事件流 1 条"
-        ],
-        "alertType": "新闻/事件触发",
-        "eventCount": 1,
-        "latestEvent": "Powerhouse Energy, Quantum Blockchain, Futura Medical, ATOME, DeFi Development Corp UK",
-        "changePct": 1.416122004357307,
-        "volume": 65417.0,
-        "price": 18.36,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3217,8 +3194,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "合同、合作或订单相关消息：Western Digital (WDC) Stock Rallies As Micron’s $100 Billion AI Deals Lift Storage Demand",
-        "changePct": 1.3215107852331827,
-        "volume": 37106.0,
+        "changePct": 1.7563304629550607,
+        "volume": 38164.0,
         "price": 586.45,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -3239,8 +3216,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "存储危机“冰与火”：美光笑了，苹果哭了",
-        "changePct": 0.49543860888611335,
-        "volume": 163753.0,
+        "changePct": 0.8539913276165141,
+        "volume": 175445.0,
         "price": 1132.33,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -3266,8 +3243,8 @@
         "alertType": "新闻/事件触发",
         "eventCount": 1,
         "latestEvent": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
-        "changePct": 1.101127097075783,
-        "volume": 214773.0,
+        "changePct": 1.1219030800394725,
+        "volume": 232425.0,
         "price": 192.53,
         "source": "candidate_pool + local_events + live_quote"
       },
@@ -3353,6 +3330,28 @@
         "changePct": null,
         "volume": null,
         "price": null,
+        "source": "candidate_pool + local_events + live_quote"
+      },
+      {
+        "ticker": "RGTI",
+        "name": "Rigetti",
+        "pool": "research_pool_p3_high_volatility",
+        "bucket": "P3",
+        "segment": "quantum computing",
+        "beidouRole": "watchlist_tech_option; not_actual_holding",
+        "action": "small_watchlist_risk_scan_only",
+        "watchPoints": [],
+        "score": 60,
+        "reasons": [
+          "P3 研究优先级",
+          "已在观察池"
+        ],
+        "alertType": "预判关注",
+        "eventCount": 0,
+        "latestEvent": "",
+        "changePct": 1.7429193899782152,
+        "volume": 67571.0,
+        "price": 18.36,
         "source": "candidate_pool + local_events + live_quote"
       },
       {
@@ -3562,24 +3561,24 @@
       "marketTemperature": "中性 / 等待确认",
       "aiSemiCycle": "偏强但需验证",
       "riskAppetite": "谨慎",
-      "topEvent": "【沃什致信美联储全体员工 拟设五大工作组推进机构改革】 ⑴ 沃什接任美联储主席后不久，便致信该央行两万多名员工，阐述其领导思路，信中承诺将推动“针对美联储战略、政策及运作的公开且清醒的讨论”。 ⑵ 沃什战略的核心是一系列特别工作组，专注于五个关键领域，包括美联储的沟通方式、其持有的6.7万亿美元政府债券及抵押贷款支持证券投资组合、优先考量的数据来源、生产率趋势与就业状况，以及用于研判通胀的模型与衡量指标。 ⑶ 据知情人士透露，沃什将在未来几周内公布有关这些工作组的更多细节，目标是在年底前完成相关工作，随后决策者将审议应实施何种改革及具体如何实施；每个工作组将由沃什亲自挑选的几位外部人士领导，并由美联储内部选派的特定工作人员提供协助。",
+      "topEvent": "下一任美联储主席会是谁？",
       "keySymbols": [
         "INTC",
-        "RGTI",
         "NOK",
         "NVDA",
         "ORCL",
         "CRWD",
         "WDC",
-        "TSLA"
+        "TSLA",
+        "QCOM"
       ],
       "beidouConclusion": "先分层研究和风险核验，不把关注权重当作交易指令。",
-      "updatedAt": "2026-06-29 17:28"
+      "updatedAt": "2026-06-29 17:39"
     },
     "topEvents": [
       {
-        "eventTitle": "【沃什致信美联储全体员工 拟设五大工作组推进机构改革】 ⑴ 沃什接任美联储主席后不久，便致信该央行两万多名员工，阐述其领导思路，信中承诺将推动“针对美联储战略、政策及运作的公开且清醒的讨论”。 ⑵ 沃什战略的核心是一系列特别工作组，专注于五个关键领域，包括美联储的沟通方式、其持有的6.7万亿美元政府债券及抵押贷款支持证券投资组合、优先考量的数据来源、生产率趋势与就业状况，以及用于研判通胀的模型与衡量指标。 ⑶ 据知情人士透露，沃什将在未来几周内公布有关这些工作组的更多细节，目标是在年底前完成相关工作，随后决策者将审议应实施何种改革及具体如何实施；每个工作组将由沃什亲自挑选的几位外部人士领导，并由美联储内部选派的特定工作人员提供协助。",
-        "eventTime": "2026-06-29T09:28:00+00:00",
+        "eventTitle": "下一任美联储主席会是谁？",
+        "eventTime": "2026-06-29T09:36:36.543799+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -3589,11 +3588,11 @@
         "beidouJudgement": "不在观察池，默认排除。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
-        "eventTime": "2026-06-29T09:28:00+00:00",
+        "eventTime": "2026-06-29T09:36:00+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -3603,7 +3602,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
@@ -3617,7 +3616,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
@@ -3631,7 +3630,7 @@
         "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
@@ -3645,7 +3644,7 @@
         "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       }
     ],
     "focusSymbols": [
@@ -3661,119 +3660,105 @@
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
-      },
-      {
-        "symbol": "RGTI",
-        "name": "RGTI",
-        "theme": "research",
-        "beidouStatus": "核心跟踪",
-        "focusWeight": 91,
-        "latestEvent": "Powerhouse Energy, Quantum Blockchain, Futura Medical, ATOME, DeFi Development Corp UK",
-        "eventTime": "2026-06-29T08:46:01+00:00",
-        "sourceStatus": "官方",
-        "impactDirection": "中性",
-        "actionBias": "只记录线索，等待更强证据",
-        "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "NOK",
         "name": "NOK",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 88,
+        "focusWeight": 91,
         "latestEvent": "市场新闻：Amazon.com (AMZN) Partners With Nokia, Here’s What You Need to Know",
         "eventTime": "2026-06-29T07:54:21+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "NVDA",
         "name": "NVDA",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 86,
+        "focusWeight": 89,
         "latestEvent": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
         "eventTime": "2026-06-29T07:54:41+00:00",
         "sourceStatus": "官方",
         "impactDirection": "中性",
         "actionBias": "只记录线索，等待更强证据",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "ORCL",
         "name": "ORCL",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 85,
+        "focusWeight": 88,
         "latestEvent": "市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?",
         "eventTime": "2026-06-28T15:26:10+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "CRWD",
         "name": "CRWD",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 80,
+        "focusWeight": 83,
         "latestEvent": "CrowdStrike (CRWD) Extends Falcon AIDR to Create Unified AI Security Control Plane",
         "eventTime": "2026-06-29T05:28:18+00:00",
         "sourceStatus": "官方",
         "impactDirection": "中性",
         "actionBias": "只记录线索，等待更强证据",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "WDC",
         "name": "WDC",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 79,
+        "focusWeight": 82,
         "latestEvent": "合同、合作或订单相关消息：Western Digital (WDC) Stock Rallies As Micron’s $100 Billion AI Deals Lift Storage Demand",
         "eventTime": "2026-06-28T11:07:15+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "TSLA",
         "name": "TSLA",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 73,
+        "focusWeight": 76,
         "latestEvent": "市场新闻：Dow, Nasdaq, S&P 500 Futures Rise On US-Iran Truce Hopes: Why DRAM, AAPL, TSLA, SPCX, BB, WEN, STI Are In Focus",
         "eventTime": "2026-06-29T08:42:44+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "QCOM",
         "name": "QCOM",
         "theme": "research",
         "beidouStatus": "核心跟踪",
-        "focusWeight": 70,
+        "focusWeight": 73,
         "latestEvent": "市场新闻：Is QUALCOMM Incorporated (QCOM) Set to Acquire a Startup?",
         "eventTime": "2026-06-28T18:46:22+00:00",
         "sourceStatus": "待核验",
         "impactDirection": "中性",
         "actionBias": "先核验来源，再提高研究优先级",
         "riskNote": "影响方向仍需验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       }
     ],
     "watchPool": [
@@ -3784,7 +3769,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "ASX",
@@ -3793,7 +3778,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "OUST",
@@ -3802,7 +3787,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "PEP",
@@ -3811,7 +3796,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "KO",
@@ -3820,7 +3805,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "AEP",
@@ -3829,7 +3814,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "CSIQ",
@@ -3838,7 +3823,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "CRCL",
@@ -3847,7 +3832,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "SQQQ",
@@ -3856,7 +3841,7 @@
         "watchReason": "市场新闻：Seeking Short-Term Opportunities? ETFs for Tactical Investors",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "观察等待",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "SOXS",
@@ -3865,7 +3850,7 @@
         "watchReason": "市场新闻：Direxion to Split Nine ETFs",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "观察等待",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "MRVL",
@@ -3874,7 +3859,16 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
+      },
+      {
+        "symbol": "RGTI",
+        "name": "RGTI",
+        "theme": "research",
+        "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
+        "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
+        "currentStatus": "暂停/冷却",
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "GOLD_BASKET",
@@ -3883,7 +3877,7 @@
         "watchReason": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "观察等待",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "AWK",
@@ -3892,7 +3886,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "SMR",
@@ -3901,7 +3895,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "CEG",
@@ -3910,7 +3904,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "VST",
@@ -3919,7 +3913,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "symbol": "NRG",
@@ -3928,7 +3922,7 @@
         "watchReason": "research 仍有研究价值，但缺少新的高可信触发。",
         "upgradeTrigger": "出现订单、财报指引、官方公告、行业数据验证或显著风险释放。",
         "currentStatus": "暂停/冷却",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       }
     ],
     "researchPool": [
@@ -3943,7 +3937,7 @@
         "sourceType": "财报 / 行业价格 / 产能数据",
         "beidouConclusion": "方向有效，但需要估值、财报和涨幅共同验证。",
         "nextAction": "等待 MU 财报和 HBM 订单验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "topic": "AI电力",
@@ -3958,7 +3952,7 @@
         "sourceType": "政策 / 电力合同 / 公司指引",
         "beidouConclusion": "长期逻辑清楚，短期要防止叙事拥挤。",
         "nextAction": "跟踪正式合同、监管批准和资本开支。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "topic": "先进封装",
@@ -3972,7 +3966,7 @@
         "sourceType": "公司公告 / 产能 / 财报",
         "beidouConclusion": "属于 AI 主线扩散方向，需要订单和毛利验证。",
         "nextAction": "跟踪先进封装产能和客户结构。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "topic": "CPO / 硅光",
@@ -3987,7 +3981,7 @@
         "sourceType": "行业资料 / 财报 / 技术路线",
         "beidouConclusion": "可作为 AI 后排扩散研究，不直接等同短线动作。",
         "nextAction": "跟踪商业化时间和客户验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "topic": "Physical AI",
@@ -4000,7 +3994,7 @@
         "sourceType": "产品发布 / 客户 / 收入质量",
         "beidouConclusion": "需要把叙事和实际收入分开。",
         "nextAction": "等待订单、收入和现金流确认。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "topic": "成熟现金流公司估值",
@@ -4013,7 +4007,7 @@
         "sourceType": "财报 / 估值模型 / 股息数据",
         "beidouConclusion": "重点在防守属性和估值安全边际。",
         "nextAction": "更新估值区间和财报质量。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "topic": "世界杯消费链",
@@ -4025,7 +4019,7 @@
         "sourceType": "赛事日历 / 销售数据 / 财报",
         "beidouConclusion": "只作为阶段性主题资料沉淀。",
         "nextAction": "等待公司层面验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "topic": "AI数据中心产业链",
@@ -4040,13 +4034,13 @@
         "sourceType": "产业链资料 / 财报 / capex",
         "beidouConclusion": "主线有效，但需要分层看估值和兑现节奏。",
         "nextAction": "维护产业链地图和风险清单。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       }
     ],
     "eventRadar": [
       {
-        "eventTitle": "【沃什致信美联储全体员工 拟设五大工作组推进机构改革】 ⑴ 沃什接任美联储主席后不久，便致信该央行两万多名员工，阐述其领导思路，信中承诺将推动“针对美联储战略、政策及运作的公开且清醒的讨论”。 ⑵ 沃什战略的核心是一系列特别工作组，专注于五个关键领域，包括美联储的沟通方式、其持有的6.7万亿美元政府债券及抵押贷款支持证券投资组合、优先考量的数据来源、生产率趋势与就业状况，以及用于研判通胀的模型与衡量指标。 ⑶ 据知情人士透露，沃什将在未来几周内公布有关这些工作组的更多细节，目标是在年底前完成相关工作，随后决策者将审议应实施何种改革及具体如何实施；每个工作组将由沃什亲自挑选的几位外部人士领导，并由美联储内部选派的特定工作人员提供协助。",
-        "eventTime": "2026-06-29T09:28:00+00:00",
+        "eventTitle": "下一任美联储主席会是谁？",
+        "eventTime": "2026-06-29T09:36:36.543799+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -4056,11 +4050,11 @@
         "beidouJudgement": "不在观察池，默认排除。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "美伊谈判暗藏变数 非农提前国际黄金警报拉响！",
-        "eventTime": "2026-06-29T09:28:00+00:00",
+        "eventTime": "2026-06-29T09:36:00+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -4070,7 +4064,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "NVIDIA (NVDA) CEO Says National Security Takes Priority Over Commercial Opportunity",
@@ -4084,7 +4078,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
@@ -4098,7 +4092,7 @@
         "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)",
@@ -4112,7 +4106,7 @@
         "beidouJudgement": "观察池普通线索，等待官方或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "新事件",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "Here’s What Bank of America Securities Thinks About Intel (INTC)",
@@ -4126,7 +4120,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "CrowdStrike (CRWD) Extends Falcon AIDR to Create Unified AI Security Control Plane",
@@ -4140,7 +4134,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "Fed will not raise rates this year, says EY-Parthenon's Greg Daco",
@@ -4154,7 +4148,7 @@
         "beidouJudgement": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "待核验",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "Mohamed El-Erian's Fed warning",
@@ -4168,25 +4162,11 @@
         "beidouJudgement": "只有社媒来源，必须等待官方、IR、可靠新闻或量价确认。",
         "actionMeaning": "先核验来源，再提高研究优先级",
         "expiryStatus": "待核验",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
-        "eventTitle": "谷歌-CL C",
-        "eventTime": "2026-06-29T09:28:04.861177+00:00",
-        "source": "金投网财经源",
-        "sourceStatus": "官方",
-        "relatedSymbols": [
-          "GOOGL"
-        ],
-        "impactDirection": "中性",
-        "beidouJudgement": "不在观察池，默认排除。",
-        "actionMeaning": "只记录线索，等待更强证据",
-        "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
-      },
-      {
-        "eventTitle": "【精达股份：持股5%以上股东华安保险减持0.23%股份】精达股份公告称，公司于2026年6月29日收到持股5%以上股东华安保险的告知函，获悉其当日通过集中竞价方式减持公司股份500万股，占公司总股本0.23%。华安保险持股比例由9.05%降至8.82%。本次权益变动为实施前期减持计划，不触及要约收购，不会导致公司控股股东、实控人变化，也未违反相关规定及承诺。截至公告披露日，华安保险仍处于减持计划实施期。",
-        "eventTime": "2026-06-29T09:28:00+00:00",
+        "eventTitle": "据知情人士称，由黑石集团支持的数据中心运营商AirTrunk接近在新加坡秘密提交房地产投资信托基金首次公开募股申请。此前由报道称，AirTrunk寻求通过此次发行筹资约15亿美元，这将使其成为新加坡自2017年以来规模最大的IPO。",
+        "eventTime": "2026-06-29T09:36:00+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -4196,11 +4176,25 @@
         "beidouJudgement": "不在观察池，默认排除。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
+      },
+      {
+        "eventTitle": "美无铅汽油期货主力刚刚突破2.8700美元/加仑关口，最新报2.8702美元/加仑，日内涨1.57%",
+        "eventTime": "2026-06-29T09:36:00+00:00",
+        "source": "金投网财经源",
+        "sourceStatus": "官方",
+        "relatedSymbols": [
+          "USMARKET"
+        ],
+        "impactDirection": "中性",
+        "beidouJudgement": "不在观察池，默认排除。",
+        "actionMeaning": "只记录线索，等待更强证据",
+        "expiryStatus": "已验证",
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "eventTitle": "今日国际金价实时行情(2026年6月29日)",
-        "eventTime": "2026-06-29T09:28:00+00:00",
+        "eventTime": "2026-06-29T09:36:00+00:00",
         "source": "金投网财经源",
         "sourceStatus": "官方",
         "relatedSymbols": [
@@ -4210,7 +4204,7 @@
         "beidouJudgement": "观察池出现高质量新催化，进入研究而非持仓提醒。",
         "actionMeaning": "只记录线索，等待更强证据",
         "expiryStatus": "已验证",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       }
     ],
     "library": [
@@ -4386,24 +4380,24 @@
         "riskLevel": "中高",
         "riskReason": "如果市场已经提前交易景气改善，短线可能出现利好兑现。",
         "beidouAction": "确认景气，但等待财报、订单、回调或价格结构验证。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "riskTitle": "来源时效和外部接口风险",
         "affectedSymbols": [
           "INTC",
-          "RGTI",
           "NOK",
           "NVDA",
           "ORCL",
           "CRWD",
           "WDC",
-          "TSLA"
+          "TSLA",
+          "QCOM"
         ],
         "riskLevel": "中",
         "riskReason": "后台会定时刷新事件快照，但部分外部来源可能延迟或超时。",
         "beidouAction": "事件卡必须查看来源状态和时效状态，旧内容只作为背景样本。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "riskTitle": "社媒线索待核验风险",
@@ -4413,7 +4407,7 @@
         "riskLevel": "中",
         "riskReason": "社媒内容不能直接当作事实，需要官方公告或高可信媒体交叉验证。",
         "beidouAction": "只进入研究雷达，不直接形成行动结论。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       },
       {
         "riskTitle": "高波动标的叙事拥挤风险",
@@ -4426,7 +4420,7 @@
         "riskLevel": "中高",
         "riskReason": "高波动主题容易由情绪驱动，基本面兑现节奏可能滞后。",
         "beidouAction": "降低冲动判断，优先补充财报、订单、监管和现金流证据。",
-        "updatedAt": "2026-06-29 17:28"
+        "updatedAt": "2026-06-29 17:39"
       }
     ],
     "disclaimer": "北斗系统用于投资研究、事件整理和风险提示，不构成买卖建议。北斗关注权重仅代表研究优先级，不代表仓位比例或交易指令。"
@@ -4436,7 +4430,7 @@
       "source_name": "SEC/IR official anchor",
       "layer": "Data Source Layer V1",
       "status": "active",
-      "last_success_time": "2026-06-29T09:28:58.741583+00:00",
+      "last_success_time": "2026-06-29T09:39:13.026709+00:00",
       "latency_ms": null,
       "error_count": 0,
       "stale_count": 0,
@@ -4447,7 +4441,7 @@
       "source_name": "market data",
       "layer": "Data Source Layer V1",
       "status": "active",
-      "last_success_time": "2026-06-29T09:28:58.741583+00:00",
+      "last_success_time": "2026-06-29T09:39:13.026709+00:00",
       "latency_ms": null,
       "error_count": 0,
       "stale_count": 0,
@@ -4458,7 +4452,7 @@
       "source_name": "news/social feed",
       "layer": "Data Source Layer V1",
       "status": "active",
-      "last_success_time": "2026-06-29T09:28:58.741583+00:00",
+      "last_success_time": "2026-06-29T09:39:13.026709+00:00",
       "latency_ms": null,
       "error_count": 0,
       "stale_count": 0,
@@ -4787,24 +4781,24 @@
     ]
   },
   "alertSamples": [
-    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:27 / 美东时间 2026年06月29日 05:27\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月28日 23:26。\nYahoo Finance RSS：市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?。AI数据中心 / 世界级人物/企业催化 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：ORCL；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
-    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:27 / 美东时间 2026年06月29日 05:27\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月29日 15:53。\nYahoo Finance RSS：市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)。分析师动作 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；今日新消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：INTC；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
-    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:27 / 美东时间 2026年06月29日 05:27\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月27日 05:44。\nYahoo Finance RSS：市场新闻：Direxion to Split Nine ETFs。AI芯片链 / 新闻催化 / 盘前量价确认 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：SOXS；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。"
+    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:35 / 美东时间 2026年06月29日 05:35\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月28日 23:26。\nYahoo Finance RSS：市场新闻：Is Oracle’s Debt Simply Too Much to Justify the Risk?。AI数据中心 / 世界级人物/企业催化 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：ORCL；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
+    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:35 / 美东时间 2026年06月29日 05:35\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月29日 15:53。\nYahoo Finance RSS：市场新闻：Here’s What Bank of America Securities Thinks About Intel (INTC)。分析师动作 / 盘前放量 / 观察池线索\n来源可信度：高可信新闻源；今日新消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：INTC；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。",
+    "🚨【新消息｜北斗综合任务】\n🕒【提醒时间】北京时间 2026年06月29日 17:35 / 美东时间 2026年06月29日 05:35\n\n【一句话结论】\n中性 + 只看。\n\n【事件链】\n事件时间/消息发布时间：2026年06月27日 05:44。\nYahoo Finance RSS：市场新闻：Direxion to Split Nine ETFs。AI芯片链 / 新闻催化 / 盘前量价确认 / 观察池线索\n来源可信度：高可信新闻源；旧消息 / 是否计价待确认。\n\n【相关标的】\n观察池研究：SOXS；间接/研究价值；中性；非48小时重复事件；是否计价待确认。\n\n【操作】\n只看 + 观察池普通线索，等待官方或量价确认。"
   ],
   "status": {
     "source": "api + builtin",
     "scan": {
       "running": false,
-      "last_scan_started": "2026-06-29T17:27:02",
-      "last_scan_finished": "2026-06-29T17:28:04",
+      "last_scan_started": "2026-06-29T17:35:32",
+      "last_scan_finished": "2026-06-29T17:36:36",
       "last_error": null,
-      "last_report": "local-radar-source\\reports\\premarket\\2026-06-29_1727.md",
-      "last_member_source_started": "2026-06-29T17:28:04",
-      "last_member_source_finished": "2026-06-29T17:28:14",
+      "last_report": "local-radar-source\\reports\\premarket\\2026-06-29_1735.md",
+      "last_member_source_started": "2026-06-29T17:36:36",
+      "last_member_source_finished": "2026-06-29T17:36:46",
       "last_member_source_error": null,
-      "last_member_source_count": 51,
-      "last_live_started": "2026-06-29T17:25:25",
-      "last_live_finished": "2026-06-29T17:25:26",
+      "last_member_source_count": 50,
+      "last_live_started": "2026-06-29T17:38:41",
+      "last_live_finished": "2026-06-29T17:38:41",
       "last_live_error": null,
       "last_live_count": 60,
       "scan_enabled": true
@@ -4815,7 +4809,7 @@
       "sourceRoot": "local-radar-source",
       "eventCount": 40,
       "topEventCount": 5,
-      "snapshotAgeHours": 0.03,
+      "snapshotAgeHours": 0.06,
       "isStale": false,
       "note": "Static snapshot for Pages deployment. Refresh the source radar data, then rerun scripts/export_static_site.py."
     }
